@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:air\",Count:1b}]}"
+    }
+  ]
+  

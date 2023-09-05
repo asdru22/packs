@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.mach.pondering_table"}'} run function mach:block/pondering_table/destroy
+execute if score @s mach.temp matches 1 run function mach:block/pondering_table/ponder/main

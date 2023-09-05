@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ snow[layers=4] run function mach:block/bounce_pad/destroy
+execute positioned ~ ~.5 ~ as @a[dx=0,predicate=mach:entity/player/bounce_pad_check] at @s if block ~ ~ ~ snow[layers=4] run function mach:block/bounce_pad/launch_player

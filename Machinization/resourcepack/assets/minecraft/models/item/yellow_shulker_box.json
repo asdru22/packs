@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/template_shulker_box",
+  "textures": {
+    "particle": "minecraft:block/yellow_shulker_box"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 880002
+      },
+      "model": "mach:item/copper_wire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880003
+      },
+      "model": "mach:item/iron_fiber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880004
+      },
+      "model": "mach:item/sifting_net"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880022
+      },
+      "model": "mach:item/spring"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{CustomModelData:880007}"
+    },
+    "title": [
+      {
+        "translate": "item.mach.thunderbuss"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.mach.sterling_silver_ingot"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.stick"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.mach.copper_wire"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "2"
+          },
+          {
+            "translate": "item.mach.cast_iron_bar"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.pondering_table"
+            }
+          ]
+        }
+      ],
+      "\n\n",
+      {
+        "translate": "gui.mach.thunderbuss",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/bronze_plated_boots",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{smithed:{id:\"mach:thunderbuss\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

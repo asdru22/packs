@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:880008,smithed:{id:\"mach:bounce_pad\"},display:{Name:'{\"translate\":\"block.mach.bounce_pad\",\"italic\":false,\"color\":\"white\"}'}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "pack.mach",
+                "color": "#8CFFDD",
+                "italic": true
+              }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:880004,smithed:{id:\"mach:pondering_table\"},display:{Name:'{\"translate\":\"block.mach.pondering_table\",\"italic\":false,\"color\":\"white\"}'}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "pack.mach",
+                "color": "#8CFFDD",
+                "italic": true
+              }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

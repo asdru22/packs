@@ -1,0 +1,4 @@
+execute if data storage mach:storage root.temp.ammo{id:"minecraft:arrow"} run summon arrow ~ ~ ~ {Tags:["mach.setup","mach.spring_loaded_arrow","mach.tick"]}
+execute if data storage mach:storage root.temp.ammo{id:"minecraft:tipped_arrow"} run summon arrow ~ ~ ~ {Tags:["mach.setup","mach.spring_loaded_arrow","mach.tick"]}
+execute if data storage mach:storage root.temp.ammo{id:"minecraft:spectral_arrow"} run summon spectral_arrow ~ ~ ~ {Tags:["mach.setup","mach.spring_loaded_arrow","mach.tick"]}
+execute if data storage mach:storage root.temp.ammo{id:"minecraft:firework_rocket"} run summon firework_rocket ~ ~ ~ {Tags:["mach.setup","mach.spring_loaded_arrow","mach.tick"]}

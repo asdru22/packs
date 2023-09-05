@@ -1,0 +1,26 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 880000
+        },
+        "model": "mach:item/battery_full"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880001
+        },
+        "model": "mach:item/grappling_hook_hook"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880006
+        },
+        "model": "mach:item/battery_empty"
+      }
+    ]
+}

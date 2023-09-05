@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "tag": "mach:container"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$success"
+          },
+          "score": "mach.data"
+        },
+        "range": 0
+      }
+    ]
+  }
+  

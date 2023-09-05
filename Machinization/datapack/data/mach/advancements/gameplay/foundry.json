@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:880006}"
+    },
+    "title": [
+      {
+        "translate": "block.mach.foundry"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "block.minecraft.blast_furnace"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.mach.iron_plate"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.lava_bucket"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "2"
+          },
+          {
+            "translate": "block.minecraft.cobbled_deepslate"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "block.minecraft.brewing_stand"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.machine_assembler"
+            }
+          ]
+        }
+      ]
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ],
+            "nbt": "{smithed:{id:\"mach:foundry\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

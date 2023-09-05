@@ -1,0 +1,3 @@
+execute if data storage mach:storage root.temp.item{id:"minecraft:diamond"} run function mach:block/grinder/grind/items/carbon_dust
+execute if data storage mach:storage root.temp.item{id:"minecraft:amethyst_shard"} run function mach:block/grinder/grind/items/amethyst_powder
+execute if data storage mach:storage root.temp.item{id:"minecraft:echo_shard"} run function mach:block/grinder/grind/items/echo_powder

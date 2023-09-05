@@ -1,0 +1,18 @@
+{
+    "item.grapple.use": {
+      "sounds": [{
+        "name": "mach:item/use_grapple",
+        "stream": true
+      }],
+      "subtitle": "subtitles.mach.use_grapple",
+      "category": "master"
+    },
+    "item.grapple.return": {
+      "sounds": [{
+        "name": "mach:item/grapple_return",
+        "stream": true
+      }],
+      "subtitle": "subtitles.mach.grapple_return",
+      "category": "master"
+    }
+}

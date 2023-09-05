@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:880000}"
+    },
+    "title": {
+      "translate": "block.mach.machine_assembler"
+    },
+    "description": [
+      [
+        {
+          "translate": "gui.mach.item_count",
+          "with": [
+            {
+              "text": "1"
+            },
+            {
+              "translate": "block.minecraft.blue_carpet"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "\n",
+      [
+        {
+          "translate": "gui.mach.item_count",
+          "with": [
+            {
+              "text": "2"
+            },
+            {
+              "translate": "block.minecraft.stonecutter"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "\n",
+      [
+        {
+          "translate": "gui.mach.item_count",
+          "with": [
+            {
+              "text": "1"
+            },
+            {
+              "translate": "block.minecraft.barrel"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "\n",
+      [
+        {
+          "translate": "gui.mach.item_count",
+          "with": [
+            {
+              "text": "1"
+            },
+            {
+              "translate": "block.minecraft.iron_trapdoor"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "with": [
+            {
+              "translate": "block.minecraft.crafting_table"
+            }
+          ],
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "background": "minecraft:textures/block/smithing_table_bottom.png",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

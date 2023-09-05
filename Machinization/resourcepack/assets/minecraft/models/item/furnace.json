@@ -1,0 +1,59 @@
+{
+    "parent": "minecraft:block/furnace",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 880000
+            },
+            "model": "mach:block/machine_assembler"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880001
+            },
+            "model": "mach:block/compressor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880002
+            },
+            "model": "mach:block/grinder"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880003
+            },
+            "model": "mach:block/smeltery"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880004
+            },
+            "model": "mach:block/pondering_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880005
+            },
+            "model": "mach:block/sifter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880006
+            },
+            "model": "mach:block/foundry"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880007
+            },
+            "model": "mach:block/converger"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880008
+            },
+            "model": "mach:block/bounce_pad"
+        }
+    ]
+  }

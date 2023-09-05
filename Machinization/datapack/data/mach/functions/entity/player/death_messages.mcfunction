@@ -1,0 +1,2 @@
+execute if entity @s[tag=mach.death.thunderbuss] run tellraw @a [{"translate":"death.mach.thunderbuss","with":[{"selector":"@s"},{"selector":"@a[tag=mach.me]"}]}]
+execute if entity @s[tag=mach.death.midnight_howl] run tellraw @a [{"translate":"death.mach.midnight_howl","with":[{"selector":"@s"},{"selector":"@a[tag=mach.me]"}]}]

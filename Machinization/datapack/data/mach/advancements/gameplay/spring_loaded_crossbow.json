@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{CustomModelData:880000}"
+    },
+    "title": [
+      {
+        "translate": "item.mach.spring_loaded_crossbow"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "2"
+          },
+          {
+            "translate": "item.mach.spring"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.crossbow"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.iron_ingot"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.pondering_table"
+            }
+          ]
+        }
+      ],
+      "\n\n",
+      {
+        "translate": "gui.mach.spring_loaded_crossbow",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/pondering_table",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{smithed:{id:\"mach:spring_loaded_crossbow\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

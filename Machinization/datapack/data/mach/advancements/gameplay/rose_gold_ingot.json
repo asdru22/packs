@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:recovery_compass",
+      "nbt": "{CustomModelData:880020}"
+    },
+    "title": [
+      {
+        "translate": "item.mach.rose_gold_ingot"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "3"
+          },
+          {
+            "translate": "item.minecraft.gold_ingot"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.copper_ingot"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "2"
+          },
+          {
+            "translate": "item.mach.silver_fragment"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.foundry"
+            }
+          ]
+        }
+      ]
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/sterling_silver_ingot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:recovery_compass"
+            ],
+            "nbt": "{smithed:{id:\"mach:rose_gold_ingot\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:880009}"
+    },
+    "title": [
+      {
+        "translate": "block.mach.bounce_pad"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "2"
+          },
+          {
+            "translate": "item.mach.spring"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "block.minecraft.slime_block"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.pondering_table"
+            }
+          ]
+        }
+      ],
+      "\n\n",
+      {
+        "translate": "gui.mach.bounce_pad",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/pondering_table",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ],
+            "nbt": "{smithed:{id:\"mach:bounce_pad\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

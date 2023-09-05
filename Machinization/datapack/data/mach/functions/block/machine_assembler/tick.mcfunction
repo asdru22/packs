@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.mach.machine_assembler"}'} run function mach:block/machine_assembler/destroy
+execute if score @s mach.temp matches 1 run function mach:block/machine_assembler/assemble/main

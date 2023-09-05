@@ -1,0 +1,3 @@
+summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["smithed.entity","mach.entity","mach.monolith","mach.monolith.base"],ArmorItems:[{},{},{},{id:"minecraft:black_shulker_box",Count:1b,tag:{CustomModelData:880000}}],Passengers:[{id:"minecraft:armor_stand",Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["smithed.entity","mach.entity","mach.monolith","mach.monolith.fire"],ArmorItems:[{},{},{},{id:"minecraft:black_shulker_box",Count:1b,tag:{CustomModelData:880001}}],Passengers:[{id:"minecraft:armor_stand",Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["smithed.entity","mach.entity","mach.monolith","mach.monolith.ice"],ArmorItems:[{},{},{},{id:"minecraft:black_shulker_box",Count:1b,tag:{CustomModelData:880002}}]}]}]}
+
+

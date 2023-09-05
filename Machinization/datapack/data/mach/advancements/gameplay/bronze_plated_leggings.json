@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_leggings",
+      "nbt": "{CustomModelData:880004}"
+    },
+    "title": [
+      {
+        "translate": "item.mach.bronze_plated_leggings"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "2"
+          },
+          {
+            "translate": "item.mach.bronze_plate"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.leather_leggings"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.pondering_table"
+            }
+          ]
+        }
+      ]
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/bronze_plated_chestplate",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ],
+            "nbt": "{smithed:{id:\"mach:bronze_plated_leggings\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

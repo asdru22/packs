@@ -1,0 +1,116 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "weight": 1,
+                "quality": 2,
+                "name": "mach:item/iron_fiber",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 0,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+            {
+                "type": "minecraft:loot_table",
+                "weight": 3,
+                "quality": 1,
+                "name": "mach:item/zinc_fragment",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 0,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+            {
+                "type": "minecraft:loot_table",
+                "weight": 3,
+                "quality": 1,
+                "name": "mach:item/tin_fragment",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 0,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+            {
+                "type": "minecraft:loot_table",
+                "weight": 2,
+                "quality": 2,
+                "name": "mach:item/tin_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "quality": 4,
+            "name": "mach:item/zinc_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 1,
+            "name": "minecraft:copper_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 2,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

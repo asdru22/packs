@@ -1,0 +1,17 @@
+{
+    "parent": "mach:technical/recipes/root",
+    "rewards": {
+      "function": "mach:entity/player/nbt_recipe",
+      "loot": [
+        "mach:block/machine_assembler"
+      ]
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "mach:nbt/machine_assembler"
+        }
+      }
+    }
+  }

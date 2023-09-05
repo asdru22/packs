@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:recovery_compass",
+      "nbt": "{CustomModelData:880016}"
+    },
+    "title": [
+      {
+        "translate": "item.mach.amethyst_powder"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.amethyst_shard"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.grinder"
+            }
+          ]
+        }
+      ]
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/carbon_dust",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:recovery_compass"
+            ],
+            "nbt": "{smithed:{id:\"mach:amethyst_powder\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

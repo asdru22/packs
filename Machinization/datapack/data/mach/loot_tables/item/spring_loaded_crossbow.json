@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:880000,smithed:{id:\"mach:spring_loaded_crossbow\"},display:{Name:'{\"translate\":\"item.mach.spring_loaded_crossbow\",\"italic\":false}'},HideFlags:126}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate":"gui.mach.loaded_projectiles",
+                  "italic":false,
+                  "color":"gray",
+                  "with":["0"]
+                },
+                {
+                  "translate": "pack.mach",
+                  "color": "#8CFFDD",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

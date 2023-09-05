@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "mach:item/tin_fragment"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:gravel"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:flint"
+          }
+        ]
+      }
+    ]
+  }

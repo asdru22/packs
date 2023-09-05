@@ -1,0 +1,65 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{mach:{gui:1b}}"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "replace": true,
+      "lore": [
+        [
+          {
+            "translate": "gui.mach.ingredients",
+            "color": "gold",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "1"
+                },
+                {
+                  "translate":"block.minecraft.hopper"
+                }
+            ]
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "4"
+                },
+                {
+                  "translate":"block.minecraft.lightning_rod"
+                }
+            ]
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "1"
+                },
+                {
+                  "translate":"block.minecraft.iron_trapdoor"
+                }
+            ]
+          }
+        ]
+      ]
+    }
+  ]

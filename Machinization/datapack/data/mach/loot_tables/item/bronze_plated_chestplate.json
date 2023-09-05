@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:880003,smithed:{id:\"mach:bronze_plated_chestplate\",durability:{max:190}},display:{Name:'{\"translate\":\"item.mach.bronze_plated_chestplate\",\"italic\":false}',color:5789697}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.mach",
+                  "color": "#8CFFDD",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

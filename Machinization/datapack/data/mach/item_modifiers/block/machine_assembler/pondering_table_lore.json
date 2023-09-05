@@ -1,0 +1,80 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{mach:{gui:1b}}"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "replace": true,
+      "lore": [
+        [
+          {
+            "translate": "gui.mach.ingredients",
+            "color": "gold",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "1"
+                },
+                {
+                  "translate":"block.minecraft.smithing_table"
+                }
+            ]
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "1"
+                },
+                {
+                  "translate":"block.minecraft.red_carpet"
+                }
+            ]
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "1"
+                },
+                {
+                  "translate":"block.minecraft.bookshelf"
+                }
+            ]
+          }
+        ],
+        [
+          {
+            "translate": "gui.mach.item_count",
+            "color": "gray",
+            "italic": false,
+            "with":[
+                {
+                  "text": "1"
+                },
+                {
+                  "translate":"block.minecraft.lantern"
+                }
+            ]
+          }
+        ]
+      ]
+    }
+  ]

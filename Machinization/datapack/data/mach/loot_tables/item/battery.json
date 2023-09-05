@@ -1,0 +1,37 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:880006,smithed:{id:\"mach:battery\"},display:{Name:'{\"translate\":\"item.mach.battery\",\"italic\":false}'},mach:{charge:0}}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "gui.mach.battery_charge",
+                    "color": "gray",
+                    "italic": false,
+                    "with":[
+                      "0"
+                    ]
+                  },
+                  {
+                    "translate": "pack.mach",
+                    "color": "#8CFFDD",
+                    "italic": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

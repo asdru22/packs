@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/template_shulker_box",
+  "textures": {
+    "particle": "minecraft:block/black_shulker_box"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 880000
+      },
+      "model": "mach:entity/monolith/base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880001
+      },
+      "model": "mach:entity/monolith/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880002
+      },
+      "model": "mach:entity/monolith/ice"
+    }
+  ]
+}

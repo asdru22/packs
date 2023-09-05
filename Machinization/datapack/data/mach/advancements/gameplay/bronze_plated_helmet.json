@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_helmet",
+      "nbt": "{CustomModelData:880002}"
+    },
+    "title": [
+      {
+        "translate": "item.mach.bronze_plated_helmet"
+      },
+      {
+        "text": "\uc004",
+        "font": "mach:gui"
+      }
+    ],
+    "description": [
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.mach.bronze_plate"
+          }
+        ]
+      },
+      "\n",
+      {
+        "translate": "gui.mach.item_count",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "text": "1"
+          },
+          {
+            "translate": "item.minecraft.leather_helmet"
+          }
+        ]
+      },
+      "\n",
+      [
+        {
+          "translate": "gui.mach.at_machine",
+          "color": "green",
+          "italic": false,
+          "with": [
+            {
+              "translate": "block.mach.pondering_table"
+            }
+          ]
+        }
+      ]
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "mach:gameplay/grappling_hook",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{smithed:{id:\"mach:bronze_plated_helmet\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

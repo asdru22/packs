@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{mach:{cast:0b},CustomModelData:880001}"
+    }
+  ]
+  

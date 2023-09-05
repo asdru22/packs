@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:item/template_shulker_box",
+  "textures": {
+    "particle": "minecraft:block/green_shulker_box"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 880000
+      },
+      "model": "mach:item/spring_loaded_crossbow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880001
+      },
+      "model": "mach:item/grappling_hook"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880002
+      },
+      "model": "mach:item/bronze_plated_helmet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880003
+      },
+      "model": "mach:item/bronze_plated_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880004
+      },
+      "model": "mach:item/bronze_plated_leggings"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880005
+      },
+      "model": "mach:item/bronze_plated_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880006
+      },
+      "model": "mach:item/battery_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880007
+      },
+      "model": "mach:item/thunderbuss"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880008
+      },
+      "model": "mach:item/midnight_howl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880009
+      },
+      "model": "mach:block/bounce_pad"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880010
+      },
+      "model": "mach:item/advanced_grappling_hook"
+    }
+  ]
+}

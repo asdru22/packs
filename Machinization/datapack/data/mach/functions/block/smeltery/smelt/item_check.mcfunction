@@ -1,0 +1,2 @@
+execute if data storage mach:storage root.temp.item{id:"minecraft:recovery_compass",tag:{smithed:{id:"mach:zinc_fragment"}}} if score $count mach.data matches 5.. run function mach:block/smeltery/smelt/items/zinc_fragment
+execute if data storage mach:storage root.temp.item{id:"minecraft:recovery_compass",tag:{smithed:{id:"mach:tin_fragment"}}} if score $count mach.data matches 4.. run function mach:block/smeltery/smelt/items/tin_fragment

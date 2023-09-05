@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "mach:item/spring_loaded_crossbow_pulling_0"
+    }
+}

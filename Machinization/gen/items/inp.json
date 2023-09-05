@@ -1,0 +1,28 @@
+{
+    "items":[
+        {"id":"copper_plate"},
+        {"id":"iron_plate"},
+        {"id":"copper_wire"},
+        {"id":"iron_fiber"},
+        {"id":"sifting_net"},
+        {"id":"zinc_fragment"},
+        {"id":"zinc_ingot"},
+        {"id":"tin_fragment"},
+        {"id":"tin_ingot"},
+        {"id":"bronze_ingot"},
+        {"id":"gold_plate"},
+        {"id":"bronze_plate"},
+        {"id":"brass_ingot"},
+        {"id":"brass_plate"},
+        {"id":"carbon_dust"},
+        {"id":"echo_powder"},
+        {"id":"amethyst_powder"},
+        {"id":"cast_iron_bar"},
+        {"id":"silver_fragment"},
+        {"id":"sterling_silver_ingot"},
+        {"id":"rose_gold_ingot"},
+        {"id":"cast_iron_plate"},
+        {"id":"spring"},
+        {"id":"midnight_star"}
+    ]
+}

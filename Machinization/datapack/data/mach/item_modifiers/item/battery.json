@@ -1,0 +1,82 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "translate": "gui.mach.battery_charge",
+          "with": [
+            {
+              "score": {
+                "name": "$charge",
+                "objective": "mach.data"
+              }
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "translate": "pack.mach",
+        "color": "#8CFFDD",
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:880006}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$charge"
+          },
+          "score": "mach.data"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:880000}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$charge"
+          },
+          "score": "mach.data"
+        },
+        "range": {
+          "min": 1,
+          "max": 100
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "mach:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag.mach.charge",
+        "target": "mach.charge",
+        "op": "replace"
+      }
+    ]
+  }
+]

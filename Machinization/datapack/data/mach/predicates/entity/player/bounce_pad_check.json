@@ -1,0 +1,21 @@
+
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{OnGround:1b}",
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:snow"
+            ],
+            "state": {
+              "layers": 4
+            }
+          }
+        },
+        "flags": {
+          "is_sneaking": false
+        }
+      }
+    }  

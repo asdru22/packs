@@ -1,0 +1,31 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4,
+          "\uc000": -12,
+          "\uc001": -166,
+          "\uc004": 50
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "mach:gui/single_slot.png",
+        "ascent": 14,
+        "height": 176.0,
+        "chars": [
+          "\uc002"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "mach:gui/foundry.png",
+        "ascent": 14,
+        "height": 176.0,
+        "chars": [
+          "\uc003"
+        ]
+      }
+    ]
+  }

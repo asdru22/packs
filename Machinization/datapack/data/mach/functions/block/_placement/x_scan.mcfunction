@@ -1,0 +1,11 @@
+execute if score $found mach.data matches 1 positioned ~5 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~4 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~3 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~2 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~1 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~0 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~-1 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~-2 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~-3 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~-4 ~ ~ run function mach:block/_placement/z_scan
+execute if score $found mach.data matches 1 positioned ~-5 ~ ~ run function mach:block/_placement/z_scan

@@ -1,0 +1,2 @@
+setblock ~ ~ ~ snow[layers=4]{CustomName:'{"color":"white","font":"mach:gui","translate":"block.mach.gui","with":[{"color":"#3F3F3F","font":"minecraft:default","translate":"block.mach.compressor"}]}'}
+summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["mach.tick","mach.second","mach.bounce_pad","smithed.block"],ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:880008}}]}

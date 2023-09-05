@@ -1,0 +1,12 @@
+data remove storage mach:storage root.temp.item.tag.display.Lore[0]
+execute if score $ammo mach.data matches 0 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["0"]}'
+execute if score $ammo mach.data matches 1 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectile","italic":false,"color":"gray","with":["1"]}'
+execute if score $ammo mach.data matches 2 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["2"]}'
+execute if score $ammo mach.data matches 3 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["3"]}'
+execute if score $ammo mach.data matches 4 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["4"]}'
+execute if score $ammo mach.data matches 5 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["5"]}'
+execute if score $ammo mach.data matches 6 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["6"]}'
+execute if score $ammo mach.data matches 7 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["7"]}'
+execute if score $ammo mach.data matches 8 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["8"]}'
+execute if score $ammo mach.data matches 9 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["9"]}'
+execute if score $ammo mach.data matches 10 run data modify storage mach:storage root.temp.item.tag.display.Lore prepend value '{"translate":"gui.mach.loaded_projectiles","italic":false,"color":"gray","with":["10"]}'
