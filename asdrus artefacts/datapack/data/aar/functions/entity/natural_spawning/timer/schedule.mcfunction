@@ -1,0 +1,1 @@
+$schedule function aar:entity/mob_spawning/timer/timer $(int)s

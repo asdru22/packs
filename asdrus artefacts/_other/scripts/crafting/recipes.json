@@ -1,0 +1,27 @@
+{
+    "windup_crossbow":{
+        "type":"item",
+        "recipe":[
+            ["","chain",""],
+            ["iron_nugget","crossbow","iron_nugget"],
+            ["","aar:swivelling_device",""]
+        ]
+    },
+    "swivelling_device":{
+        "type":"item",
+        "count":2,
+        "recipe":[
+            ["copper_ingot","copper_ingot","copper_ingot"],
+            ["copper_ingot","aar:swivelling_device","copper_ingot"],
+            ["copper_ingot","redstone","copper_ingot"]
+        ]
+    },
+    "lunar_trinket":{
+        "type":"item",
+        "recipe":[
+            ["","aar:nightfall",""],
+            ["aar:nightfall","golden_helmet","aar:nightfall"],
+            ["","aar:nightfall",""]
+        ]
+    }
+}

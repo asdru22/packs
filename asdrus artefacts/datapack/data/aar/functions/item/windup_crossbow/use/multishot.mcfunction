@@ -1,0 +1,2 @@
+data modify storage aar:storage root.temp.item.tag.ChargedProjectiles insert -1 from storage aar:storage root.temp.next_proj
+data modify storage aar:storage root.temp.item.tag.ChargedProjectiles insert -1 from storage aar:storage root.temp.next_proj

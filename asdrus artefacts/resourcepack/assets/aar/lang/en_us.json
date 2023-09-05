@@ -1,0 +1,13 @@
+{
+    "pack.aar": "Asdru's Artefacts",
+    "aar.tooltip": "\ua000 %s",
+
+    "item.aar.windup_crossbow": "Windup Crossbow",
+    "item.aar.windup_crossbow.projectiles": "%s Loaded Projectiles",
+    "item.aar.windup_crossbow.projectile": "%s Loaded Projectile",
+    "item.aar.swivelling_device": "Swivelling Device",
+    "item.aar.nightfall": "Nightfall",
+    "item.aar.lunar_trinket": "Lunar Trinket",
+    "item.aar.automatic_bow": "Automatic Bow"
+    
+}

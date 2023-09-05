@@ -1,0 +1,20 @@
+{
+    "parent": "aar:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:crossbow",
+              "minecraft:spyglass"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "aar:item/usable/init"
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/structure_void"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 880000
+        },
+        "model": "aar:entity/nightmare_zombie/arm"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880001
+        },   
+        "model": "aar:entity/nightmare_zombie/head"
+      }
+    ]
+}

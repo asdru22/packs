@@ -1,0 +1,2 @@
+data remove storage aar:storage root.temp.item.tag.display.Lore[0]
+$data modify storage aar:storage root.temp.item.tag.display.Lore insert 0 value '{"translate":"item.aar.windup_crossbow.projectiles","italic":false,"color":"gray","with":[$(count)]}'

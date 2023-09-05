@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 44366867,
+      "separation": 8,
+      "spacing": 30
+    },
+    "structures": [
+      {
+        "structure": "aar:decaying_workshop",
+        "weight": 1
+      }
+    ]
+  }

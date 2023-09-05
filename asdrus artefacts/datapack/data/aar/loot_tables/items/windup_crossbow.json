@@ -1,0 +1,57 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:880000,aar:{id:\"windup_crossbow\",durability:[545,545],repaired:1b,stored_projectiles:[]},Unbreakable:1b,HideFlags:126}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.aar.windup_crossbow",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate":"item.aar.windup_crossbow.projectiles",
+                    "italic":false,
+                    "color":"gray",
+                    "with":["0"]
+                  },
+                  "",
+                  {
+                    "translate": "item.durability",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                      545,
+                      545
+                    ]
+                  },
+                  {
+                    "translate": "aar.tooltip",
+                    "font": "aar:main",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      {"translate":"pack.aar","font":"minecraft:default","color":"#4CFFEA","italic":true}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

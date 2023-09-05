@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "aar:item/windup_crossbow_firework"
+    }
+}

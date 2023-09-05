@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "aar:entity/holding/mending_item/head"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "aar:entity/holding/mending_item/mainhand"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "aar:entity/holding/mending_item/offhand"
+    }
+  ]
+}

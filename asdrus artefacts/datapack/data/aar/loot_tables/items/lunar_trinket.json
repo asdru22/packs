@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{aar:{id:\"lunar_trinket\",head_equipment:true},CustomModelData:880000,Unbreakable:true,AttributeModifiers:[],HideFlags:70}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.aar.lunar_trinket",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": "aar.tooltip",
+                        "font": "aar:main",
+                        "color": "white",
+                        "italic": false,
+                        "with": [
+                          {"translate":"pack.aar","font":"minecraft:default","color":"#833BFF","italic":true}
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

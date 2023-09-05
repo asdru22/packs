@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:880001,aar:{id:\"automatic_bow\",durability:[452,452],repaired:1b},Unbreakable:1b,HideFlags:126}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.aar.automatic_bow",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  "",
+                  {
+                    "translate": "item.durability",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                      452,
+                      452
+                    ]
+                  },
+                  {
+                    "translate": "aar.tooltip",
+                    "font": "aar:main",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      {"translate":"pack.aar","font":"minecraft:default","color":"#4CFFEA","italic":true}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

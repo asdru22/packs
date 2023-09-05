@@ -1,0 +1,2 @@
+execute store result score #temp aar.int if data storage aar:storage root.temp.item.tag.aar.stored_projectiles[]
+execute if score #temp aar.int matches ..15 run function aar:item/windup_crossbow/charging/load

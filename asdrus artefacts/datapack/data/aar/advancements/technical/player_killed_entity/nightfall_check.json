@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.99
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 17000,
+                "max": 19000
+              }
+            }
+          ],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#aar:death_triggers_nightfall"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "aar:item/nightfall/init"
+    }
+  }
+  

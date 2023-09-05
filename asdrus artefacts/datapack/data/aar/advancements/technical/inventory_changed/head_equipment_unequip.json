@@ -1,0 +1,21 @@
+{
+  "parent": "aar:technical/root",
+  "criteria": {
+    "unequip_head_equipment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{aar:{head_equipment:true}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "aar:item/head_equipment/unequip"
+  }
+}

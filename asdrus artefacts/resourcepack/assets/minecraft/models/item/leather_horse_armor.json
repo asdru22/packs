@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/leather_horse_armor"
+    },
+      "overrides": [
+        {
+          "predicate": {
+            "custom_model_data": 880000
+          },
+          "model": "aar:entity/faun/idle"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 880001
+          },
+          "model": "aar:entity/faun/walk"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 880002
+          },
+          "model": "aar:entity/faun/charge"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 880003
+          },
+          "model": "aar:entity/faun/base_attack"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 880004
+          },
+          "model": "aar:entity/cloudchime/idle"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 880005
+          },
+          "model": "aar:entity/cloudchime/attack"
+        }
+      ]
+  }
