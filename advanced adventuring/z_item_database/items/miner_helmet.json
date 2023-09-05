@@ -1,0 +1,21 @@
+{
+    "core":{
+        "name": "Miner Helmet",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":1,
+        "custom_model_data": 2
+    },
+    "attributes":{
+        "armor":2,
+        "max_health":2,
+        "armor_toughness":1
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b",
+        "lore":[
+            "Lights up dark places",
+            "§oDyable"
+        ]
+    }
+}

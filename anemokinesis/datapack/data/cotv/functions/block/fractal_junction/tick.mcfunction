@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ tripwire run function cotv:block/fractal_junction/destroy
+execute as @e[type=#cotv:minecarts,dx=0,nbt={OnGround:1b}] if block ~ ~ ~ tripwire run function cotv:block/fractal_junction/motion

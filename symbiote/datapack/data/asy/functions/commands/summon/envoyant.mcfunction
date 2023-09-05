@@ -1,0 +1,2 @@
+summon villager ~ ~ ~ {Tags:["asy.envoyant","asy.entity","asy.entity.custom","asy.setup","smithed.entity"],CustomName:'{"translate":"entity.asy.envoyant"}',HandItems:[{id:"minecraft:potion",Count:1b,tag:{CustomModelData:6901006}},{}],ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{CustomModelData:6901005}}],VillagerData:{level:5,profession:"minecraft:cleric",type:"minecraft:taiga"},Offers:{}}
+execute as @e[type=villager,tag=asy.envoyant,tag=asy.setup] run function asy:entity/symbiote/setup

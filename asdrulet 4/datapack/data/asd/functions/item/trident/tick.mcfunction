@@ -1,0 +1,2 @@
+execute if predicate asd:player/holding_trident/mainhand run data modify storage asd:data root.temp.item.m set from entity @s SelectedItem
+execute if predicate asd:player/holding_trident/offhand run data modify storage asd:data root.temp.item.o set from entity @s Inventory[{Slot:-106b}]

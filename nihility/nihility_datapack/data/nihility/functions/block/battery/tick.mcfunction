@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ red_sandstone_wall run function nihility:block/battery/destroy

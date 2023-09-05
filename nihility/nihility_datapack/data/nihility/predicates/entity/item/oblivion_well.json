@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{tag:{display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"block.nihility.oblivion_well\"}'}}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{tag:{display:{Name:'{\"translate\":\"block.nihility.oblivion_well\"}'}}}}"
+        }
+      }  
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ],
+          "nbt": "{smithed:{id:\"gh:grappling_hook\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gh:entity/player/using_item/main"
+  }
+}

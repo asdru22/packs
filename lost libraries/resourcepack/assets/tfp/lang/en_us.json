@@ -1,0 +1,16 @@
+{   
+    "pack.tfp": "Lost Libraries",
+
+    "item.tfp.grounds_map": "Buried Grounds Explorer Map",
+    "item.tfp.tree_map": "Ancient Tree Explorer Map",
+    "item.tfp.forge_map": "Forge Explorer Map",
+    "item.tfp.library_map": "Library Explorer Map",
+    "item.tfp.pit_map": "Pit Explorer Map",
+    "item.tfp.use_in_the_end": "Use in The End",
+    "item.tfp.use_in_nether": "Use in the Nether",
+    "item.tfp.worm_scale": "Wyvern Scale",
+    "item.tfp.worm_scale_applies_to": " Armor, Tools and Weapons",
+    
+    "entity.tfp.worm": "Wyvern"
+
+}

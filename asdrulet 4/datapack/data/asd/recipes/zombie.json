@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:zombie_spawn_egg"}],
+    "result": {
+      "item": "minecraft:zombie_head"
+    }
+  }

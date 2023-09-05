@@ -1,0 +1,18 @@
+{
+    "variants":{
+      "":[
+        {
+          "model":"block/deepslate",
+          "weight":20
+        },
+        {
+          "model":"block/cobbled_deepslate",
+          "weight":10
+        },
+        {
+          "model":"block/polished_deepslate",
+          "weight":2
+        }
+      ]
+    }
+  }

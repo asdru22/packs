@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "chest": {
+          "items": [
+            "minecraft:leather_chestplate"
+          ],
+          "nbt": "{adv:{id:\"leafy_chestplate\"}}"
+        },
+        "legs": {
+            "items": [
+              "minecraft:leather_leggings"
+            ],
+            "nbt": "{adv:{id:\"leafy_leggings\"}}"
+          }
+      }
+    }
+  }
+  

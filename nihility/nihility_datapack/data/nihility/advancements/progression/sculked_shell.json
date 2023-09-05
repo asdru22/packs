@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:end/find_end_city",
+  "display": {
+      "icon": {
+        "item": "minecraft:structure_block",
+        "nbt": "{CustomModelData:6906002}"
+      },
+      "title": {
+        "translate": "advancements.nihility.progression.sculked_shell.title",
+        "color": "#007069"
+      },
+      "description": {
+        "translate": "advancements.nihility.progression.sculked_shell.description",
+        "color": "green"
+      }
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

@@ -1,0 +1,2 @@
+execute store result score l_dmg nihility.data run data get storage nihility:storage root.temp.item.tag.nihility.stats.damage
+execute store result score cost nihility.data run data get storage nihility:storage root.temp.item.tag.nihility.stats.cost

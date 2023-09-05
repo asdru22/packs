@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "firework_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:firework_rocket"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "asd:player/events/actions/when_hit/firework"
+  }
+}

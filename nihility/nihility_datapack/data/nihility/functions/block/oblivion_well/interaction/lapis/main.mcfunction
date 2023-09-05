@@ -1,0 +1,2 @@
+execute if score sneak nihility.data matches 1 run function nihility:block/oblivion_well/interaction/lapis/add_all
+execute unless score sneak nihility.data matches 1 run function nihility:block/oblivion_well/interaction/lapis/add_one

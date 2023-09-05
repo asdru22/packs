@@ -1,0 +1,1 @@
+loot give @s loot tfp:item/tree_map

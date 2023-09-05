@@ -1,0 +1,40 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "asd:data"
+      },
+      "ops": [
+        {
+          "source": "root.temp.item.tag",
+          "target": "{}",
+          "op": "merge"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item.asd.lore.durability",
+          "with": [
+            {
+              "score": {
+                "name": "dur",
+                "objective": "asd.d"
+              }
+            },
+            {
+              "nbt": "root.temp.item.tag.base.Durability.max",
+              "storage": "asd:data"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "replace": false
+    }
+  ]

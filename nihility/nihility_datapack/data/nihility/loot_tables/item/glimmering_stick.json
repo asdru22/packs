@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.nihility.glimmering_stick",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6906000,smithed:{id:\"nihility:glimmering_stick\"},nihility:{requires_ammo:1b,enchantable:true,affected:1b,type:\"magic\",stats:{damage:20,cost:5}}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "attribute.nihility.light_damage",
+                  "color": "dark_green",
+                  "italic": false,
+                  "with": [
+                    {
+                      "text": "20"
+                    }
+                  ]
+                },
+                "",
+                {
+                  "translate": "pack.nihility",
+                  "color": "#007069",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

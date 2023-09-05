@@ -1,0 +1,19 @@
+{
+    "core":{
+        "name": "Pirate Cutlass",
+        "minecraft_id":"iron_sword",
+        "type":"Melee",
+        "rarity":0,
+        "custom_model_data": 1
+    },
+    "attributes":{
+        "atk_dmg":7,
+        "atk_spd":1.8
+    },
+    "other":{
+        "lore":[
+            "20% chance to inflict",
+            "Armor Crush I (0:02)"
+        ]
+    }
+} 

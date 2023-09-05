@@ -1,0 +1,1 @@
+execute store result score @s asd.temp_health run data get entity @s Health 10

@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "msg.chest.open_count",
+      "with": [
+        {
+          "score": {
+            "name": "count",
+            "objective": "asd.d"
+          }
+        },
+        {
+          "nbt": "root.temp.item.tag.display.Name",
+          "storage": "asd:data",
+          "interpret": true
+        }
+      ],
+      "color": "white"
+    }
+  }
+]

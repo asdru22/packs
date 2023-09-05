@@ -1,0 +1,1 @@
+execute if entity @s[type=marker,tag=tfp.spawner] run function tfp:entity/spawner/init

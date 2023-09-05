@@ -1,0 +1,22 @@
+{
+    "core":{
+        "name": "Shellmet",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":0,
+        "custom_model_data": 3
+    },
+    "attributes":{
+        "armor":3,
+        "max_health":2,
+        "armor_toughness":2,
+        "mov_spd":-0.02
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b",
+        "lore":[
+            "Sneaking reduces damage taken by 25%,",
+            "but slows you down by 50%"
+        ]
+    }
+}

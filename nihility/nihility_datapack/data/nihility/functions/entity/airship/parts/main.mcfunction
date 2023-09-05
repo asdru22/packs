@@ -1,0 +1,2 @@
+execute if entity @s[tag=nihility.airship.stand] run data modify entity @s Rotation[0] set from storage nihility:storage root.temp.rot[0]
+execute if entity @s[tag=nihility.airship.base] run function nihility:entity/airship/parts/move

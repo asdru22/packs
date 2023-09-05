@@ -1,0 +1,37 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.nihility.rupture_entry_1",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:127,CustomModelData:6906000,smithed:{id:\"nihility:rupture_entry_1\"},nihility:{book:1b},title:\"Entry 1\",author:\"???\",pages:['{\"translate\":\"item.entry1.p1\",\"with\":[{\"text\":\"b1a2\",\"font\":\"nihility:main\",\"color\":\"white\"}]}','{\"translate\":\"item.entry1.p2\",\"with\":[{\"text\":\"c1d2\",\"font\":\"nihility:main\",\"color\":\"white\"}]}','{\"translate\":\"book.nihility.recipe_page\",\"font\":\"nihility:main\",\"color\":\"white\",\"with\":[{\"translate\":\"book.nihility.icon.voidnilla_twig\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.nihility.voidnilla_twig\"},{\"translate\":\"book.nihility.shaped_recipe\",\"with\":[{\"translate\":\"block.smithed.crafter\",\"color\":\"#1B48C4\"}]}]}},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.oak_sapling\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"block.minecraft.oak_sapling\"}]}},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.voidnilla_leaf\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.nihility.voidnilla_leaf\",\"color\":\"#007069\"}]}},{\"translate\":\"book.nihility.item.stick\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.minecraft.stick\"}]}},{\"translate\":\"book.nihility.item.voidnilla_leaf\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.nihility.voidnilla_leaf\",\"color\":\"#007069\"}]}},{\"translate\":\"book.nihility.item.stick\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.minecraft.stick\"}]}},{\"translate\":\"book.nihility.item.empty\"}]}','{\"translate\":\"book.nihility.recipe_page\",\"font\":\"nihility:main\",\"color\":\"white\",\"with\":[{\"translate\":\"book.nihility.icon.glimmering_stick\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.nihility.glimmering_stick\"},{\"translate\":\"book.nihility.shaped_recipe\",\"with\":[{\"translate\":\"block.smithed.crafter\",\"color\":\"#1B48C4\"}]}]}},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.block.glowstone\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"block.minecraft.glowstone\"}]}},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.voidnilla_twig\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.nihility.voidnilla_twig\",\"color\":\"#007069\"}]}},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.voidnilla_twig\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.nihility.voidnilla_twig\",\"color\":\"#007069\"}]}},{\"translate\":\"book.nihility.item.empty\"},{\"translate\":\"book.nihility.item.empty\"}]}','{\"translate\":\"item.entry1.p3\",\"with\":[{\"text\":\"f1e2\",\"font\":\"nihility:main\",\"color\":\"white\"}]}']}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "pack.nihility",
+                    "color": "#007069",
+                    "italic": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

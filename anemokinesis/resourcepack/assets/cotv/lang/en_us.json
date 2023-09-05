@@ -1,0 +1,60 @@
+{
+    "pack.cotv": "Call of the Void",
+    "pack.cotv.dummyesc": "ballin",
+    "cotv.void_tolerance": "Void Tolerance",
+    "void_tolerance.cotv.icon":"\uc015",
+
+    "text.cotv.too_high":"Block is not below Y= 0!",
+    "text.cotv.no_book":"No book inserted!",
+    "text.cotv.no_shards":"Add Shadowblight Shards!",
+
+    "item.cotv.echoing_matter":"Echoing Matter",
+    "item.cotv.echoing_residue":"Echoing Residue",
+    "item.cotv.echoing_bar":"Echoing Bar",
+    "item.cotv.echoing_blade":"Echoing Blade",
+    "item.cotv.echoing_axe":"Echoing Axe",
+    "item.cotv.echoing_pickaxe":"Echoing Pickaxe",
+    "item.cotv.echoing_shovel":"Echoing Shovel",
+    "item.cotv.echoing_hoe":"Echoing Hoe",
+    "item.cotv.echoing_bow":"Echoing Bow",
+    "item.cotv.shadowblight_bucket":"Shadowblight Bucket",
+    "item.cotv.shadowblight_clot":"Shadowblight Clot",
+    "item.cotv.shadowblight_shard":"Shadowblight Shard",
+    "item.cotv.shadowblight_arrow":"Shadowblight Arrow",
+    "item.cotv.fractaleaf_petal":"Fractaleaf Petal",
+    "item.cotv.mystic_book":"Mystic Book",
+    "item.cotv.copper_bolt":"Copper Bolt",
+    "item.cotv.shadowblight_shield":"Shadowblight Shield",
+    "item.cotv.umbral_configuration":"Umbral Configuration",
+
+    "block.cotv.void_campfire":"Void Campfire",
+    "block.cotv.fractal_junction":"Fractal Junction",
+    "block.cotv.endric_altar":"Endric Altar",
+    "block.cotv.endric_altar.name":"%s%s at Y= %s -> %s%s",
+    "block.cotv.endric_altar.void_tolerance_left":"%s's Void Tolerance: %s",
+
+    "death.cotv.void_campfire":"%s's soul was set ablaze by %s",
+
+    "gui.cotv.void_tolerance.bar":"\u0001",
+    "gui.cotv.void_tolerance.end_crystal":"\u0002",
+    "gui.cotv.void_tolerance.ender_eye":"\u0003",
+    "gui.cotv.void_tolerance.shulker_shell":"\u0004",
+    "gui.cotv.void_tolerance.dragon_breath":"\u0005",
+    "gui.cotv.void_tolerance.heart_of_ender":"\u0006",
+    
+    "enchantment.cotv.enchantment_cost":"Requires: %s%s, %s %s",
+    "enchantment.cotv.icon":"%s\uc014%s ",
+    "enchantment.cotv.shard_icon":"\uc013",
+    
+    "enchantment.cotv.vampirism.icon":"\uc000",
+    "enchantment.cotv.pain_cycle.icon":"\uc001",
+    "enchantment.cotv.void_strike.icon":"\uc002",
+    "enchantment.cotv.thundering.icon":"\uc003",
+    "enchantment.cotv.piercing.icon":"\uc004",
+    "enchantment.cotv.ricochet.icon":"\uc005",
+    "enchantment.cotv.supercharge.icon":"\uc006",
+    "enchantment.cotv.deflect.icon":"\uc007",
+    "enchantment.cotv.levitation_shot.icon":"\uc008",
+    "enchantment.cotv.multishot.icon":"\uc009"
+    
+}

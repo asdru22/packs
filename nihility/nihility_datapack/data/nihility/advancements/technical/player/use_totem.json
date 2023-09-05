@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use_totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "nbt": "{nihility:{totem:1b}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nihility:item/totem/trigger"
+  }
+}

@@ -1,0 +1,1 @@
+execute if entity @s[tag=asd.setup] run function asd:entity/mob/setup

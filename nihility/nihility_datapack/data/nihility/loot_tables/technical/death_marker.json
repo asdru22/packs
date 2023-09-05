@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6906000,nihility:{identifier:true,id:1}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

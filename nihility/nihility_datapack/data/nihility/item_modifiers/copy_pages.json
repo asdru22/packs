@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "nihility:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag.pages",
+        "target": "pages",
+        "op": "replace"
+      }
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book",
+      "nbt": "{CustomModelData:6906000}"
+    },
+    "title": {
+      "translate": "advancements.nihility.nihility.journal1.title",
+      "color": "white"
+    },
+    "description": [
+      {
+        "translate": "advancements.nihility.nihility.journal1.description",
+        "color": "green"
+      }
+    ],
+    "background": "minecraft:textures/block/sculk_shrieker_bottom.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{smithed:{id:\"nihility:rupture_entry_1\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nihility:entity/player/unlock_omnihility"
+  }
+}

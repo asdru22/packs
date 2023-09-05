@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ furnace run function nihility:block/magnetic_forge/destroy

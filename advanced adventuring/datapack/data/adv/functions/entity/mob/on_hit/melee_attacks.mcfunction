@@ -1,0 +1,2 @@
+execute if predicate adv:chance/20 if data storage adv:storage root.temp.equipment.Mainhand.tag.adv{id:"cutlass"} run function adv:gameplay/item/melee/cutlass
+execute if predicate adv:chance/20 if data storage adv:storage root.temp.equipment.Mainhand.tag.adv{id:"gold_cutlass"} run function adv:gameplay/item/melee/gold_cutlass

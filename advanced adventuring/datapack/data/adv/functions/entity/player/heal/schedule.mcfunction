@@ -1,0 +1,1 @@
+execute as @a[tag=adv.player.heal] run function adv:entity/player/heal/remove_attributes

@@ -1,0 +1,22 @@
+{
+    "variants":{
+      "":[
+        {
+          "model":"block/black_concrete_powder",
+          "weight":3
+        },
+        {
+          "model":"block/black_concrete",
+          "weight":2
+        },
+        {
+          "model":"block/blackstone",
+          "weight":5
+        },
+        {
+          "model":"block/coal_block",
+          "weight":4
+        }
+      ]
+    }
+  }

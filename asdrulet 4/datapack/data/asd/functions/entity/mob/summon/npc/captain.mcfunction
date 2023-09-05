@@ -1,0 +1,2 @@
+summon villager 86 125 74 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,VillagerData:{profession:"minecraft:armorer",type:"minecraft:savanna"},Offers:{},Tags:["asd.entity","asd.setup","asd.captain"]}
+execute as @e[type=villager,tag=asd.captain,tag=asd.setup] run function asd:entity/mob/summon/npc/captain_setup

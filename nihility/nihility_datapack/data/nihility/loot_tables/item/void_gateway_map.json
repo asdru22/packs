@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:exploration_map",
+          "destination": "nihility:void_gate_map_located",
+          "decoration": "target_x",
+          "zoom": 4,
+          "search_radius": 50,
+          "skip_existing_chunks": true
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.nihility.void_gateway_map",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.nihility",
+              "color": "#007069",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6906000,smithed:{id:\"nihility:void_gateway_map\"}}"
+        }
+      ]
+    }
+  ]
+}

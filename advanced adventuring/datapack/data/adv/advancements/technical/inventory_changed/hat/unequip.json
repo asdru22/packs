@@ -1,0 +1,137 @@
+{
+  "criteria": {
+    "mushhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"mushhat\"}}"
+          }
+        ]
+      }
+    },
+    "shellmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"shellmet\"}}"
+          }
+        ]
+      }
+    },
+    "archer_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"archer_hat\"}}"
+          }
+        ]
+      }
+    },
+    "explorer_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"explorer_hat\"}}"
+          }
+        ]
+      }
+    },
+    "miner_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"miner_helmet\"}}"
+          }
+        ]
+      }
+    },
+    "crown_ruby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"crown_ruby\"}}"
+          }
+        ]
+      }
+    },
+    "crown_sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"crown_sapphire\"}}"
+          }
+        ]
+      }
+    },
+    "crown_peridot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"crown_peridot\"}}"
+          }
+        ]
+      }
+    },
+    "crown_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{adv:{id:\"crown_diamond\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mushhat",
+      "shellmet",
+      "archer_hat",
+      "explorer_hat",
+      "miner_helmet",
+      "crown_ruby",
+      "crown_sapphire",
+      "crown_peridot",
+      "crown_diamond"
+    ]
+  ],
+  "rewards": {
+    "function": "adv:gameplay/item/hat/unequip"
+  }
+}

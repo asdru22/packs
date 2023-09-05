@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "asy:nbt/billboard"
+        }
+      }
+    },
+    "rewards": {
+      "function": "asy:entity/player/craft_nbt_recipe",
+      "loot": [
+        "asy:block/billboard"
+      ]
+    }
+  }
+  

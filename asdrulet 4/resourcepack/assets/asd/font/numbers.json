@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "asd:font/numbers.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "0123456789"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:font/symbols.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "+-%"
+            ]
+        }
+    ]
+}

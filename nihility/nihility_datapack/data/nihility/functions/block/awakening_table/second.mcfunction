@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Lock:"\\uf001nihility.awakening_table"}
+execute positioned ~ ~-2 ~ if block ~ ~ ~ red_sandstone_wall if entity @e[type=creeper,distance=..1,tag=nihility.battery.display] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:6906003}}]}
+execute positioned ~ ~-2 ~ unless block ~ ~ ~ red_sandstone_wall run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:6906002}}]}

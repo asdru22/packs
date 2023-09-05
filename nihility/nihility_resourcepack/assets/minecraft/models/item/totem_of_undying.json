@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/totem_of_undying"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6906005
+      },
+      "model": "nihility:item/auric_discharger"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      "",
+      {
+        "score": {
+          "name": "lapis",
+          "objective": "nihility.data"
+        }
+      },
+      {
+        "text": "a",
+        "font": "nihility:icons"
+      },
+      " ",
+      {
+        "text": "b",
+        "font": "nihility:icons"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "book"
+          },
+          "score": "nihility.data"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      "",
+      {
+        "score": {
+          "name": "lapis",
+          "objective": "nihility.data"
+        }
+      },
+      {
+        "text": "a",
+        "font": "nihility:icons"
+      },
+      " ",
+      {
+        "text": "c",
+        "font": "nihility:icons"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "book"
+          },
+          "score": "nihility.data"
+        },
+        "range": 0
+      }
+    ]
+  }
+]

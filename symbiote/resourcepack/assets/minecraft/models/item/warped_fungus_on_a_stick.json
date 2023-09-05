@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 6901000},"model": "asy:item/containment_vial_full/scraper"},
+      {"predicate": {"custom_model_data": 6901001},"model": "asy:item/containment_vial_full/flutterpillar"},
+      {"predicate": {"custom_model_data": 6901002},"model": "asy:item/glass_visor"},
+      {"predicate": {"custom_model_data": 6901003},"model": "asy:item/containment_vial_full/flutterfly"},
+      {"predicate": {"custom_model_data": 6901004},"model": "asy:item/flesh_whip"},
+      {"predicate": {"custom_model_data": 6901005},"model": "asy:item/containment_vial_full/bloater"}
+    ]
+  }
+  

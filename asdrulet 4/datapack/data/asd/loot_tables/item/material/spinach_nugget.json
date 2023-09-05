@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beef",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"spinach_nugget\",Type:\"material\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.spinach_nugget\",\"italic\":false,\"color\":\"#9FBCBB\"}',Stats:{},Ability:['{\"translate\":\"item.asd.lore.spinach_nugget.ability.1\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.spinach_nugget\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.material\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.spinach_nugget.ability.1\",\"italic\":false,\"color\":\"white\"}']},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

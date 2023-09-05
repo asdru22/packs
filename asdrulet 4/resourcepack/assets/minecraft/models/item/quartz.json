@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/quartz"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 6901001},"model": "asd:block/billboard/connectors/en"},
+      {"predicate": {"custom_model_data": 6901002},"model": "asd:block/billboard/connectors/es"},
+      {"predicate": {"custom_model_data": 6901003},"model": "asd:block/billboard/connectors/ew"},
+      {"predicate": {"custom_model_data": 6901004},"model": "asd:block/billboard/connectors/ns"},
+      {"predicate": {"custom_model_data": 6901005},"model": "asd:block/billboard/connectors/nw"},
+      {"predicate": {"custom_model_data": 6901006},"model": "asd:block/billboard/connectors/sw"},
+      {"predicate": {"custom_model_data": 6901007},"model": "asd:block/billboard/connectors/wns"},
+      {"predicate": {"custom_model_data": 6901008},"model": "asd:block/billboard/connectors/ens"},
+      {"predicate": {"custom_model_data": 6901009},"model": "asd:block/billboard/connectors/enw"}
+    ]
+  }
+  

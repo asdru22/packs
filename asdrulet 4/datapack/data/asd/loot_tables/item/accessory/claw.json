@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"claw\",Type:\"accessory\",Rarity:\"fine\",Name:'{\"translate\":\"item.asd.claw\",\"italic\":false,\"color\":\"#7BED8D\"}',LevelRequired:1,SellPrice:6,Stats:{CritChance:4,Damage:2},Ability:['{\"translate\":\"item.asd.lore.claw.ability.1\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.claw\",\"italic\":false,\"color\":\"#7BED8D\"}',Lore:['{\"translate\":\"item.asd.lore.accessory\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"4\",\"color\":\"gold\"}]}','\"\"','{\"translate\":\"item.asd.lore.claw.ability.1\",\"italic\":false,\"color\":\"white\"}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"blue\"},{\"text\":\"6\",\"color\":\"white\"}]}']},AttributeModifiers:[]}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "",
+                  "amount": 0,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

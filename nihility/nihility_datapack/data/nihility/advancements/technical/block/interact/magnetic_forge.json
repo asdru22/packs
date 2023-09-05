@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {  
+                        "nbt": "{Lock:\"\\\\uf001nihility.magnetic_forge\"}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "nihility:block/magnetic_forge/interact"
+    }
+}

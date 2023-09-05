@@ -1,0 +1,1 @@
+execute if entity @s[tag=nihility.block.weaved_crystal] run function nihility:item/crystal_weaver/timer

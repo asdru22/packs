@@ -1,0 +1,2 @@
+execute if entity @s[type=player,tag=adv.player.dead] run function adv:entity/player/death/respawn
+execute if entity @s[type=!player] if data entity @s HandItems[-1].tag.adve run function adv:gameplay/effects/second

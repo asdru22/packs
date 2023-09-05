@@ -1,0 +1,3 @@
+item replace entity @s[nbt=!{HandItems:[{id:"minecraft:structure_block",tag:{CustomModelData:6906102}}]}] weapon.mainhand with minecraft:structure_block{CustomModelData:6906102}
+item replace entity @s[nbt=!{HurtTime:0s,ArmorItems:[{id:"minecraft:structure_block",tag:{CustomModelData:6906100}}]}] armor.head with minecraft:structure_block{CustomModelData:6906100}
+execute if entity @s[nbt=!{HurtTime:0s}] run function nihility:entity/rupture_missionary/hurt 

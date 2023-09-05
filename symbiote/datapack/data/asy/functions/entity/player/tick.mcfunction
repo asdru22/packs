@@ -1,0 +1,2 @@
+execute if entity @s[scores={asy.symbiote=1..}] run function asy:entity/player/symbiote_leech/shake/main
+execute if entity @s[scores={asy.use_warped_fungus_on_a_stick=1..}] run function asy:item/warped_fungus_on_a_stick

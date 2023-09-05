@@ -1,0 +1,2 @@
+execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["asd.billboard","asd.billboard.center","asd.setup","asd.entity"]}
+execute as @e[type=marker,tag=asd.billboard.center,tag=asd.setup] run function asd:block/billboard/handling/marker_setup

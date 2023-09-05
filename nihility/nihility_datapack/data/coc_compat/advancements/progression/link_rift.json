@@ -1,0 +1,23 @@
+{
+    "parent": "nihility:progression/not_over",
+    "display": {
+        "icon": {
+          "item": "minecraft:snowball",
+          "nbt": "{CustomModelData:4260001}"
+        },
+        "title": {
+          "translate": "advancements.nihility.progression.link_rift.title",
+          "color": "#007069"
+        },
+        "description": {
+          "translate": "advancements.nihility.progression.link_rift.description",
+          "with":[{"translate":"block.nihility.voidlinker"}],
+          "color": "green"
+        }
+      },
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
+    }

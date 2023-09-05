@@ -1,0 +1,95 @@
+{
+  "parent": "minecraft:block/furnace",
+  "overrides": [
+    {
+        "predicate": {
+          "custom_model_data": 4250001
+        },
+        "model": "smithed.crafter:block/table"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906000
+          },
+          "model": "nihility:block/voidlinker"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906001
+          },
+          "model": "nihility:block/battery"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906002
+          },
+          "model": "nihility:block/magnetic_forge"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906003
+          },
+          "model": "nihility:block/magnetic_forge_lit"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906004
+          },
+          "model": "nihility:block/weaved_crystal"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906005
+          },
+          "model": "nihility:block/oblivion_well"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906006
+          },
+          "model": "nihility:block/oblivion_well_0"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906007
+          },
+          "model": "nihility:block/oblivion_well_1"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906008
+          },
+          "model": "nihility:block/oblivion_well_2"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906009
+          },
+          "model": "nihility:block/oblivion_well_3"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906010
+          },
+          "model": "nihility:block/oblivion_well_4"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906011
+          },
+          "model": "nihility:block/oblivion_well_item"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906012
+          },
+          "model": "nihility:block/thinkery_table"
+      },
+      {
+          "predicate": {
+              "custom_model_data": 6906013
+          },
+          "model": "nihility:block/awakening_table"
+      }
+  ]
+}

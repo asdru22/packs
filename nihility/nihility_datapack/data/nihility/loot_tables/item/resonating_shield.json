@@ -1,0 +1,65 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.nihility.resonating_shield",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6906000,smithed:{id:\"nihility:resonating_shield\"},nihility:{dash:1b}}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  "",
+                  {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                  "translate": "attribute.nihility.light_damage",
+                  "with": [
+                    {
+                      "text": "25"
+                    }
+                  ],
+                  "color": "dark_green",
+                  "italic": false
+                  },
+                  {
+                    "translate": "attribute.nihility.shadow_shielding",
+                    "with": [
+                      {
+                        "text": "40%"
+                      }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "translate": "pack.nihility",
+                    "color": "#007069",
+                    "italic": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

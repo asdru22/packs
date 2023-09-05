@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "cool_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{base:{id:\"cool_helmet\"}}"
+          }
+        ]
+      }
+    },
+    "cooler_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{base:{id:\"cooler_helmet\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cool_helmet",
+      "cooler_helmet"
+    ]
+  ],
+  "rewards": {
+    "function": "asd:item/armor/golden_helmet/unequip"
+  }
+}

@@ -1,0 +1,19 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "display.asd.xp",
+        "color":"aqua",
+        "with": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "asd.xp.current"
+            }
+          }
+        ]
+      }
+    }
+  ]
+  

@@ -1,0 +1,35 @@
+{
+    "parent": "block/structure_block",
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 880000
+        },
+        "model": "tfp:item/empty"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880001
+        },
+        "model": "tfp:entity/worm/body"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880002
+        },
+        "model": "tfp:entity/worm/tail"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880003
+        },
+        "model": "tfp:entity/worm/head"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880004
+        },
+        "model": "tfp:item/worm_scale"
+      }
+    ]
+}

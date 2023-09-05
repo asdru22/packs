@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=asd.display] run function asd:block/billboard/impl/buttons/kill
+execute as @e[type=marker,tag=asd.billboard.center] at @s align xyz run function asd:block/billboard/impl/buttons/marker

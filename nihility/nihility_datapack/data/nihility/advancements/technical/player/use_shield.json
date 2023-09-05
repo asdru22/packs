@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ],
+          "nbt": "{nihility:{dash:1b}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nihility:item/shield_dash"
+  }
+}

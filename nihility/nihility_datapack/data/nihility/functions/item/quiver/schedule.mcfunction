@@ -1,0 +1,1 @@
+advancement revoke @a only nihility:technical/player/put_item_in_quiver

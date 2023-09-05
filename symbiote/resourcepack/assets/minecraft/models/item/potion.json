@@ -1,0 +1,51 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/potion_overlay",
+    "layer1": "item/potion"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6901000
+      },
+      "model": "asy:entity/scraper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901001
+      },
+      "model": "asy:entity/drippler"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901002
+      },
+      "model": "asy:entity/flutterpillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901003
+      },
+      "model": "asy:entity/flutterfly"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901004
+      },
+      "model": "asy:entity/bloater"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901005
+      },
+      "model": "asy:entity/envoyant/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901006
+      },
+      "model": "asy:entity/envoyant/body"
+    }
+  ]
+}

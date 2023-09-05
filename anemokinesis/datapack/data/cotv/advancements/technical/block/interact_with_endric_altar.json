@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "interact_with_trader": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"cotv.block.endric_altar\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cotv:block/endric_altar/interact/init"
+  }
+}

@@ -1,0 +1,1 @@
+C:/Users/Ale/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/Ale/Documents/GitHub/Advanced-Adventuring/z_gen/item/_main.py

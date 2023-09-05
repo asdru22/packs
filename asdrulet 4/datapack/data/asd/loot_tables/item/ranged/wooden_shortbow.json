@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"wooden_shortbow\",Type:\"ranged\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.wooden_shortbow\",\"italic\":false,\"color\":\"#9FBCBB\"}',Durability:{max:200},LevelRequired:3,SellPrice:3,AbilityCooldown:2,Stats:{ArrowSpeed:9,CritChance:-5,CritDamage:11,Damage:5},Ability:['{\"translate\":\"item.asd.lore.wooden_shortbow.ability.1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.wooden_shortbow.ability.2\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.wooden_shortbow\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.ranged\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.arrow_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"9\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"-5\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.crit_damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"11\",\"color\":\"gold\"}]}','\"\"','{\"translate\":\"item.asd.lore.wooden_shortbow.ability.1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.wooden_shortbow.ability.2\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.ability.cooldown\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"gold\"}]}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"3\",\"color\":\"blue\"},{\"text\":\"3\",\"color\":\"white\"}]}']},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

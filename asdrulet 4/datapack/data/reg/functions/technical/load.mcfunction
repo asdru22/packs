@@ -1,0 +1,1 @@
+scoreboard objectives add asd.open_chest minecraft.custom:minecraft.open_chest

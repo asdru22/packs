@@ -1,0 +1,6 @@
+{
+	"textures": {
+		"0": "gh:item/grappling_hook",
+		"particle": "gh:item/grappling_hook"
+	}
+}

@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_name",
+            "name": {
+              "translate": "item.tfp.worm_scale",
+              "italic": false
+            }
+          },
+          {
+            "function": "minecraft:set_lore",
+            "lore": [
+              "",
+              {
+                "translate": "item.minecraft.smithing_template.applies_to",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "item.tfp.worm_scale_applies_to",
+                "color": "blue",
+                "italic": false
+              },
+              "",
+              {
+                "translate": "pack.tfp",
+                "color": "#007069",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{CustomModelData:880004,smithed:{id:\"tfp:worm_scale\"}}"
+          }
+        ]
+      }
+    ]
+  }

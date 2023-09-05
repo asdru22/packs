@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{base:{Type:\"armor\"}}"
+          }
+        ]
+      }
+    },
+    "shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{base:{Type:\"shield\"}}"
+          }
+        ]
+      }
+    },
+    "accessory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{base:{Type:\"accessory\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "accessory",
+      "shield",
+      "armor"
+    ]
+  ],
+  "rewards": {
+    "function": "asd:player/stats/get/inv"
+  }
+}

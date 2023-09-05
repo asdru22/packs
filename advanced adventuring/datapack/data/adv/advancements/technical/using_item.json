@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "tag": "adv:usable"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "adv:item/usable/main"
+    }
+  }

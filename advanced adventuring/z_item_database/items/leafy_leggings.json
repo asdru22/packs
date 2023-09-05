@@ -1,0 +1,23 @@
+{
+    "core":{
+        "name": "Leafy Leggings",
+        "minecraft_id":"leather_leggings",
+        "type":"Leggings",
+        "rarity":1,
+        "custom_model_data": 0,
+        "color" : 65280
+    },
+    "attributes":{
+        "max_mana":20,
+        "armor":6,
+        "max_health":2
+    },
+    "other":{
+        "set_bonus":[
+            "+2 Max Health",
+            "§aPhotosynthesis:",
+            "You regenerate 1 health per second",
+            "when at light level 15"
+        ]
+    }
+}

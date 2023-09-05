@@ -1,0 +1,203 @@
+{
+  "parent": "minecraft:block/structure_block",
+  "overrides": [
+      {
+          "predicate": {
+              "custom_model_data": 6906000
+          },
+          "model": "nihility:technical/transparent"
+      },
+      {
+        "predicate": {
+            "custom_model_data": 6906001
+        },
+        "model": "nihility:item/magnetite"
+      },
+      {
+        "predicate": {
+            "custom_model_data": 6906002
+        },
+        "model": "nihility:block/sculked_shell"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906003
+      },
+      "model": "nihility:item/rescinded_ore"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906004
+      },
+      "model": "nihility:block/voidnilla_stage0"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906005
+      },
+      "model": "nihility:block/voidnilla_stage1"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906006
+      },
+      "model": "nihility:block/voidnilla_stage2"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906007
+      },
+      "model": "nihility:block/voidnilla_stage3"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906008
+      },
+      "model": "nihility:item/voidnilla_leaf"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906009
+      },
+      "model": "nihility:item/ash"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906010
+      },
+      "model": "nihility:item/rescinded_bar"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906011
+      },
+      "model": "nihility:item/magnetite_bar"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906012
+      },
+      "model": "nihility:item/voidnilla_twig"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906013
+      },
+      "model": "nihility:item/kindling_crystal"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906014
+      },
+      "model": "nihility:item/rekindled_crystal"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906015
+      },
+      "model": "nihility:item/voidnilla_jelly"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906016
+      },
+      "model": "nihility:item/voidnilla_paste"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906017
+      },
+      "model": "nihility:item/voidnilla_shard"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906018
+      },
+      "model": "nihility:item/shadow_phoenix_feather"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906019
+      },
+      "model": "nihility:item/nihilim"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906020
+      },
+      "model": "nihility:item/lapis_lightzuli"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906021
+      },
+      "model": "nihility:item/mystic_book"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906022
+      },
+      "model": "nihility:item/voidmancing_shard"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906023
+      },
+      "model": "nihility:item/voidmancing_glass"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906024
+      },
+      "model": "nihility:item/lustremancing_orb"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906025
+      },
+      "model": "nihility:item/daylight_oil_in_a_bottle"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906100
+      },
+      "model": "nihility:entity/rupture_missionary/head/normal"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906101
+      },
+      "model": "nihility:entity/rupture_missionary/head/hurt"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906102
+      },
+      "model": "nihility:entity/rupture_missionary/body/normal"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906103
+      },
+      "model": "nihility:entity/rupture_missionary/body/hurt"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906104
+      },
+      "model": "nihility:entity/void_zombie/head"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906105
+      },
+      "model": "nihility:entity/void_zombie/arm"
+    },
+    {
+      "predicate": {
+          "custom_model_data": 6906106
+      },
+      "model": "nihility:entity/airship/sail"
+    }
+  ]
+} 

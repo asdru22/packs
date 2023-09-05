@@ -1,0 +1,31 @@
+{
+  "providers":[
+    {
+      "type":"bitmap",
+      "file":"epl:gui/romans.png",
+      "ascent": 4,
+      "height": 6,
+      "chars":["123456789"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/enchantments.png",
+      "ascent": 10,
+      "height": 12,
+      "chars":[
+        "\uc000\uc001\uc002\uc003\uc004\uc005\uc006\uc007\uc008\uc009",
+        "\uc00a\uc00b\uc00c\uc00d\uc00e\uc00f\uc010\uc011\uc012\uc013",
+        "\uc014\uc015\uc016\uc017\uc018\uc019\uc01a\uc01b\uc01c\uc01d"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/ench_tooltip.png",
+      "ascent": 10,
+      "height": 12,
+      "chars":[
+        "\uf000"
+      ]
+    }
+  ]
+} 

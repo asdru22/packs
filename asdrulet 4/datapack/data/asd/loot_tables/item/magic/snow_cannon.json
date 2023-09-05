@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"snow_cannon\",Type:\"magic\",Rarity:\"fine\",Name:'{\"translate\":\"item.asd.snow_cannon\",\"italic\":false,\"color\":\"#7BED8D\"}',Durability:{max:54},LevelRequired:2,SellPrice:5,Stats:{Damage:5,ElectricityUsed:4}},display:{Name:'{\"translate\":\"item.asd.snow_cannon\",\"italic\":false,\"color\":\"#7BED8D\"}',Lore:['{\"translate\":\"item.asd.lore.magic\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.electricity_used\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"4\",\"color\":\"aqua\"}]}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"blue\"},{\"text\":\"5\",\"color\":\"white\"}]}']},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

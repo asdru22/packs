@@ -1,0 +1,1 @@
+execute as @a[advancements={nihility:technical/player/mount_airship=true}] at @s run function nihility:entity/airship/player_setup

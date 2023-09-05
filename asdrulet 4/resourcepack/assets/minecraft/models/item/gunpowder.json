@@ -1,0 +1,7 @@
+{"parent": "minecraft:item/generated","textures": {"layer0": "minecraft:item/gunpowder"},"overrides": [{"predicate": {"custom_model_data": 6901001},"model": "asd:block/billboard/buttons/cool"},
+{"predicate": {"custom_model_data": 6901007},"model": "asd:block/billboard/buttons/ballingn"},
+{"predicate": {"custom_model_data": 6901014},"model": "asd:block/billboard/buttons/helloa"},
+{"predicate": {"custom_model_data": 6901016},"model": "asd:block/billboard/buttons/susser"},
+{"predicate": {"custom_model_data": 6901018},"model": "asd:block/billboard/buttons/baller"},
+{"predicate": {"custom_model_data": 6901021},"model": "asd:block/billboard/buttons/gaming"},
+{"predicate": {"custom_model_data":6901031},"model": "item/diamond"}]}

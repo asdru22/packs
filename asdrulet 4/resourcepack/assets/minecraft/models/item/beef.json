@@ -1,0 +1,28 @@
+{
+"overrides": [
+{
+"predicate": {
+"custom_model_data": 1
+},
+"model": "asd:item/material/silver_ore"
+},
+{
+"predicate": {
+"custom_model_data": 2
+},
+"model": "asd:item/material/log"
+},
+{
+"predicate": {
+"custom_model_data": 3
+},
+"model": "asd:item/material/string"
+},
+{
+"predicate": {
+"custom_model_data": 4
+},
+"model": "asd:item/material/dripstone"
+}
+]
+}

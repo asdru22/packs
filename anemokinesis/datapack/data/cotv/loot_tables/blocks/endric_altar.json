@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"block.cotv.endric_altar\"}',Lore:['{\"translate\": \"pack.cotv\",\"color\": \"#9728FF\"}']},CustomModelData:6901002,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{id:\"cotv:endric_altar\",block:{id:\"cotv:endric_altar\"}}}}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+
+

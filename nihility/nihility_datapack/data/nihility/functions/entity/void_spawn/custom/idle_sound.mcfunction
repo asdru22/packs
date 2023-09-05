@@ -1,0 +1,1 @@
+execute if entity @s[tag=nihility.dechanter] run playsound nihility:entity.dechanter.idle neutral @a[distance=..16]

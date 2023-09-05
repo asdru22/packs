@@ -1,0 +1,1 @@
+execute if predicate nihility:entity/player/mounted run function nihility:entity/player/keystrokes/detect_mot

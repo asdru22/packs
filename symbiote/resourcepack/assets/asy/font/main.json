@@ -1,0 +1,4 @@
+{"providers":[
+    {"type":"bitmap","ascent":13,"height":42,"file":"asy:font/billboard_recipe.png","chars":["a"]},
+    {"type":"bitmap","ascent":13,"height":42,"file":"asy:font/billboard_blocks.png","chars":["b"]}
+]}

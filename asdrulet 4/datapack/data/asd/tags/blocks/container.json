@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:barrel",
+        "minecraft:chest",
+        "trapped_chest",
+        "dropper",
+        "dispenser",
+        "hopper",
+        "#shulker_boxes"
+    ]
+}

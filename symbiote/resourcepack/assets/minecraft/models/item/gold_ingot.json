@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/gold_ingot"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 6901000
+        },
+        "model": "asy:item/scraper_helmets/gold_1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901001
+        },
+        "model": "asy:item/scraper_helmets/gold_2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901002
+        },
+        "model": "asy:item/scraper_helmets/gold_3"
+      }
+    ]
+  }
+  

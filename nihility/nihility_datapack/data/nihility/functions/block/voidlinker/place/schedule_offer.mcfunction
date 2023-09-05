@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=nihility.schedule_offer] run function nihility:block/voidlinker/place/get_data

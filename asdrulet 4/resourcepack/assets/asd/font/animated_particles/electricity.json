@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "asd:particle/electricity.png",
+            "ascent": 13,
+            "height": 13,
+            "chars": [
+                "\u0001\u0002\u0003\u0004"
+            ]
+        }
+    ]
+}

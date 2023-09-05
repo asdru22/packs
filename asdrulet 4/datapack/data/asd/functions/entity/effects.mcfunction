@@ -1,0 +1,1 @@
+execute if entity @s[scores={asd.effect.electrified=1..}] run function asd:effects/electrified/timer

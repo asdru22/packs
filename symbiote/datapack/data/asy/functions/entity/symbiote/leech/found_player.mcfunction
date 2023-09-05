@@ -1,0 +1,2 @@
+execute as @a[distance=..2,limit=1,advancements={asy:technical/entity/symbiote_hit_player=true}] run function asy:entity/symbiote/leech/check_id
+execute unless score .kill asy.data matches 1 run function asy:entity/symbiote/leech/kill

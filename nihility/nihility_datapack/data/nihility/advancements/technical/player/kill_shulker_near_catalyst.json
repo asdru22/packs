@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:shulker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "nihility:entity/player/kill_shulker_near_catalyst/main"
+    }
+  }
+  

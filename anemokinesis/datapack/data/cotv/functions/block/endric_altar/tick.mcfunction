@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ furnace run function cotv:block/endric_altar/destroy

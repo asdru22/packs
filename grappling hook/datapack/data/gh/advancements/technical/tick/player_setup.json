@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "setup": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "gh:entity/player/setup"
+    }
+  }
+  

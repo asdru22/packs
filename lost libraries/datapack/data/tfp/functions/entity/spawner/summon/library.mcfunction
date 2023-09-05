@@ -1,0 +1,1 @@
+execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["tfp.second","tfp.spawner"],data:{tfp:{Spawn:"library"}}}

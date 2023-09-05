@@ -1,0 +1,1 @@
+execute store result score @s gh.data run scoreboard players add $ids gh.data 1

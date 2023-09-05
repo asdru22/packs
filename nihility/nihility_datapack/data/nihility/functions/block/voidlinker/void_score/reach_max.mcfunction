@@ -1,0 +1,1 @@
+scoreboard players reset global nihility.void_score

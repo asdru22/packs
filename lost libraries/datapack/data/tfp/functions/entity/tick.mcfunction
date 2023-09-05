@@ -1,0 +1,2 @@
+execute if entity @s[type=vex,tag=tfp.worm] run function tfp:entity/worm/tick
+execute if entity @s[type=snowball,tag=tfp.worm.link,predicate=!tfp:entity/is_riding] run function tfp:entity/worm/kill/init

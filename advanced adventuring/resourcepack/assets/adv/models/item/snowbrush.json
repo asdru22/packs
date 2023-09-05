@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "adv:item/snowbrush"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [100, 90, -40],
+			"translation": [0, 4, 2.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [100, -90, 40],
+			"translation": [0, 4, 2.5],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ barrel run function nihility:block/thinkery_table/destroy

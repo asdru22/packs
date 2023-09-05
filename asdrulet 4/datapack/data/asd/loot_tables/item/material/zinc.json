@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:127,display:{Name:'[{\"translate\":\"item.asd.zinc\",\"italic\":false,\"color\":\"#EBFFFF\",\"with\":[{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"]\"}]}]'},asd:{identifier:1b,id:\"zinc\"},RepairCost:-2147483648,CustomModelData:6900001}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

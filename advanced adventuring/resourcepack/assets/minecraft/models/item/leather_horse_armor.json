@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_horse_armor"
+    },
+	"overrides": [
+		{"predicate": {"custom_model_data": 6530000}, "model": "adv:item/archer_hat"},
+		{"predicate": {"custom_model_data": 6530001}, "model": "adv:item/explorer_hat"},
+		{"predicate": {"custom_model_data": 6530002}, "model": "adv:item/miner_helmet"},
+		{"predicate": {"custom_model_data": 6530003}, "model": "adv:item/shellmet"}
+	]
+}

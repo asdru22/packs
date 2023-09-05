@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beef",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,HideFlags:127,Unbreakable:1b,base:{ID:\"log\",Type:\"material\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.log\",\"italic\":false,\"color\":\"#9FBCBB\"}',Stats:{}},display:{Name:'{\"translate\":\"item.asd.log\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.material\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"']},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

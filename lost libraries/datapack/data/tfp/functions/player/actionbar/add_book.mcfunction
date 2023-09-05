@@ -1,0 +1,1 @@
+title @a[distance=..50] actionbar [{"nbt":"data.tfp.w","entity":"@s","interpret":true},{"nbt":"data.tfp.y","entity":"@s","interpret":true},{"nbt":"data.tfp.v","entity":"@s","interpret":true},{"nbt":"data.tfp.e","entity":"@s","interpret":true},{"nbt":"data.tfp.r","entity":"@s","interpret":true},{"nbt":"data.tfp.n","entity":"@s","interpret":true}]

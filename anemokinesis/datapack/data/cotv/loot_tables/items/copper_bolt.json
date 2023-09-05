@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"cotv:item\"},HideFlags:2,display:{Name:'{\"italic\":false,\"translate\":\"item.cotv.copper_bolt\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.cotv\",\"color\": \"#9728FF\"}']},smithed:{id:\"cotv:copper_bolt\"},CustomModelData:6901011}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "values": [
+        "armor_stand",
+        "marker",
+        "area_effect_cloud",
+        "snowball",
+        "potion",
+        "item_frame",
+        "glow_item_frame",
+        "egg",
+        "#arrows",
+        "boat",
+        "leash_knot",
+        "minecart",
+        "chest_boat",
+        "chest_minecart",
+        "furnace_minecart",
+        "tnt_minecart",
+        "hopper_minecart"   
+    ]
+}

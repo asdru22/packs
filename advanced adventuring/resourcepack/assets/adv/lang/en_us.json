@@ -1,0 +1,32 @@
+{
+    "pack.adv":"Advanced Adventuring",
+
+    "attribute.adv.default":" %s %s",
+    "attribute.adv.default_armor":"%s %s",
+
+    "attribute.adv.melee_defense":"Melee Defense",
+    "attribute.adv.ranged_defense":"Ranged Defense",
+    "attribute.adv.magic_defense":"Magic Defense",
+    "attribute.adv.max_mana":"Max Mana",
+    "attribute.adv.ranged_damage":"Ranged Damage",
+    "attribute.adv.magic_damage":"Magic Damage",
+    "attribute.adv.fire_speed":"Fire Speed",
+    "attribute.adv.bullet_spread":"Bullet Spread",
+    "attribute.adv.ammo_conservation":"Ammo Conservation",
+    "attribute.adv.mana_regen":"Mana Regeneration",
+    "attribute.adv.mana_cost":"Mana",
+    "attribute.adv.turret_damage":"Turret Damage",
+    "attribute.adv.build_speed":"Build Speed",
+    "attribute.adv.lifetime":"Lifetime",
+    "attribute.adv.global_damage":"Overall Damage",
+
+    "attribute.adv.":"",
+    "item.adv.set_bonus" :"Set Bonus",
+    "item.adv.rarity" :"Rarity: %s",
+    "item.adv.type.armor":"Armor",
+    "item.adv.type.weapon":"Weapon",
+    "item.adv.type.quest":"Quest Item",
+    "item.adv.type.consumable":"Consumable",
+    "item.adv.type.ingredient":"Ingredient"
+
+}

@@ -1,0 +1,5 @@
+connector.ns 0 0
+connector.en 0 1
+connector.sw 1 1
+connector.nw 1 2
+button.fart 0 2

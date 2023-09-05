@@ -1,0 +1,100 @@
+{
+    "criteria": {
+      "helmet": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {}
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\"}]}"
+            }
+          ]
+        }
+      },
+      "chestplate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {}
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\"}]}"
+            }
+          ]
+        }
+      },
+      "leggings": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "legs": {}
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\"}]}"
+            }
+          ]
+        }
+      },
+      "boots": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {}
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\"}]}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots"
+      ]
+    ],
+    "rewards": {
+      "function": "adv:entity/player/stats/health/convert_attribute/main"
+    }
+  }
+  

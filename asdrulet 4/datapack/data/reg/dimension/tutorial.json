@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "reg:tutorial",
+        "lakes": false,
+        "features": false,
+        "layers": [],
+        "structure_overrides": []
+      }
+    }
+  }

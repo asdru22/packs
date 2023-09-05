@@ -1,0 +1,4 @@
+data merge entity @s {Tags:["tfp.worm","tfp.mob","tfp.tick"],Silent:1b,PersistenceRequired:1b,Health:100f,ActiveEffects:[{Id:14,Amplifier:3b,Duration:-1,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:100}],HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:880000}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:880000}}],HandDropChances:[-1000f,-1000f],DeathLootTable:"tfp:entity/worm",CustomName:'{"translate":"entity.tfp.worm"}'}
+execute summon snowball run function tfp:entity/worm/summoning/snowball
+ride @e[type=snowball,sort=nearest,predicate=!tfp:entity/is_riding,tag=tfp.worm.link,limit=1] mount @s
+execute on passengers on origin on passengers run data modify entity @s item.tag.CustomModelData set value 8800002

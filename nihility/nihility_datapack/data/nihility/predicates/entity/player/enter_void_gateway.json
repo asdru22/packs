@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "biome": "minecraft:end_highlands",
+        "structure": "nihility:void_gate",
+        "dimension": "minecraft:the_end",
+        "block": {
+          "blocks": [
+            "minecraft:end_gateway"
+          ]
+        }
+      }
+    }
+  }
+  

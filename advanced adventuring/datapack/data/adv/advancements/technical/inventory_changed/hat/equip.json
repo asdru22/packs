@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "hats": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:leather_helmet"
+                ],
+                "nbt": "{adv:{Hat:1b}}"
+              }
+            }
+          },
+          "items": [
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{adv:{Hat:1b}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "adv:gameplay/item/hat/equip"
+    }
+  }

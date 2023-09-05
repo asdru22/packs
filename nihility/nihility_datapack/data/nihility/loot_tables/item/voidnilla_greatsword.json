@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "",
+                  "amount": -2.9,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 7,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.nihility.voidnilla_greatsword",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,CustomModelData:6906001,smithed:{id:\"nihility:voidnilla_greatsword\"},nihility:{enchantable:true,light_damage:true,type:\"melee\",stats:{damage:20}}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 7 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage"
+                  }
+                ],
+                {
+                  "translate": "attribute.nihility.light_damage",
+                  "with": [
+                    {
+                      "text": "20"
+                    }
+                  ],
+                  "color": "dark_green",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 1.1 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed"
+                  }
+                ],
+                "",
+                {
+                  "translate": "pack.nihility",
+                  "color": "#007069",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/glow_item_frame"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 6906000
+        },
+        "model": "nihility:item/voidnilla_seeds"
+      }
+    ]
+  }
+  

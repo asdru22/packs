@@ -1,0 +1,39 @@
+{
+  "providers":[
+    {
+      "type":"bitmap",
+      "file":"minecraft:item/book.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc001"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:item/experience_vial_full.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc002"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/book_gray.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc003"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/vial_gray.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc004"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:item/rekindling_feather.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc005"]
+    }
+  ]
+}

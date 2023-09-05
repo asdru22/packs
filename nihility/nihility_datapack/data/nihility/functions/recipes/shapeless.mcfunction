@@ -1,0 +1,19 @@
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:rekindled_crystal"}}},{Count:2b,id:"minecraft:paper"},{Count:1b,id:"minecraft:feather"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/phoenix_envelope
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:2b,tag:{smithed:{id:"nihility:rescinded_bar"}}},{Count:1b,id:"minecraft:ink_sac"},{Count:1b,id:"minecraft:candle"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/rescinded_sigil
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:mystic_book"}}},{Count:1b,item_tag:["#nihility:enchantable"],tag:{nihility:{enchantable:true}}}]} unless data storage smithed.crafter:input recipe[{item_tag:["#nihility:enchantable"]}].tag.nihility.Enchantments run function nihility:recipes/enchant/main
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:mystic_book"}}},{Count:1b,tag:{smithed:{id:"nihility:mystic_book"}}}]} run function nihility:recipes/merge/main
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2.. if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:mystic_book"}}},{tag:{smithed:{id:"nihility:desecrated_char"}}}]} run function nihility:recipes/remove_one_ench/main
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:voidnilla_twig"}}},{Count:1b,id:"minecraft:slimeball"},{Count:1b,id:"minecraft:sugar"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/voidnilla_jelly
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 4 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:voidnilla_jelly"}}},{Count:1b,tag:{smithed:{id:"nihility:ash"}}},{Count:1b,id:"minecraft:clay"},{Count:1b,id:"minecraft:water_bucket"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/voidnilla_paste
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"nihility:voidnilla_paste"}}},{Count:1b,id:"minecraft:lava_bucket"},{Count:1b,id:"minecraft:amethyst_shard"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/voidnilla_shard
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:4b,tag:{smithed:{id:"nihility:voidnilla_shard"}}},{Count:1b,id:"minecraft:nether_star"},{Count:4b,id:"minecraft:echo_shard"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/nihilim
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2 if data storage smithed.crafter:input {recipe:[{Count:2b,tag:{smithed:{id:"nihility:voidnilla_shard"}}},{Count:1b,id:"minecraft:end_rod"}]} run loot replace block ~ ~ ~ container.16 loot nihility:item/voidnilla_sigil

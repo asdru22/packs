@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "___",
+        "OBO",
+        "___"
+    ],
+    "key": {
+        "_": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "O": {
+            "tag": "minecraft:signs"
+        },
+        "B": {
+            "item": "minecraft:barrel"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

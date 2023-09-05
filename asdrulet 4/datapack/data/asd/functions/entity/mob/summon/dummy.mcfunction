@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {CanPickUpLoot:0b,Health:1111f,Tags:["asd.setup","asd.entity","asd.entity.mob","asd.1tick","asd.10ticks","asd.1second"],ArmorItems:[{},{},{},{id:"minecraft:big_dripleaf",Count:1b,tag:{base:{attack_damage:12,health:100,xp:10,name:'{"translate":"entity.asd.dummy"}'}}}],Attributes:[{Name:"generic.max_health",Base:1111},{Name:"generic.attack_damage",Base:0.1}]}

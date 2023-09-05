@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "pick_up_glass_visor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{smithed:{id:\"asy:glass_visor\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "asy:item/glass_visor/unequip/main"
+  }
+}

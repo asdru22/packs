@@ -1,0 +1,2 @@
+item replace entity @s weapon.mainhand with minecraft:potion{CustomModelData:6901006,CustomPotionColor:16777215}
+item replace entity @s armor.head with minecraft:potion{CustomModelData:6901005,CustomPotionColor:16777215}

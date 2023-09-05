@@ -1,0 +1,23 @@
+{
+    "core":{
+        "name": "Peridot Crown",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":1,
+        "custom_model_data": 6
+    },
+    "attributes":{
+        "armor":1,
+        "mana_regen":20
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b"
+    },
+    "recipe":{
+        "recipe":[
+        ["","peridot:recovery_compass",""],
+        ["","gold_ingot",""],
+        ["gold_ingot","gold_ingot","gold_ingot"]
+        ]
+    }
+} 

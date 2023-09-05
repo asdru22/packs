@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/structure_block",
+    "overrides": [
+      {"predicate": {"custom_model_data": 6900000},"model": "asd:item/transparent"},
+      {"predicate": {"custom_model_data": 6900001},"model": "asd:item/material/zinc"},
+      {"predicate": {"custom_model_data": 6900002},"model": "asd:item/material/tin"},
+      {"predicate": {"custom_model_data": 6900003},"model": "asd:item/material/sturdy_hide"},
+      {"predicate": {"custom_model_data": 6900004},"model": "asd:item/material/amethyst_dust"},
+      {"predicate": {"custom_model_data": 6900005},"model": "asd:item/material/bronze_handle"},
+      {"predicate": {"custom_model_data": 6900006},"model": "asd:item/material/bronze_ingot"},
+      {"predicate": {"custom_model_data": 6900007},"model": "asd:item/material/echoing_powder"},
+      {"predicate": {"custom_model_data": 6900007},"model": "asd:item/material/sculk_clot"}
+  ]
+} 

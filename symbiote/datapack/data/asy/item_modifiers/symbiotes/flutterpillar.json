@@ -1,0 +1,39 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "asy:storage"
+      },
+      "ops": [
+        {
+          "source": "root.temp.item.tag",
+          "target": "{}",
+          "op": "merge"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "translate": "entity.asy.symbiote.flutterpillar",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "entity.asy.symbiote.shake",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    }  
+  ]
+  

@@ -1,0 +1,6 @@
+{
+  "parent": "asd:item/shield_blocking",
+  "textures": {
+    "1": "asd:item/shield/shaeld"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:block/template_command_block",
+    "textures": {
+      "front": "minecraft:block/chain_command_block_front",
+      "back": "minecraft:block/chain_command_block_back",
+      "side": "minecraft:block/chain_command_block_side"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 6901000},"model": "cotv:item/echoing_bar"},
+      {"predicate": {"custom_model_data": 6901001},"model": "cotv:block/void_campfire_fire"},
+      {"predicate": {"custom_model_data": 6901002},"model": "cotv:item/echoing_residue"},
+      {"predicate": {"custom_model_data": 6901003},"model": "cotv:item/fractal_junction"},
+      {"predicate": {"custom_model_data": 6901004},"model": "cotv:block/fractal_junction"},
+      {"predicate": {"custom_model_data": 6901005},"model": "cotv:block/fractal_junction_connected"},
+      {"predicate": {"custom_model_data": 6901006},"model": "cotv:item/shadowblight_bucket"},
+      {"predicate": {"custom_model_data": 6901007},"model": "cotv:block/endric_altar"},
+      {"predicate": {"custom_model_data": 6901008},"model": "cotv:item/fractaleaf_petal"},
+      {"predicate": {"custom_model_data": 6901009},"model": "cotv:item/shadowblight_shard"},
+      {"predicate": {"custom_model_data": 6901010},"model": "cotv:item/mystic_book"},
+      {"predicate": {"custom_model_data": 6901011},"model": "cotv:item/copper_bolt"},
+      {"predicate": {"custom_model_data": 6901012},"model": "cotv:item/rotated_book"}
+  ]
+  }

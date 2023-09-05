@@ -1,0 +1,2 @@
+execute unless score #dx nihility.vars matches ..-1 run function nihility:entity/player/keystrokes/position_z/start
+execute if score #dx nihility.vars matches ..-1 positioned ~-0.01 ~ ~ run function nihility:entity/player/keystrokes/position_z/start

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6906000
+      },
+      "model": "nihility:item/rescinded_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906001
+      },
+      "model": "nihility:item/voidnilla_greatsword"
+    }
+  ]
+}

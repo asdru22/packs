@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:block/template_command_block",
+    "textures": {
+      "front": "minecraft:block/chain_command_block_front",
+      "back": "minecraft:block/chain_command_block_back",
+      "side": "minecraft:block/chain_command_block_side"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 6901000},"model": "epl:empty"},
+      {"predicate": {"custom_model_data": 6901001},"model": "epl:block/enchanted_lantern"},
+      {"predicate": {"custom_model_data": 6901002},"model": "epl:block/enchanted_lantern_lava"},
+      {"predicate": {"custom_model_data": 6901003},"model": "epl:item/alluring_powder"},
+      {"predicate": {"custom_model_data": 6901004},"model": "epl:item/desecrated_char"},
+      {"predicate": {"custom_model_data": 6901005},"model": "epl:item/rotated_book"},
+      {"predicate": {"custom_model_data": 6901006},"model": "epl:item/mystic_book"},
+      {"predicate": {"custom_model_data": 6901007},"model": "epl:block/spellbinding_station"},
+      {"predicate": {"custom_model_data": 6901008},"model": "epl:item/witherling_shell"},
+      {"predicate": {"custom_model_data": 6901009},"model": "epl:item/desecrating_cream"},
+      {"predicate": {"custom_model_data": 6901010},"model": "epl:item/xenolith_ingot"},
+      {"predicate": {"custom_model_data": 6901011},"model": "epl:item/rekindling_feather"}
+  ]
+  }

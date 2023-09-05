@@ -1,0 +1,21 @@
+{
+    "core":{
+        "name": "Chain Flail",
+        "minecraft_id":"warped_fungus_on_a_stick",
+        "type":"Melee",
+        "rarity":1,
+        "custom_model_data": 1
+    },
+    "attributes":{
+        "atk_dmg":10,
+        "atk_spd":1
+    },
+    "other":{
+        "lore":[
+            "Right Click to throw a flail",
+            "in front of you, hitting an enemy",
+            "for 10 damage. The flail returns",
+            "after it hits something."
+        ]
+    }
+}

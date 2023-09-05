@@ -1,0 +1,37 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "nihility.stat.daylight"
+        },
+        "range": {
+          "min": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "cost"
+            },
+            "score": "nihility.data"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:slime_ball"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+  

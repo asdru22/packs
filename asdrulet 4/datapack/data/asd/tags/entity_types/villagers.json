@@ -1,0 +1,7 @@
+{
+	"description": "All villager entities",
+	"values": [
+		"minecraft:villager",
+		"minecraft:wandering_trader"
+	]
+}

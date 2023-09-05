@@ -1,0 +1,44 @@
+{
+    "core":{
+        "name": "Examples!!",
+        "minecraft_id":"carrot_on_a_stick",
+        "type":"Melee",
+        "rarity":0,
+        "custom_model_data": 5,
+        "color" : 23532
+    },
+    "attributes":{
+        "atk_dmg":0,
+        "atk_spd":0,
+        "ranged_dmg":0,
+        "fire_spd":0,
+        "bullet_spread":0,
+        "ammo_conservation":0,
+        "magic_dmg":0,
+        "max_mana":0,
+        "mana_regen":0,
+        "mana_cost":0,
+        "turret_dmg":0,
+        "build_spd":0,
+        "life":0,
+        "armor":0,
+        "armor_toughness":0,
+        "max_health":0,
+        "mov_spd":0,
+        "kb_res":0,
+        "luck":0
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b",
+        "additional_mc_tag":"Chicken_Nuget:3",
+        "lore":[
+            "drugs is cool",
+            "so is cat"
+        ],
+        "set_bonus":[
+            "Does hella damage when",
+            "in heat",
+            "https://htmlcolorcodes.com/minecraft-color-codes/"
+        ]
+    }
+} 

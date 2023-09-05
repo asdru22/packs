@@ -1,0 +1,2 @@
+execute unless score #dz nihility.vars matches 1.. run function nihility:entity/player/keystrokes/detect
+execute if score #dz nihility.vars matches 1.. positioned ~ ~ ~0.01 run function nihility:entity/player/keystrokes/detect

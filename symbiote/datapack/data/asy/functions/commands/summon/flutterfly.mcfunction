@@ -1,0 +1,3 @@
+summon vex ~ ~ ~ {DeathLootTable:"asy:entity/flutterfly",CustomName:'{"translate":"entity.asy.flutterfly","italic":false}',Silent:1b,Tags:["asy.flutterfly","asy.symbiote","asy.entity","asy.entity.custom","asy.setup","smithed.entity"],ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{CustomPotionColor:16777215,CustomModelData:6901003}}],ActiveEffects:[{Id:14,Amplifier:1b,Duration:200000,ShowParticles:0b}],ArmorDropChances:[-1000.00f,-1000.00f,-1000.00f,-1000.00f],Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5}]}
+
+execute as @e[type=vex,tag=asy.flutterfly,tag=asy.setup] run function asy:entity/symbiote/setup

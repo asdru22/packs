@@ -1,0 +1,23 @@
+{
+    "values": [
+        "#cotv:swords",
+        "#cotv:pickaxes",
+        "#cotv:axes",
+        "#cotv:hoes",
+        "#cotv:shovels",
+        "#cotv:helmets",
+        "#cotv:chestplates",
+        "#cotv:leggings",
+        "#cotv:boots",
+    
+        "minecraft:fishing_rod",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "minecraft:trident",
+        "minecraft:shield",
+        "minecraft:flint_and_steel",
+        "minecraft:shears",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:carrot_on_a_stick"
+    ]
+}

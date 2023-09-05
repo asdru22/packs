@@ -1,0 +1,19 @@
+{
+    "core":{
+        "name": "Gilded Cutlass",
+        "minecraft_id":"iron_sword",
+        "type":"Melee",
+        "rarity":1,
+        "custom_model_data": 2
+    },
+    "attributes":{
+        "atk_dmg":9,
+        "atk_spd":1.8
+    },
+    "other":{
+        "lore":[
+            "20% chance to inflict",
+            "Armor Crush I (0:03)"
+        ]
+    }
+} 

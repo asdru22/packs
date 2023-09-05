@@ -1,0 +1,2 @@
+execute if entity @s[scores={asd.effect.absorption=0}] run function asd:player/displays/actionbar/no_absorption
+execute if entity @s[scores={asd.effect.absorption=1..}] run function asd:player/displays/actionbar/absorption

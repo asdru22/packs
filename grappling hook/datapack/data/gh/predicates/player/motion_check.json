@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "motion.x": {
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "motion.y": {
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "motion.z": {
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      }
+    ]
+  }
+  

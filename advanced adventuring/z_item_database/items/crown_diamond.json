@@ -1,0 +1,22 @@
+{
+    "core":{
+        "name": "Diamond Crown",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":1,
+        "custom_model_data": 7
+    },
+    "attributes":{
+        "armor":1
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b"
+    },
+    "recipe":{
+        "recipe":[
+        ["","diamond",""],
+        ["","gold_ingot",""],
+        ["gold_ingot","gold_ingot","gold_ingot"]
+        ]
+    }
+} 

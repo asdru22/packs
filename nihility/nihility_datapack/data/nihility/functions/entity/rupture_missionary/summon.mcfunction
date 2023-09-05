@@ -1,0 +1,2 @@
+summon villager ~ ~ ~ {Tags:["nihility.entity","nihility.entity.rupture_missionary","nihility.entity.custom"],CustomName:'{"translate":"entity.nihility.rupture_missionary"}',HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:6906102}},{}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:6906100}}],VillagerData:{level:5,profession:"minecraft:fisherman"}}
+execute as @e[type=villager,tag=nihility.entity.rupture_missionary,tag=!nihility.setup] run function nihility:entity/rupture_missionary/setup

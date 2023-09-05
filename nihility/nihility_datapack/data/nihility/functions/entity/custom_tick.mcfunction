@@ -1,0 +1,1 @@
+execute if entity @s[tag=nihility.entity.rupture_missionary] run function nihility:entity/rupture_missionary/tick

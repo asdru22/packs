@@ -1,0 +1,29 @@
+{
+    "core":{
+        "name": "Archer Hat",
+        "minecraft_id":"leather_helmet",
+        "type":"helmet",
+        "rarity":0,
+        "custom_model_data": 0,
+        "color" : 16728064
+    },
+    "attributes":{
+        "ranged_dmg":1,
+        "armor":1
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b",
+        "lore":[
+            "Arrows shot from bows",
+            "travel 25%% faster.",
+            "§oDyable"
+        ]
+    },
+    "recipe":{
+        "recipe":[
+        ["","","feather"],
+        ["leather","leather","leather"],
+        ["#wool","","#wool"]
+        ]
+    }
+}

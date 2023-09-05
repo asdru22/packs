@@ -1,0 +1,33 @@
+{
+    "criteria": {
+      "die": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Health:0f}"
+              }
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "asy.symbiote"
+              },
+              "range": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "asy:entity/player/symbiote_leech/death"
+    }
+  }
+  

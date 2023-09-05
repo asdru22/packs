@@ -1,0 +1,1 @@
+execute if entity @s[scores={cotv.use_bucket=1..}] run function cotv:item/bucket/use

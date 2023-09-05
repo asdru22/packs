@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6906000
+      },
+      "model": "nihility:item/glimmering_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906001
+      },
+      "model": "nihility:item/airship"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906002
+      },
+      "model": "nihility:item/rescinded_sigil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906003
+      },
+      "model": "nihility:item/crystal_weaver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906004
+      },
+      "model": "nihility:item/slime_slinger_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906005
+      },
+      "model": "nihility:item/auric_discharger"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "",
+                  "amount": 0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{epl:{id:\"mystic_book\",StoredEnchantments:[]},BlockEntityTag:{Command:\"epl:item\"},HideFlags:2,display:{Name:'{\"italic\":false,\"translate\":\"item.epl.mystic_book\",\"color\":\"#FF0000\"}'},CustomModelData:6901006}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "epl:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.merge.final",
+                  "target": "epl.StoredEnchantments",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "font": "epl:main",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "root.temp.merge.final[].display",
+                    "storage": "epl:storage",
+                    "interpret": true,
+                    "separator": ""
+                  }
+                ],
+                {
+                  "translate": "pack.epl",
+                  "color": "#93FFDB",
+                  "italic":false
+                }
+              ],
+              "replace": false 
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

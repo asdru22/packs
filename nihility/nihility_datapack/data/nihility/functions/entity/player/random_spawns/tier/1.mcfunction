@@ -1,0 +1,1 @@
+execute as @e[type=zombie,distance=..60,tag=!nihility.processed] run function nihility:entity/player/random_spawns/mobs/void_zombie

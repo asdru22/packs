@@ -1,0 +1,31 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "nihility.stat.daylight"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:slime_ball",
+              "minecraft:glowstone_dust",
+              "minecraft:amethyst_shard"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+    "parent": "asd:gui/codex",
+    "textures": {"0": "asd:gui/codex/skeleton"}
+}

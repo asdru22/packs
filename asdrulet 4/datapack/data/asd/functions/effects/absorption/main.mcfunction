@@ -1,0 +1,2 @@
+execute if score true_dmg_recived asd.d >= @s asd.effect.absorption run function asd:effects/absorption/reset_abs
+execute if score true_dmg_recived asd.d < @s asd.effect.absorption run function asd:effects/absorption/reset_dmg

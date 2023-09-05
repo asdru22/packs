@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~ ~ {Tags:["asy.aggro"],Age:-1,WaitTime:-1,Radius:0.1f,Duration:2,DurationOnUse:-2,Effects:[{Id:7,Amplifier:30,Duration:1,ShowParticles:0b},{Id:6,Amplifier:30,Duration:1,ShowParticles:0b}]}
+data modify entity @e[type=area_effect_cloud,tag=asy.aggro,limit=1] Owner set from storage asy:storage root.temp.UUID

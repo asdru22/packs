@@ -1,0 +1,17 @@
+{
+    "core":{
+        "name": "Explorer Hat",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":0,
+        "custom_model_data": 1,
+        "color" : 5432
+    },
+    "attributes":{
+        "fire_spd":-2,
+        "armor":1
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b"
+    }
+}

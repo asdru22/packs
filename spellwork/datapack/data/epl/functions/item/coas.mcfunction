@@ -1,0 +1,1 @@
+execute if entity @s[predicate=epl:item/experience_vial] run function epl:item/experience_vial/main

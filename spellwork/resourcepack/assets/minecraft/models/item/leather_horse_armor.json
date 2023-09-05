@@ -1,0 +1,48 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6901000
+      },
+      "model": "epl:entity/drained/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901001
+      },
+      "model": "epl:entity/drained/head"
+    },
+    {"predicate": {"custom_model_data": 6901002},
+    "model": "epl:entity/witherling/closed"},
+    {"predicate": {"custom_model_data": 6901003},
+    "model": "epl:entity/witherling/o1"},
+    {"predicate": {"custom_model_data": 6901004},
+    "model": "epl:entity/witherling/o2"},
+    {"predicate": {"custom_model_data": 6901005},
+    "model": "epl:entity/witherling/o3"},
+    {"predicate": {"custom_model_data": 6901006},
+    "model": "epl:entity/witherling/o4"},
+    {"predicate": {"custom_model_data": 6901007},
+    "model": "epl:entity/witherling/o5"},
+    {"predicate": {"custom_model_data": 6901008},
+    "model": "epl:entity/witherling/o6"},
+    {"predicate": {"custom_model_data": 6901009},
+    "model": "epl:entity/witherling/o7"},
+    {"predicate": {"custom_model_data": 6901010},
+    "model": "epl:entity/witherling/o8"},
+    {"predicate": {"custom_model_data": 6901011},
+    "model": "epl:entity/witherling/head"},
+    {"predicate": {"custom_model_data": 6901012},
+    "model": "epl:entity/witherling/no_head"},
+    {"predicate": {"custom_model_data": 6901013},
+    "model": "epl:entity/dechanter/idle"},
+    {"predicate": {"custom_model_data": 6901014},
+    "model": "epl:entity/dechanter/head"},
+    {"predicate": {"custom_model_data": 6901015},
+    "model": "epl:entity/dechanter/walking"}
+  ]
+}

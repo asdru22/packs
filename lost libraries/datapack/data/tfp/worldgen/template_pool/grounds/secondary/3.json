@@ -1,0 +1,24 @@
+{
+    "name": "tfp:grounds/secondary/1",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tfp:grounds/secondary/end1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tfp:grounds/secondary/end2",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+}

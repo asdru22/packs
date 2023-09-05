@@ -1,0 +1,1 @@
+execute as @a[advancements={nihility:technical/player/use_totem=true}] at @s run function nihility:item/totem/give_effects

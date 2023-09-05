@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "click_table": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "asd:block/locked/init"
+    }
+  }

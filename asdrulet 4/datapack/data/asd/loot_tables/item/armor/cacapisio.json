@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{Type:\"armor\",Armor:\"helmet\",Rarity:\"heirloom\",Name:'{\"translate\":\"item.asd.cacapisio\",\"italic\":false,\"color\":\"#00DAC2\"}',Element:\"flesh\",Durability:{max:5000},LevelRequired:6,SellPrice:4,Stats:{AttackSpeed:9,CritChance:0,CritDamage:30,Damage:3,Defense:10,DodgeChance:4,Health:70,HpRegen:30,Lifesteal:100,ElectricityRegen:3,MaxElectricity:4,MovementSpeed:2,KnockbackResistance:4,DamageReduction:100,Luck:9},Ability:['{\"translate\":\"item.asd.lore.cacapisio.ability.1\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.cacapisio\",\"italic\":false,\"color\":\"#00DAC2\"}',Lore:['{\"translate\":\"item.asd.lore.armor\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"3\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.attack_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"9\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"0\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.crit_damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"30\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.lifesteal\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"100\",\"color\":\"dark_red\"}]}','{\"translate\":\"item.asd.lore.health\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"70\",\"color\":\"green\"}]}','{\"translate\":\"item.asd.lore.hp_regen\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"30\",\"color\":\"green\"}]}','{\"translate\":\"item.asd.lore.defense\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"10\",\"color\":\"green\"}]}','{\"translate\":\"item.asd.lore.DamageReduction\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"100\",\"color\":\"green\"}]}','{\"translate\":\"item.asd.lore.max_electricity\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"4\",\"color\":\"aqua\"}]}','{\"translate\":\"item.asd.lore.electricity_regen\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"3\",\"color\":\"aqua\"}]}','{\"translate\":\"item.asd.lore.dodge_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"4\",\"color\":\"white\"}]}','{\"translate\":\"item.asd.lore.knockback_resistance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"4\",\"color\":\"dark_purple\"}]}','{\"translate\":\"item.asd.lore.movement_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.luck\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"9\",\"color\":\"dark_green\"}]}','\"\"','{\"translate\":\"item.asd.lore.cacapisio.ability.1\",\"italic\":false,\"color\":\"white\"}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"6\",\"color\":\"blue\"},{\"text\":\"4\",\"color\":\"white\"}]}']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Name : \"generic.attack_speed\", Amount :0.9,Operation:0,UUID:[I;90490,-96697,-2218,-90128],Slot:\"head\"},{AttributeName:\"generic.movement_speed\", Name : \"generic.movement_speed\", Amount :0.002,Operation:0,UUID:[I;-30039,-11789,78516,82286],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

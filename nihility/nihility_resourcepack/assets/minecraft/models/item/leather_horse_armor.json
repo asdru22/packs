@@ -1,0 +1,54 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 6901002},
+    "model": "nihility:entity/sculker/closed"},
+    {"predicate": {"custom_model_data": 6901003},
+    "model": "nihility:entity/sculker/o1"},
+    {"predicate": {"custom_model_data": 6901004},
+    "model": "nihility:entity/sculker/o2"},
+    {"predicate": {"custom_model_data": 6901005},
+    "model": "nihility:entity/sculker/o3"},
+    {"predicate": {"custom_model_data": 6901006},
+    "model": "nihility:entity/sculker/o4"},
+    {"predicate": {"custom_model_data": 6901007},
+    "model": "nihility:entity/sculker/o5"},
+    {"predicate": {"custom_model_data": 6901008},
+    "model": "nihility:entity/sculker/o6"},
+    {"predicate": {"custom_model_data": 6901009},
+    "model": "nihility:entity/sculker/o7"},
+    {"predicate": {"custom_model_data": 6901010},
+    "model": "nihility:entity/sculker/o8"},
+    {"predicate": {"custom_model_data": 6901011},
+    "model": "nihility:entity/sculker/head"},
+    {"predicate": {"custom_model_data": 6901012},
+    "model": "nihility:entity/sculker/no_head"},
+    {
+      "predicate":{
+        "custom_model_data":6901013
+      },
+      "model":"nihility:entity/scuttler/idle"
+    },
+    {
+      "predicate":{
+        "custom_model_data":6901014
+      },
+      "model":"nihility:entity/scuttler/head"
+    },
+    {
+      "predicate":{
+        "custom_model_data":6901015
+      },
+      "model":"nihility:entity/scuttler/walking"
+    },
+    {
+      "predicate":{
+        "custom_model_data":6901016
+      },
+      "model":"nihility:entity/scuttler/attacking"
+    }
+  ]
+}

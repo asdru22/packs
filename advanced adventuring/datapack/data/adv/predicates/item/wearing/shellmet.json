@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_sneaking": true
+    },
+    "equipment": {
+      "head": {
+        "items": [
+          "minecraft:leather_horse_armor"
+        ],
+        "nbt": "{adv:{id:\"shellmet\"}}"
+      }
+    }
+  }
+}

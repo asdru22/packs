@@ -1,0 +1,27 @@
+{
+    "recipes":[
+        {
+            "type":"melee",
+            "result":{"id":"Pointy Dripstone","count":1},
+            "ingredients":[
+                {"id":"Dripstone","count":5}
+            ]
+        },        
+        {
+            "type":"melee",
+            "result":{"id":"Silver Sword","count":1},
+            "ingredients":[
+                {"id":"Log","count":2},
+                {"id":"Silver Ore","count":5}
+            ]
+        },
+        {
+            "type":"ranged",
+            "result":{"id":"Wooden Shortbow","count":1},
+            "ingredients":[
+                {"id":"Log","count":2},
+                {"id":"String","count":3}
+            ]
+        }
+    ]
+}

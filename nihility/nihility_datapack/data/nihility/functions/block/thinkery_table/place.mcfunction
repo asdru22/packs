@@ -1,0 +1,2 @@
+setblock ~ ~ ~ barrel{CustomName:'{"color":"white","font":"nihility:gui","translate":"block.nihility.thinkery_table.gui","with":[{"color":"#3F3F3F","font":"minecraft:default","translate":"block.nihility.thinkery_table"}]}'}
+summon armor_stand ~ ~-0.5 ~ {Marker:1b,Invisible:1b,Tags:["nihility.entity","nihility.block","nihility.block.thinkery_table"],ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:6906012}}]}

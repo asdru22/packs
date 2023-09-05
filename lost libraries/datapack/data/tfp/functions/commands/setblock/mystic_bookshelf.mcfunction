@@ -1,0 +1,1 @@
+execute align xyz run function tfp:block/mystic_bookshelf/summon

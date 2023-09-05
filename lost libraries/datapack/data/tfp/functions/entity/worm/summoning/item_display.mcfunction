@@ -1,0 +1,2 @@
+execute unless score $length tfp.data matches 10 run data merge entity @s {Tags:["tfp.worm.display"],item:{id:"structure_block",Count:1b,tag:{CustomModelData:880001}}}
+execute if score $length tfp.data matches 10 run data merge entity @s {Tags:["tfp.worm.display"],item:{id:"structure_block",Count:1b,tag:{CustomModelData:880002}}}

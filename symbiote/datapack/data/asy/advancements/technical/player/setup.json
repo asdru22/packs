@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "setup": {
+      "trigger": "minecraft:location",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "asy:entity/player/setup",
+    "loot": [
+      "asy:item/billboard_crafting_recipe"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"entity": {"trigger": "minecraft:entity_hurt_player"},
+		"typeless": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"is_explosion": false,"is_fire": false,"is_magic": false,"is_projectile": false,"is_lightning": false,"bypasses_armor": false,"bypasses_invulnerability": false,"bypasses_magic": false}}}},
+		"is_explosion": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"is_explosion": true}}}},
+		"is_fire": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"is_fire": true}}}},
+		"is_magic": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"is_magic": true}}}},
+		"is_projectile": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"is_projectile": true}}}},
+		"is_lightning": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"is_lightning": true}}}},
+		"bypasses_armor": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"bypasses_armor": true}}}},
+		"bypasses_invulnerability": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"bypasses_invulnerability": true}}}},
+		"bypasses_magic": {"trigger": "minecraft:entity_hurt_player","conditions": {"damage": {"type": {"bypasses_magic": true}}}}
+	},
+	"requirements": [
+		[ "entity" ],
+		[ "typeless", "is_explosion", "is_fire", "is_magic", "is_projectile", "is_lightning", "bypasses_armor", "bypasses_invulnerability", "bypasses_magic" ]
+	],
+	"rewards": {
+		"function": "adv:entity/player/events/hurt_by_entity"
+	}
+}

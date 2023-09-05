@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "equip_glass_visor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:chainmail_helmet"
+                ],
+                "nbt": "{smithed:{id:\"asy:glass_visor\"}}"
+              }
+            }
+          },
+          "items": [
+            {
+              "items": [
+                "minecraft:chainmail_helmet"
+              ],
+              "nbt": "{smithed:{id:\"asy:glass_visor\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "asy:item/glass_visor/equip"
+    }
+  }

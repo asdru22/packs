@@ -1,0 +1,22 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "display.asd.block_progress",
+        "with": [
+          {
+            "score": {
+              "name": "block.breaking_percentage",
+              "objective": "asd.d"
+            }
+          },
+          {
+            "text": "%",
+            "color":"red"
+          }
+        ]
+      }
+    }
+  ]
+  

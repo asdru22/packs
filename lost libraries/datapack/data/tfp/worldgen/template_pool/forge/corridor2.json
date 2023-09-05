@@ -1,0 +1,15 @@
+{
+    "name": "tfp:forge/corridor2",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tfp:forge/corridor2",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+}

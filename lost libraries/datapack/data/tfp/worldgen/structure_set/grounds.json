@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "tfp:grounds",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1324227570,
+      "spacing": 26,
+      "separation": 11
+    }
+  }

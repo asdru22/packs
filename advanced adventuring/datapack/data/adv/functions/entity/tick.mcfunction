@@ -1,0 +1,1 @@
+execute if entity @s[tag=adv.proj] run function adv:entity/projectile/tick

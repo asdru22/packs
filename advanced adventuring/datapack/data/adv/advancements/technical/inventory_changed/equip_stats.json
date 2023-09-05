@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "max_health": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{AttributeModifiers:[{AttributeName:\"adv:max_health\"}]}"
+          }
+        ]
+      }
+    },
+    "max_mana": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{AttributeModifiers:[{AttributeName:\"adv:max_mana\"}]}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "max_health",
+      "max_mana"
+    ]
+  ],
+  "rewards": {
+    "function": "adv:entity/player/stats/health/equip_armor"
+  }
+}

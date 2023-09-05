@@ -1,0 +1,1 @@
+function nihility:entity/void_spawn/hurt

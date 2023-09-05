@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "tfp:library",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1212426342,
+      "spacing": 30,
+      "separation": 20
+    }
+  }

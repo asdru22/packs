@@ -1,0 +1,1 @@
+scoreboard players set @s nihility.data 11

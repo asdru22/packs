@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "start_ride": {
+        "trigger": "minecraft:started_riding",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "vehicle": {
+                  "type": "minecraft:pig",
+                  "nbt": "{Tags:[\"nihility.airship.vehicle\"]}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "nihility:entity/airship/mounted_by_player"
+    }
+  }
+  

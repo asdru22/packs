@@ -1,0 +1,21 @@
+  {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:127,display:{Name:'[{\"translate\":\"item.asd.sturdy_hide\",\"italic\":false,\"color\":\"#FFE294\",\"with\":[{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"]\"}]}]'},asd:{identifier:1b,id:\"sturdy_hide\"},RepairCost:-2147483648,CustomModelData:6900003}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  

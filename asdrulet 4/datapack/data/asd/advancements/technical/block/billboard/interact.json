@@ -1,0 +1,109 @@
+{
+    "criteria": {
+      "main": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"asd.button\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "up": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"asd.button.up\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "down": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"asd.button.down\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "left": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"asd.button.left\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "right": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"asd.button.right\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "click": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"asd.click\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "main"
+      ],
+      [
+        "up",
+        "down",
+        "left",
+        "right",
+        "click"
+      ]
+    ],
+    "rewards": {
+      "function": "asd:block/billboard/init"
+    }
+  }

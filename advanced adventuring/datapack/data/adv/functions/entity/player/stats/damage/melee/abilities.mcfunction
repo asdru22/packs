@@ -1,0 +1,2 @@
+function adv:entity/player/get_equipment
+execute if data storage adv:storage root.temp.equipment.Mainhand.tag.adv{id:"katana"} if data storage adv:storage root.temp.attack{charged:1b} run function adv:gameplay/item/melee/katana/main

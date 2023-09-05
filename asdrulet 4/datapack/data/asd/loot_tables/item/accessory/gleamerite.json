@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,HideFlags:127,Unbreakable:1b,base:{ID:\"gleamerite\",Type:\"accessory\",Rarity:\"exceptional\",Name:'{\"translate\":\"item.asd.gleamerite\",\"italic\":false,\"color\":\"#F9EF59\"}',LevelRequired:2,SellPrice:1,Stats:{CritChance:-15,CritDamage:33,Health:-3},Ability:['{\"translate\":\"item.asd.lore.gleamerite.ability.1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.gleamerite.ability.2\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.gleamerite.ability.3\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.gleamerite.ability.4\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.gleamerite\",\"italic\":false,\"color\":\"#F9EF59\"}',Lore:['{\"translate\":\"item.asd.lore.accessory\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"-15\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.crit_damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"33\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.health\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"-3\",\"color\":\"green\"}]}','\"\"','{\"translate\":\"item.asd.lore.gleamerite.ability.1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.gleamerite.ability.2\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.gleamerite.ability.3\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.gleamerite.ability.4\",\"italic\":false,\"color\":\"white\"}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"blue\"},{\"text\":\"1\",\"color\":\"white\"}]}']},AttributeModifiers:[]}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "",
+                  "amount": 0,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "translate": "item.nihility.lore.stat.armor",
+          "color":"white",
+          "italic":false,
+          "with": [
+            {
+              "score": {
+                "name": "stat",
+                "objective": "nihility.data"
+              },
+              "color":"#00FFCC"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

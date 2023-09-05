@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "asd:data"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  }
+  

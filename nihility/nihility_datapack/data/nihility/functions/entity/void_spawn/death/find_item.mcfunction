@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{nihility:{id:"death_item"}}}}] at @s run function nihility:entity/mob/death/effects

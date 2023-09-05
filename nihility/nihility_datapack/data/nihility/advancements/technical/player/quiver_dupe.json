@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "nihility:projectiles",
+            "nbt": "{smithed:{id:\"nihility:quiver\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nihility:item/quiver/dupe/main"
+  }
+}

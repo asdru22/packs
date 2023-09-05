@@ -1,0 +1,20 @@
+{
+    "sources": [
+      {
+        "type": "directory",
+        "source": "font",
+        "prefix": "font/"
+      },
+      {
+        "type": "directory",
+        "source": "gui",
+        "prefix": "gui/"
+      },
+      {
+        "type": "directory",
+        "source": "particle",
+        "prefix": "particle/"
+      }
+    ]
+  }
+  

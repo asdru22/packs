@@ -1,0 +1,7 @@
+tellraw @s [{"text":"=","color":"dark_purple"},{"text":"=","color":"#b207c3"},{"text":"=","color":"#a60ec8"},{"text":"=","color":"#9a16ce"},{"text":"=","color":"#8e1dd3"},{"text":"=","color":"#8225d9"},{"text":"=","color":"#762cde"},{"text":"=","color":"#6b34e4"},{"text":"=","color":"#762cde"},{"text":"=","color":"#8225d9"},{"text":"=","color":"#8e1dd3"},{"text":"=","color":"#9a16ce"},{"text":"=","color":"#a60ec8"},{"text":"=","color":"#b207c3"},{"text":"=","color":"dark_purple"}]
+tellraw @s {"translate":"book.nihility.unlock","with":[{"translate":"item.nihility.the_omnihility","color":"dark_red"},{"text":"/trigger nihility.trigger","color":"yellow"},{"color":"blue","translate":"book.nihility.here","clickEvent":{"action":"suggest_command","value":"/trigger nihility.trigger"},"hoverEvent":{"action":"show_text","contents":[{"translate":"book.nihility.click_here"}]}}]} 
+tellraw @s [{"text":"=","color":"dark_purple"},{"text":"=","color":"#b207c3"},{"text":"=","color":"#a60ec8"},{"text":"=","color":"#9a16ce"},{"text":"=","color":"#8e1dd3"},{"text":"=","color":"#8225d9"},{"text":"=","color":"#762cde"},{"text":"=","color":"#6b34e4"},{"text":"=","color":"#762cde"},{"text":"=","color":"#8225d9"},{"text":"=","color":"#8e1dd3"},{"text":"=","color":"#9a16ce"},{"text":"=","color":"#a60ec8"},{"text":"=","color":"#b207c3"},{"text":"=","color":"dark_purple"}]
+
+scoreboard players enable @s nihility.trigger
+scoreboard players set @s nihility.books -2
+playsound entity.arrow.hit_player player @s 

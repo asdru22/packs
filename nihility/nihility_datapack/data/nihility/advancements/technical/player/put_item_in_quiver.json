@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "nbt": "{smithed:{id:\"nihility:quiver\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nihility:item/quiver/init"
+  }
+}

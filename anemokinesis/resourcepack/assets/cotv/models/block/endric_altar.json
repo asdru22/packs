@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "cotv:block/endric_altar_front",
+    "north": "cotv:block/endric_altar_side",
+    "south": "cotv:block/endric_altar_front",
+    "east": "cotv:block/endric_altar_front",
+    "west": "cotv:block/endric_altar_front",
+    "up": "cotv:block/endric_altar_top",
+    "down": "cotv:block/endric_altar_bottom"
+  },
+	"display": {
+		"head": {
+			"translation": [0, -31.2, 0],
+			"scale": [1.712, 1.712, 1.712]
+		}
+	}
+}

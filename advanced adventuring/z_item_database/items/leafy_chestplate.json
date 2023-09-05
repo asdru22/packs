@@ -1,0 +1,23 @@
+{
+    "core":{
+        "name": "Leafy Chestplate",
+        "minecraft_id":"leather_chestplate",
+        "type":"chestplate",
+        "rarity":1,
+        "custom_model_data": 0,
+        "color" : 65280
+    },
+    "attributes":{
+        "atk_dmg":1,
+        "armor":7,
+        "max_health":4
+    },
+    "other":{
+        "set_bonus":[
+            "+2 Max Health",
+            "§aPhotosynthesis:",
+            "You regenerate 1 health per second",
+            "when at light level 15"
+        ]
+    }
+}

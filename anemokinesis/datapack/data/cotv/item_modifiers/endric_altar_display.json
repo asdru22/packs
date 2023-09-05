@@ -1,0 +1,39 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "block.cotv.endric_altar.name",
+        "with": [
+          {
+            "score": {
+              "name": "t",
+              "objective": "cotv.dummy"
+            }
+          },
+          {
+            "translate": "enchantment.cotv.shard_icon",
+            "font": "cotv:main"
+          },
+          {
+            "score": {
+              "name": "height",
+              "objective": "cotv.dummy"
+            },
+            "color":"gold"
+          },
+          {
+            "score": {
+              "name": "cost",
+              "objective": "cotv.dummy"
+            }
+          },
+          {
+            "translate": "void_tolerance.cotv.icon",
+            "font": "cotv:main"
+          }
+        ]
+      }
+    }
+  ]
+  

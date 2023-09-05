@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "asd:player/holding_trident/mainhand"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "asd:player/holding_trident/offhand"
+      }
+    ]
+  }

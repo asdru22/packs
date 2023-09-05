@@ -1,0 +1,23 @@
+{
+    "core":{
+        "name": "Ruby Crown",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":1,
+        "custom_model_data": 4
+    },
+    "attributes":{
+        "magic_dmg":2,
+        "armor":1
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b"
+    },
+    "recipe":{
+        "recipe":[
+        ["","ruby:recovery_compass",""],
+        ["","gold_ingot",""],
+        ["gold_ingot","gold_ingot","gold_ingot"]
+        ]
+    }
+} 

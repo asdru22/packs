@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "asy:item/flesh_whip/mainhand"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "asy:item/flesh_whip/offhand"
+      }
+    ]
+  }
+  

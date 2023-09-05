@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"rusty_axe\",Type:\"melee\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.rusty_axe\",\"italic\":false,\"color\":\"#9FBCBB\"}',Durability:{max:150},LevelRequired:1,SellPrice:2,Stats:{AttackSpeed:9,CritChance:-5,CritDamage:20,Damage:5},Ability:['{\"translate\":\"item.asd.lore.rusty_axe.ability.1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.rusty_axe.ability.2\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.rusty_axe\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.melee\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.attack_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"9\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"-5\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.crit_damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"20\",\"color\":\"gold\"}]}','\"\"','{\"translate\":\"item.asd.lore.rusty_axe.ability.1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"item.asd.lore.rusty_axe.ability.2\",\"italic\":false,\"color\":\"white\"}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"blue\"},{\"text\":\"2\",\"color\":\"white\"}]}']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Name : \"generic.attack_speed\", Amount :-3.1,Operation:0,UUID:[I;82885,26342,-61605,65197],Slot:\"mainhand\"}],CanDestroy:[\"minecraft:nether_brick_fence\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

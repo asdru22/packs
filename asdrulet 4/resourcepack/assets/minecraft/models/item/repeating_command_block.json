@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/template_command_block",
+  "textures": {
+    "front": "minecraft:block/repeating_command_block_front",
+    "back": "minecraft:block/repeating_command_block_back",
+    "side": "minecraft:block/repeating_command_block_side"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "asd:item/transparent"},
+    {"predicate": {"custom_model_data": 2},"model": "asd:block/deepslate_diamond_ore"}
+]
+}

@@ -1,0 +1,109 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"asy.button\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "up": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"asy.button.up\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "down": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"asy.button.down\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "left": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"asy.button.left\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "right": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"asy.button.right\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "click": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"asy.click\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ],
+    [
+      "up",
+      "down",
+      "left",
+      "right",
+      "click"
+    ]
+  ],
+  "rewards": {
+    "function": "asy:block/billboard/init"
+  }
+}

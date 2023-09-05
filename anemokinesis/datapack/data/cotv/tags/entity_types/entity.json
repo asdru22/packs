@@ -1,0 +1,7 @@
+{
+	"description": "All entities",
+	"values": [
+		"#cotv:mobs",
+		"#cotv:technical"
+	]
+}

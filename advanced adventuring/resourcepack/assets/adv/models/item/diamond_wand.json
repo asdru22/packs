@@ -1,0 +1,18 @@
+{
+"parent": "item/handheld",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 100, 100, -40 ],
+            "translation": [ -1, 5.5, 2.5 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 100, -80, 40 ],
+            "translation": [ -1, 5.5, 2.5 ],
+            "scale": [ 1, 1, 1 ]
+        }
+    },
+"textures": {
+    "layer0": "adv:item/diamond_wand"
+}
+}

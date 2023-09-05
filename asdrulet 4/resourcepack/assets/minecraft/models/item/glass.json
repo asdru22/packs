@@ -1,0 +1,7 @@
+{"parent": "minecraft:block/cube_all","textures": {"all": "minecraft:block/glass"},"overrides": [{"predicate": {"custom_model_data": 6901001},"model": "asd:block/billboard/display/cool"},
+{"predicate": {"custom_model_data": 6901007},"model": "asd:block/billboard/display/ballingn"},
+{"predicate": {"custom_model_data": 6901014},"model": "asd:block/billboard/display/helloa"},
+{"predicate": {"custom_model_data": 6901016},"model": "asd:block/billboard/display/susser"},
+{"predicate": {"custom_model_data": 6901018},"model": "asd:block/billboard/display/baller"},
+{"predicate": {"custom_model_data": 6901021},"model": "asd:block/billboard/display/gaming"},
+{"predicate": {"custom_model_data":6901031},"model": "item/diamond"}]}

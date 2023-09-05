@@ -1,0 +1,36 @@
+{
+    "criteria": {
+      "void_zombie": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "#nihility:void_base",
+              "nbt": "{Tags:[\"nihility.void_spawn\",\"nihility.entity.void_zombie\"]}"
+            }
+          }
+        }
+      },
+      "cock_archer": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "#nihility:void_base",
+              "nbt": "{Tags:[\"nihility.void_spawn\",\"nihility.entity.cock_archer\"]}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cock_archer",
+        "void_zombie"
+      ]
+    ],
+    "rewards": {
+      "function": "nihility:entity/void_spawn/hurt_player"
+    }
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"lab_coat\",Type:\"armor\",Armor:\"chestplate\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.lab_coat\",\"italic\":false,\"color\":\"#9FBCBB\"}',Durability:{max:30},LevelRequired:1,SellPrice:3,Stats:{Defense:1},Ability:['{\"translate\":\"item.asd.lore.lab_coat.ability.1\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.lab_coat\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.armor\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.defense\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"green\"}]}','\"\"','{\"translate\":\"item.asd.lore.lab_coat.ability.1\",\"italic\":false,\"color\":\"white\"}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"blue\"},{\"text\":\"3\",\"color\":\"white\"}]}'],color:34},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

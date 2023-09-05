@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:\"nihility:daylight_oil_in_a_bottle\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nihility:item/daylight_oil/drink"
+    }
+  }
+  

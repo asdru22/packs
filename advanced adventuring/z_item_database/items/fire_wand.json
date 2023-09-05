@@ -1,0 +1,19 @@
+{
+    "core":{
+        "name": "Fire Wand",
+        "minecraft_id":"warped_fungus_on_a_stick",
+        "type":"Magic",
+        "rarity":0,
+        "custom_model_data": 0
+    },
+    "attributes":{
+        "magic_dmg":5,
+        "mana_cost":12
+        },
+    "other":{
+        "lore":[
+            "Shoots a burst of flame",
+            "at the target"
+        ]
+    }
+}

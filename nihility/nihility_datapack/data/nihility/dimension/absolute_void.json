@@ -1,0 +1,11 @@
+{
+    "type": "nihility:void",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "nihility:void",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "nihility:void"
+      }
+    }
+  }  

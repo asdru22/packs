@@ -1,0 +1,21 @@
+  {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:127,display:{Name:'[{\"translate\":\"item.asd.amethyst_dust\",\"italic\":false,\"color\":\"#E16BFF\",\"with\":[{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"]\"}]}]'},asd:{identifier:1b,id:\"amethyst_dust\"},RepairCost:-2147483648,CustomModelData:6900004}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  

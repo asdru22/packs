@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "name": "",
+                    "amount": -10000,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "name": "",
+                    "amount": -10000,
+                    "operation": "addition",
+                    "slot": "offhand"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6900000,smithed:{id:\"gh:grappling_hook\"},display:{Name:'{\"translate\":\"item.gh.grappling_hook\",\"italic\":false}'},HideFlags:2}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

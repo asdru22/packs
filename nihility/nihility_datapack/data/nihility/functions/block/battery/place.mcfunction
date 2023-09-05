@@ -1,0 +1,4 @@
+summon armor_stand ~ ~-0.5 ~ {Marker:1b,Invisible:1b,Tags:["nihility.entity","nihility.block","nihility.block.battery"],ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:6906001}}]}
+setblock ~ ~ ~ red_sandstone_wall
+
+execute as @e[type=armor_stand,tag=nihility.block.battery,distance=..5,sort=nearest,limit=1] at @s positioned ~ ~-1 ~ if entity @e[type=armor_stand,tag=nihility.block.battery,distance=..0.1,tag=!nihility.battery.charged] positioned ~ ~2 ~ unless entity @e[type=armor_stand,tag=nihility.battery.charged,tag=nihility.block.battery,distance=..0.1] positioned ~ ~-2 ~ run function nihility:block/battery/charge

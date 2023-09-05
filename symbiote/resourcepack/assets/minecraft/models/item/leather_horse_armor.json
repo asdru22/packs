@@ -1,0 +1,62 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "minecraft:item/leather_horse_armor"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 6901000
+        },
+        "model": "asy:item/scraper_helmets/leather_1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901001
+        },
+        "model": "asy:item/scraper_helmets/leather_2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901002
+        },
+        "model": "asy:item/scraper_helmets/leather_3"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901002
+        },
+        "model": "asy:item/flutterpillar_helmet"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901003
+        },
+        "model": "asy:item/flutterfly_helmet"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901004
+        },
+        "model": "asy:item/bloater_helmets/1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901005
+        },
+        "model": "asy:item/bloater_helmets/2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901006
+        },
+        "model": "asy:item/bloater_helmets/3"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901007
+        },
+        "model": "asy:item/bloater_helmets/4"
+      }
+    ]
+  }

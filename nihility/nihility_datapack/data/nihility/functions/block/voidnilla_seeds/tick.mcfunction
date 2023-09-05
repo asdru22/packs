@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ carrots run function nihility:block/voidnilla_seeds/destroy

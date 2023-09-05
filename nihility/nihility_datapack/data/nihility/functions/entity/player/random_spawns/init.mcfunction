@@ -1,0 +1,1 @@
+execute if score @s nihility.void_score matches ..15000 run function nihility:entity/player/random_spawns/tier/1

@@ -1,0 +1,24 @@
+{
+    "values": [
+        "#nihility:swords",
+        "#nihility:pickaxes",
+        "#nihility:axes",
+        "#nihility:hoes",
+        "#nihility:shovels",
+        "#nihility:helmets",
+        "#nihility:chestplates",
+        "#nihility:leggings",
+        "#nihility:boots",
+    
+        "minecraft:fishing_rod",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "minecraft:trident",
+        "minecraft:shield",
+        "minecraft:flint_and_steel",
+        "minecraft:shears",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:carrot_on_a_stick",
+        "minecraft:elytra"
+    ]
+}

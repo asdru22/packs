@@ -1,0 +1,10 @@
+{
+    "item.grapple.return": {
+      "sounds": [{
+        "name": "gh:item/grapple_return",
+        "stream": true
+      }],
+      "subtitle": "subtitles.gh.grapple_return",
+      "category": "master"
+    }
+}

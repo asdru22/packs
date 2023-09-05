@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "asd:item/melee/silver_sword"
+  }
+}

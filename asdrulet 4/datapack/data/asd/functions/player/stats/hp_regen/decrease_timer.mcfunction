@@ -1,0 +1,2 @@
+scoreboard players remove @s[scores={asd.regen.delay=1..}] asd.regen.delay 1
+execute if score @s asd.regen.delay matches 0 if score @s asd.stat.health.current < @s asd.stat.health.max run function asd:player/stats/hp_regen/get

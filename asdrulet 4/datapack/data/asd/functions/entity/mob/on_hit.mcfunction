@@ -1,0 +1,1 @@
+execute store result score dmg.recived asd.d run data get entity @s ArmorItems[3].tag.base.attack_damage

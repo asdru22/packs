@@ -1,0 +1,2 @@
+execute if entity @s[tag=nihility.entity.sculker] run playsound nihility:entity.sculker.hurt neutral @a[distance=..16]
+execute if entity @s[tag=nihility.dechanter] run playsound nihility:entity.dechanter.hurt neutral @a[distance=..16]

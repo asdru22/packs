@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "asd:gui/transparent",
+    "layer1": "asd:item/armor/lab_coat"
+  }
+}

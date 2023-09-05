@@ -1,0 +1,85 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "asd:particle/test.png",
+            "ascent": 13,
+            "height": 13,
+            "chars": [
+                "\u000a\u000b\u000c\u000d"
+            ]
+        }, 
+        {
+            "type": "bitmap",
+            "file": "asd:gui/icons.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u000e\u000f\u0010"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:particle/ice_shard.png",
+            "ascent": 13,
+            "height": 13,
+            "chars": [
+                "\u0011\u0012\u0013\u0014"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:font/star.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\u0015"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:gui/element_bar.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0016\u0017\u0018"
+            ]
+        },
+        {
+          "type": "bitmap",
+          "file": "asd:gui/negative_space.png",
+          "ascent": -32768,
+          "height": -3,
+          "chars": [
+            "\u002c"
+          ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:particle/scrambled.png",
+            "ascent": 13,
+            "height": 13,
+            "chars": [
+                "\u002d\u002e\u002f\u0030"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:gui/hearts.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0031\u0032\u0033\u0034"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:gui/damage_indicators.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0036\u0037\u0038\u0039\u003a\u003b\u003c\u003d\u003e"
+            ]
+        }
+    ]
+}

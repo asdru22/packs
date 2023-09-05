@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:end/enter_end_gateway",
+    "display": {
+        "icon": {
+          "item": "minecraft:structure_block",
+          "nbt": "{CustomModelData:6906001}"
+        },
+        "title": {
+          "translate": "advancements.nihility.progression.root.title",
+          "color": "#007069"
+        },
+        "description": {
+          "translate": "advancements.nihility.progression.root.description",
+          "color": "green"
+        }
+      },
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:structure_block"
+                ],
+                "nbt": "{smithed:{id:\"nihility:magnetite\"}}"
+              }
+            ]
+          }
+        }
+      }
+    }

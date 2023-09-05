@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": [
+    {
+      "nbt": "root.temp.in2",
+      "storage": "nihility:storage",
+      "interpret": true,
+      "color": "#3B3B3B",
+      "italic": false
+    },
+    {
+      "text": " "
+    },
+    {
+      "nbt": "root.temp.in1",
+      "storage": "nihility:storage",
+      "interpret": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute if predicate cotv:recipes/shadowblight_bucket store success score $temp smithed.data run function cotv:recipes/remove/shadowblight_bucket

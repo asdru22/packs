@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "nihility:gui/tree/connectors/ew"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 2], "texture": "#missing"},
+				"east": {"uv": [8, 2, 16, 4], "texture": "#missing"},
+				"south": {"uv": [8, 4, 16, 6], "texture": "#missing"},
+				"west": {"uv": [8, 6, 16, 8], "texture": "#missing"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#1"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 10, 0]
+		}
+	}
+}

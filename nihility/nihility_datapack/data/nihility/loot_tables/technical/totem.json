@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "functions": [
+              {
+                "function": "minecraft:copy_nbt",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "nihility:storage"
+                },
+                "ops": [
+                  {
+                    "source": "root.temp.item.tag",
+                    "target": "{}",
+                    "op": "merge"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

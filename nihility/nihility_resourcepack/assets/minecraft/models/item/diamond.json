@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/diamond"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6906000
+      },
+      "model": "nihility:gui/tree/up"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906001
+      },
+      "model": "nihility:gui/tree/down"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906002
+      },
+      "model": "nihility:gui/tree/left"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906003
+      },
+      "model": "nihility:gui/tree/right"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906004
+      },
+      "model": "nihility:gui/tree/connectors/en"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906005
+      },
+      "model": "nihility:gui/tree/connectors/es"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906006
+      },
+      "model": "nihility:gui/tree/connectors/ew"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906007
+      },
+      "model": "nihility:gui/tree/connectors/ns"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906008
+      },
+      "model": "nihility:gui/tree/connectors/nw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906009
+      },
+      "model": "nihility:gui/tree/connectors/sw"
+    }
+  ]
+}

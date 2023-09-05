@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"block.cotv.void_campfire\"}',Lore:['{\"translate\": \"pack.cotv\",\"color\": \"#9728FF\"}']},CustomModelData:6901000,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{id:\"cotv:void_campfire\",block:{id:\"cotv:void_campfire\"}}}}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+
+

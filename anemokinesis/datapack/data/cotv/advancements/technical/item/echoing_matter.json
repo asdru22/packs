@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume_echoing_matter": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{smithed:{id:\"cotv:echoing_matter\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cotv:item/echoing_matter"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/warped_fungus_on_a_stick"
+    },
+
+	"overrides": [
+		{"predicate": {"custom_model_data": 6530000}, "model": "adv:item/fire_wand"},
+        {"predicate": {"custom_model_data": 6530001}, "model": "adv:item/flail"}
+	]
+}

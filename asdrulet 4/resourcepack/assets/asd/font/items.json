@@ -1,0 +1,139 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "asd:item/melee/rusty_axe.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u000a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/accessory/claw.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u000b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/armor/lab_coat.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u000c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/armor/electrician_boots.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u000d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/magic/snow_cannon.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u000e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/melee/pointy_dripstone.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u000f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/drill/copper_drill.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/material/silver_ore.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/material/log.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/melee/silver_sword.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/material/string.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/ranged/wooden_shortbow.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/accessory/gleamerite.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/melee/point_zero.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "asd:item/material/dripstone.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\u0018"
+      ]
+    }
+  ]
+}

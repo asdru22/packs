@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.99
+            }
+          ],
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:vex",
+              "nbt": "{Tags:[\"tfp.worm\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tfp:entity/worm/drag_player/main"
+    }
+  }
+  

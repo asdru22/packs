@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:127,display:{Name:'[{\"translate\":\"item.asd.sculk_clot\",\"italic\":false,\"color\":\"#009295\",\"with\":[{\"text\":\"✫\",\"color\":\"gold\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"✫\",\"color\":\"dark_gray\"},{\"text\":\"]\"}]}]'},asd:{identifier:1b,id:\"sculk_clot\"},RepairCost:-2147483648,CustomModelData:6900008}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+   

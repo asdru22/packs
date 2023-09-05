@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"copper_drill\",Type:\"drill\",Rarity:\"fine\",Name:'{\"translate\":\"item.asd.copper_drill\",\"italic\":false,\"color\":\"#7BED8D\"}',Durability:{max:400},LevelRequired:2,SellPrice:3,Stats:{AttackSpeed:5,CritChance:-50,ElectricityUsed:1,MiningSpeed:1},Ability:['{\"translate\":\"item.asd.lore.copper_drill.ability.1\",\"italic\":false,\"color\":\"white\"}']},display:{Name:'{\"translate\":\"item.asd.copper_drill\",\"italic\":false,\"color\":\"#7BED8D\"}',Lore:['{\"translate\":\"item.asd.lore.drill\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.mining_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.attack_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"-50\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.electricity_used\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"aqua\"}]}','\"\"','{\"translate\":\"item.asd.lore.copper_drill.ability.1\",\"italic\":false,\"color\":\"white\"}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"blue\"},{\"text\":\"3\",\"color\":\"white\"}]}']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Name : \"generic.attack_speed\", Amount :-3.5,Operation:0,UUID:[I;-41740,448,94443,59965],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "",
+                  "amount": 0,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

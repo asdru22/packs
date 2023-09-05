@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,HideFlags:127,Unbreakable:1b,base:{ID:\"silver_sword\",Type:\"melee\",Rarity:\"fine\",Name:'{\"translate\":\"item.asd.silver_sword\",\"italic\":false,\"color\":\"#7BED8D\"}',Durability:{max:160},LevelRequired:3,SellPrice:9,Stats:{AttackSpeed:15,CritChance:10,CritDamage:6,Damage:11}},display:{Name:'{\"translate\":\"item.asd.silver_sword\",\"italic\":false,\"color\":\"#7BED8D\"}',Lore:['{\"translate\":\"item.asd.lore.melee\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"11\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.attack_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"15\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"10\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.crit_damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"6\",\"color\":\"gold\"}]}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"3\",\"color\":\"blue\"},{\"text\":\"9\",\"color\":\"white\"}]}']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Name : \"generic.attack_speed\", Amount :-2.5,Operation:0,UUID:[I;-99729,-69646,26777,87372],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

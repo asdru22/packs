@@ -1,0 +1,1 @@
+scoreboard players add lore.damage asd.d 2

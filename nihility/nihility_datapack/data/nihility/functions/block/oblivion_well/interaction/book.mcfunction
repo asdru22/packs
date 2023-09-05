@@ -1,0 +1,1 @@
+execute unless data entity @s ArmorItems[3].tag.nihility{book:1b} run function nihility:block/oblivion_well/interaction/add_book

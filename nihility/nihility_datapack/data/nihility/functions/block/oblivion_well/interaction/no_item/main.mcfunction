@@ -1,0 +1,2 @@
+execute if score sneak nihility.data matches 1 if score book nihility.data matches 1 if score lapis nihility.data matches 1.. run function nihility:block/oblivion_well/animation/main
+execute unless score sneak nihility.data matches 1 run function nihility:block/oblivion_well/interaction/no_item/take

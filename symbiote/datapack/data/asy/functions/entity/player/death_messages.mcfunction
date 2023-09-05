@@ -1,0 +1,2 @@
+execute if entity @s[tag=asy.damage.bloater] unless score .explode asy.data matches 1 run tellraw @a {"translate":"death.asy.bloater","with":[{"selector":"@s"}]}
+execute if entity @s[tag=asy.damage.bloater] if score .explode asy.data matches 1 run tellraw @a {"translate":"death.asy.bloater_explode","with":[{"selector":"@s"}]}

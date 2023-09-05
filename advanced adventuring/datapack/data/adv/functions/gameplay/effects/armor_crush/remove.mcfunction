@@ -1,0 +1,1 @@
+data remove storage adv:storage root.temp.effects[{id:"armor_crush"}]

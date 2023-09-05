@@ -1,0 +1,2 @@
+execute if score #dx nihility.vars matches 0.. run function nihility:entity/player/keystrokes/position_x/8
+execute if score #dx nihility.vars matches ..-1 run function nihility:entity/player/keystrokes/position_x/-8

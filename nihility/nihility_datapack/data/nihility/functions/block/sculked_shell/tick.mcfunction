@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ obsidian run function nihility:block/sculked_shell/destroy

@@ -1,0 +1,54 @@
+{
+    "pack.asy":"Symbiote",
+
+    "item.asy.fleshy_tentacle":"Fleshy Tentacle",
+    "item.asy.iris":"Iris",
+    "item.asy.symbiotic_glass":"Symbiotic Glass",
+    "item.asy.billboard_crafting_recipe":"Billboard Crafting Recipe",
+    "item.asy.containment_vial":"Containment Vial",
+    "item.asy.glass_visor":"Glass Visor",
+    "item.asy.iron_rich_blood":"Iron-Rich Blood",
+    "item.asy.celadon":"Celadon",
+    "item.asy.flesh_whip":"Flesh Whip",
+    "item.asy.bloater_skin":"Bloater Skin",
+    "item.asy.envoyant_egg":"Envoyant Egg",
+    "item.asy.hive_seeds":"Hive Seeds",
+
+
+    "block.asy.billboard":"Billboard",
+
+    "entity.asy.scraper":"Scraper",
+    "entity.asy.drippler":"Drippler",
+    "entity.asy.flutterpillar":"Flutterpillar",
+    "entity.asy.flutterfly":"Flutterfly",
+    "entity.asy.bloater":"Bloater",
+    "entity.asy.envoyant":"Envoyant",
+
+    "entity.asy.symbiote.scraper":"Scrapers are infecting your body!",
+    "entity.asy.symbiote.flutterpillar":"A Flutterpillar is messing with your vision!",
+    "entity.asy.symbiote.bloater":"A Bloater is sucking your blood!",
+
+    "entity.asy.symbiote.shake":"Shake your head to throw them off!",
+
+    "text.asy.billboard_blocks.in_outline":"Blocks to place in outline (while facing East):",
+    "text.asy.billboard_blocks.purple":"%s: Any kind of wall",
+    "text.asy.billboard_blocks.blue":"%s: Any glass block",
+    "text.asy.billboard_blocks.white":"%s: Billboard block",
+    "text.asy.billboard_blocks.gray":"%s: Optional decoration blocks ",
+    "text.asy.billboard_flip":"Flipped Billboard Controls!",
+    "text.asy.billboard_flip_suggestion":"Type %s to invert Billboard buttons!",
+    "text.asy.billboard_seak":"Sneak when clicking to move faster",
+
+
+    "death.asy.bloater":"%s ran out of red cells",
+    "death.asy.bloater_explode":"%s couln't let go of a Bloater",
+
+    
+    "subtitle.asy.entity.symbiote.leech":"Scaper leeches onto player",
+    "subtitle.asy.entity.symbiote.throw":"Scaper gets thrown",
+    "subtitle.asy.entity.scraper.hurt":"Scaper is hurt",
+    "subtitle.asy.entity.flutterpillar.hurt":"Flutterpillar is hurt",
+    "subtitle.asy.item.whip.use":"Whip lashes",
+    "subtitle.asy.item.whip.crack":"Whip cracks"
+
+}

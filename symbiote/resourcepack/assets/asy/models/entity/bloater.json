@@ -1,0 +1,76 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "asy:entity/bloater/body",
+		"1": "asy:entity/bloater/tentacles",
+		"particle": "asy:entity/bloater/body"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [6, 0, 6],
+			"to": [10, 3, 10],
+			"faces": {
+				"north": {"uv": [6, 8, 8, 9.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [8, 6, 10, 7.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 7.5, 10, 9], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [8, 9, 10, 10.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [6, 10, 4, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [10, 4, 8, 6], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4, 3, 4],
+			"to": [12, 11, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4, 0, 8, 4], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4, 4, 8, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4, 12, 0, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.999, -5, 4],
+			"to": [5.999, 3, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [10, -5, 4],
+			"to": [10, 3, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#1", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -10, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		{
+			"name": "tentacles",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

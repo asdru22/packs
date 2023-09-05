@@ -1,0 +1,6 @@
+{
+    "parent": "nihility:item/shield_blocking",
+    "textures": {
+        "1": "nihility:item/resonating_shield"
+    }
+}

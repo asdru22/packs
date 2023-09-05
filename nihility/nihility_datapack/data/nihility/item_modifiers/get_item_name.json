@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      [
+        {
+          "translate": "item.nihility.quiver_display",
+          "with": [
+            {
+              "score": {
+                "name": "var",
+                "objective": "nihility.data"
+              }
+            },
+            {
+              "selector": "@e[type=item,limit=1,tag=nihility.display,sort=nearest]"
+            }
+          ],
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ]
+  }
+]

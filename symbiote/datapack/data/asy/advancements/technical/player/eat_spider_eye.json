@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "asy.symbiote_id"
+            },
+            "range": {
+              "min": 2,
+              "max": 2
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.99
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spider_eye"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "asy:entity/flutterpillar/mutate"
+  }
+}

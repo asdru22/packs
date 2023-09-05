@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "asy:chance/20"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": ".override"
+          },
+          "score": "asy.data"
+        },
+        "range": 1
+      }
+    ]
+  }
+  

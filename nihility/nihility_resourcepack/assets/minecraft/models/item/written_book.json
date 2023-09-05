@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6906000
+      },
+      "model": "nihility:item/rupture_entry_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906001
+      },
+      "model": "nihility:item/rupture_entry_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6906002
+      },
+      "model": "nihility:item/the_omnihility"
+    }
+  ]
+}

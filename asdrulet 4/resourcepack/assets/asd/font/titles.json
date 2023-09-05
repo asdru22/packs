@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "asd:font/titles/brackets.png",
+            "ascent": 21,
+            "height": 21,
+            "chars": [
+                "\ua011\ua012"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "asd:font/titles/boss_test.png",
+            "ascent": 84,
+            "height": 84,
+            "chars": [
+                "\ua013"
+            ]
+        }
+    ]
+}

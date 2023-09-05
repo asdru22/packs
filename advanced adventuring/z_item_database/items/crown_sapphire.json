@@ -1,0 +1,23 @@
+{
+    "core":{
+        "name": "Sapphire Crown",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":1,
+        "custom_model_data": 5
+    },
+    "attributes":{
+        "max_mana":40,
+        "armor":1
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b"
+    },
+    "recipe":{
+        "recipe":[
+        ["","sapphire:recovery_compass",""],
+        ["","gold_ingot",""],
+        ["gold_ingot","gold_ingot","gold_ingot"]
+        ]
+    }
+} 

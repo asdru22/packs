@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beef",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"cotv:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.cotv.shadowblight_clot\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.cotv\",\"color\": \"#9728FF\"}']},smithed:{id:\"cotv:shadowblight_clot\"},CustomModelData:6901007}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "pools": [{
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:item",
+        "weight": 1,
+        "functions": [{
+            "function": "set_nbt",
+            "tag": "{CustomModelData:6901009,smithed:{id:\"asy:celadon\"}}"
+          },
+          {
+            "function": "minecraft:set_name",
+            "name": {
+              "translate": "item.asy.celadon",
+              "italic": false
+            }
+          },
+          {
+            "function": "minecraft:set_lore",
+            "lore": [{
+              "translate": "pack.asy",
+              "color": "#990E6B",
+              "italic": true
+            }]
+          }
+        ],
+        "name": "minecraft:recovery_compass"
+      }]
+    }]
+  }

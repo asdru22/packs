@@ -1,0 +1,44 @@
+{
+    "entity.symbiote.leech": {
+        "sounds":   [
+            "asy:entity/symbiote/leech"
+        ],
+        "subtitle" : "subtitle.asy.entity.symbiote.leech"
+    },
+    "entity.symbiote.throw": {
+        "sounds":   [
+            "asy:entity/symbiote/throw"
+        ],
+        "subtitle" : "subtitle.asy.entity.symbiote.throw"
+    },
+    "entity.scraper.hurt": {
+        "sounds":   [
+            "asy:entity/scraper/hurt_1",
+            "asy:entity/scraper/hurt_2",
+            "asy:entity/scraper/hurt_3"
+        ],
+        "subtitle" : "subtitle.asy.entity.scraper.hurt"
+    },
+    "entity.flutterpillar.hurt": {
+        "sounds":   [
+            "asy:entity/flutterpillar/hurt_1",
+            "asy:entity/flutterpillar/hurt_2",
+            "asy:entity/flutterpillar/hurt_3"
+        ],
+        "subtitle" : "subtitle.asy.entity.flutterpillar.hurt"
+    },
+    "item.whip.use": {
+        "sounds":   [
+            "asy:item/whip/use1",
+            "asy:item/whip/use2",
+            "asy:item/whip/use3"
+        ],
+        "subtitle" : "subtitle.asy.item.whip.use"
+    },
+    "item.whip.crack": {
+        "sounds":   [
+            "asy:item/whip/crack"
+        ],
+        "subtitle" : "subtitle.asy.item.whip.crack"
+    }
+}

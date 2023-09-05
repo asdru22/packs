@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "tfp:tree",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1452327570,
+      "spacing": 20,
+      "separation": 7
+    }
+  }

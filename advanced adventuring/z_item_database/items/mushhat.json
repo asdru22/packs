@@ -1,0 +1,25 @@
+{
+    "core":{
+        "name": "Mushcap",
+        "minecraft_id":"leather_helmet",
+        "type":"Helmet",
+        "rarity":2,
+        "custom_model_data": 8,
+        "color" : 23532
+    },
+    "attributes":{
+        "atk_dmg":1,
+        "ranged_dmg":1,
+        "magic_dmg":1,
+        "mana_regen":10,
+        "turret_dmg":1,
+        "armor":1,
+        "max_health":2
+    },
+    "other":{
+        "additional_adv_tag":"Hat:1b",
+        "lore":[
+            "§oDyable"
+        ]
+    }
+} 

@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "player",
+        "advancements": {
+          "adv:technical/player_hurt_entity": {
+            "typeless":true
+          }
+        }
+      }
+    }
+  }
+  

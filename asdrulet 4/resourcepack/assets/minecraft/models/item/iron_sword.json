@@ -1,0 +1,22 @@
+{
+"overrides": [
+{
+"predicate": {
+"custom_model_data": 1
+},
+"model": "asd:item/melee/pointy_dripstone"
+},
+{
+"predicate": {
+"custom_model_data": 2
+},
+"model": "asd:item/melee/silver_sword"
+},
+{
+"predicate": {
+"custom_model_data": 3
+},
+"model": "asd:item/melee/point_zero"
+}
+]
+}

@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "gh:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag.Damage",
+        "target": "Damage",
+        "op": "replace"
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+        {
+            "translate": "space.-max"
+          },
+          {
+      "score": {
+        "name": "damage",
+        "objective": "nihility.data"
+      },
+      "color": "#FFD000"
+    },
+    {
+        "translate": "space.-max"
+      }
+    ]
+  }  

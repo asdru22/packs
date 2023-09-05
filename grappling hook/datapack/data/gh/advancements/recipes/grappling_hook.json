@@ -1,0 +1,16 @@
+{
+    "rewards": {
+      "function": "gh:entity/player/nbt_recipe",
+      "loot": [
+        "gh:item/grappling_hook"
+      ]
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "gh:nbt/grappling_hook"
+        }
+      }
+    }
+  }

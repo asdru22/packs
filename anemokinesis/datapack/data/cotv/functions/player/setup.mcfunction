@@ -1,0 +1,1 @@
+function cotv:entity/setup

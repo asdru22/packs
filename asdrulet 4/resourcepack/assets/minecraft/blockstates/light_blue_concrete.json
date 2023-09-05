@@ -1,0 +1,26 @@
+{
+    "variants":{
+      "":[
+        {
+          "model":"block/dripstone_block",
+          "weight":1
+        },
+        {
+          "model":"block/dirt",
+          "weight":5
+        },
+        {
+          "model":"block/coarse_dirt",
+          "weight":5
+        },
+        {
+          "model":"block/rooted_dirt",
+          "weight":5
+        },
+        {
+          "model":"block/granite",
+          "weight":2
+        }
+      ]
+    }
+  }

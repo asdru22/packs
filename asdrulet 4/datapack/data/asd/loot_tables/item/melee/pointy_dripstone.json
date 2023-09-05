@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"pointy_dripstone\",Type:\"melee\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.pointy_dripstone\",\"italic\":false,\"color\":\"#9FBCBB\"}',Durability:{max:20},LevelRequired:1,SellPrice:1,Stats:{AttackSpeed:10,CritChance:20,CritDamage:5,Damage:7,MovementSpeed:-10}},display:{Name:'{\"translate\":\"item.asd.pointy_dripstone\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.melee\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"7\",\"color\":\"red\"}]}','{\"translate\":\"item.asd.lore.attack_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"10\",\"color\":\"yellow\"}]}','{\"translate\":\"item.asd.lore.crit_chance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"20\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.crit_damage\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"gold\"}]}','{\"translate\":\"item.asd.lore.movement_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"-10\",\"color\":\"yellow\"}]}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"blue\"},{\"text\":\"1\",\"color\":\"white\"}]}']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Name : \"generic.attack_speed\", Amount :-3.0,Operation:0,UUID:[I;-28429,-77190,47704,-80588],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\", Name : \"generic.movement_speed\", Amount :-0.01,Operation:0,UUID:[I;-17962,-68116,41768,-48877],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

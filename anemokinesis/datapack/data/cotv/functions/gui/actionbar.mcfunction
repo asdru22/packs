@@ -1,0 +1,2 @@
+function cotv:gui/void_tolerance/init
+title @s actionbar [{"text":"","font":"cotv:main"},{"nbt":"root.temp.actionbar.void_tolerance[]","storage":"cotv:storage","interpret": true,"separator": {"text":"\u000f"}}]

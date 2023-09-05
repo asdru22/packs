@@ -1,0 +1,18 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_helmet",
+        "layer1": "item/leather_helmet_overlay"
+    },
+	"overrides": [
+		{"predicate": {"custom_model_data": 6530000}, "model": "adv:item/archer_hat"},
+		{"predicate": {"custom_model_data": 6530001}, "model": "adv:item/explorer_hat"},
+		{"predicate": {"custom_model_data": 6530002}, "model": "adv:item/miner_helmet"},
+		{"predicate": {"custom_model_data": 6530003}, "model": "adv:item/shellmet"},
+		{"predicate": {"custom_model_data": 6530004}, "model": "adv:item/crown_ruby"},
+		{"predicate": {"custom_model_data": 6530005}, "model": "adv:item/crown_sapphire"},
+		{"predicate": {"custom_model_data": 6530006}, "model": "adv:item/crown_peridot"},
+		{"predicate": {"custom_model_data": 6530007}, "model": "adv:item/crown_diamond"},
+		{"predicate": {"custom_model_data": 6530008}, "model": "adv:item/mushcap"}
+	]
+}

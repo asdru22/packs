@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,HideFlags:127,Unbreakable:1b,base:{ID:\"electrician_boots\",Type:\"armor\",Armor:\"boots\",Rarity:\"common\",Name:'{\"translate\":\"item.asd.electrician_boots\",\"italic\":false,\"color\":\"#9FBCBB\"}',Durability:{max:50},LevelRequired:2,SellPrice:4,Stats:{Defense:1,MaxElectricity:5,MovementSpeed:5,KnockbackResistance:5}},display:{Name:'{\"translate\":\"item.asd.electrician_boots\",\"italic\":false,\"color\":\"#9FBCBB\"}',Lore:['{\"translate\":\"item.asd.lore.armor\",\"italic\":false,\"color\":\"dark_gray\"}','\"\"','{\"translate\":\"item.asd.lore.defense\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"1\",\"color\":\"green\"}]}','{\"translate\":\"item.asd.lore.max_electricity\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"aqua\"}]}','{\"translate\":\"item.asd.lore.knockback_resistance\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"dark_purple\"}]}','{\"translate\":\"item.asd.lore.movement_speed\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"5\",\"color\":\"yellow\"}]}','\"\"','{\"translate\":\"item.asd.lore.LevelRequired_SellPrice\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"text\":\"2\",\"color\":\"blue\"},{\"text\":\"4\",\"color\":\"white\"}]}'],color:34},AttributeModifiers:[{AttributeName:\"generic.movement_speed\", Name : \"generic.movement_speed\", Amount :0.005,Operation:0,UUID:[I;90490,50588,-56764,-76468],Slot:\"feet\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

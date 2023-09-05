@@ -1,0 +1,96 @@
+{
+  "criteria": {
+    "scraper": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.scraper\"]}"
+          }
+        }
+      }
+    },
+    "flutterpillar": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.flutterpillar\"]}"
+          }
+        }
+      }
+    },
+    "flutterfly": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.flutterfly\"]}"
+          }
+        }
+      }
+    },
+    "bloater": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.bloater\"]}"
+          }
+        }
+      }
+    },
+    "target_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{smithed:{id:\"asy:glass_visor\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"asy.symbiote.ignore\"]}"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "target_player"
+    ],
+    [
+      "scraper",
+      "flutterpillar",
+      "flutterfly",
+      "bloater"
+    ]
+  ],
+  "rewards": {
+    "function": "asy:entity/symbiote/hit_player"
+  }
+}

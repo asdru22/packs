@@ -1,0 +1,3 @@
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"asy:iris"}}},{Count:1b,id:"minecraft:ender_pearl"},{Count:1b,id:"minecraft:glass"}]} run loot replace block ~ ~ ~ container.16 loot asy:item/symbiotic_glass
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 3 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{smithed:{id:"asy:iron_rich_blood"}}},{Count:1b,id:"minecraft:raw_iron"},{Count:1b,tag:{smithed:{id:"asy:fleshy_tentacle"}}}]} run loot replace block ~ ~ ~ container.16 loot asy:item/celadon

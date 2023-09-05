@@ -1,0 +1,20 @@
+{
+    "core":{
+        "name": "Katana",
+        "minecraft_id":"iron_sword",
+        "type":"Melee",
+        "rarity":2,
+        "custom_model_data": 0
+    },
+    "attributes":{
+        "atk_dmg":9,
+        "atk_spd":1.6
+    },
+    "other":{
+        "lore":[
+            "After 4 fully charged hits within",
+            "3.5 seconds, your 4th attack will",
+            "send out a powerful slash."
+        ]
+    }
+}

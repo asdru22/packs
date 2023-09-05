@@ -1,0 +1,1 @@
+execute if entity @s[scores={nihility.use_coas=1..}] run function nihility:item/coas

@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.asy.billboard",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6901000,smithed:{id:\"asy:billboard\"},BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{block:{id:\"asy:billboard\"}}}}]}}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [{
+                  "translate": "pack.asy",
+                  "color": "#990E6B",
+                  "italic": true
+                }]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

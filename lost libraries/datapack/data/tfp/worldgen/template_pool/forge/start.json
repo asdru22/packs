@@ -1,0 +1,15 @@
+{
+    "name": "tfp:forge/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tfp:forge/start",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+}

@@ -1,0 +1,2 @@
+summon armor_stand ~ ~-0.5 ~ {Marker:1b,Invisible:1b,Tags:["nihility.entity","nihility.block","nihility.block.magnetic_forge"],ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:6906002}}]}
+setblock ~ ~ ~ furnace{Lock:"\\uf001nihility.magnetic_forge",CustomName:'{"translate":"block.nihility.magnetic_forge"}'}
