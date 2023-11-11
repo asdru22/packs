@@ -1,0 +1,89 @@
+{
+  "criteria": {
+    "melee_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "atr:player/melee",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ranged_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "atr:player/ranged",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "magic_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "atr:player/magic",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affected_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#atr:affected",
+          "nbt": "{Tags:[atr.affected]}"
+        }
+      }
+    },
+    "not_affected_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#atr:affected"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "affected_entity",
+      "not_affected_entity"
+    ],
+    [
+      "melee_hit",
+      "ranged_hit",
+      "magic_hit"
+    ]
+  ],
+  "rewards": {
+    "function": "atr:events/player/hurt_entity/init"
+  }
+}

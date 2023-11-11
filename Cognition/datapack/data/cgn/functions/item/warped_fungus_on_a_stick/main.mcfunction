@@ -1,0 +1,1 @@
+function cgn:item/warped_fungus_on_a_stick/macro with storage srn:storage root.temp.item.tag.cgn

@@ -1,0 +1,2 @@
+scoreboard players remove @s[scores={atr.regeneration_cooldown=1..}] atr.regeneration_cooldown 1
+execute unless score @s atr.stat.max_health = @s atr.stat.current_health if score @s atr.regeneration_cooldown matches 0 run function atr:player/health_regeneration/main

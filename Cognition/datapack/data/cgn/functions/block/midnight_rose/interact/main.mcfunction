@@ -1,0 +1,1 @@
+execute if data storage srn:storage root.temp.item{id:"minecraft:dragon_breath"} if entity @s[scores={cgn.dummy=..6}] if biome ~ ~ ~ #cgn:midnight_rose_can_grow run function cgn:block/midnight_rose/interact/dragon_breath

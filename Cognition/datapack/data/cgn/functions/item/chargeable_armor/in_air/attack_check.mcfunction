@@ -1,0 +1,1 @@
+execute if score #max_attacks cgn.dummy matches 1.. run function cgn:item/chargeable_armor/in_air/attack with storage srn:storage root.temp

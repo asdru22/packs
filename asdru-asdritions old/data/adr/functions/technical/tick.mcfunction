@@ -1,0 +1,1 @@
+execute as @e[type=#adr:affected/tick,tag=adr.tick] at @s run function adr:technical/entity/timers/tick

@@ -1,0 +1,68 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:880005,cgn:{id:\"ebonite_upgrade_smithing_template\"}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.cgn.ebonite_upgrade_smithing_template",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate":"upgrade.cgn.ebonite_upgrade",
+                    "italic":false,
+                    "color":"gray"
+                  },
+                  "",
+                  {
+                    "translate":"item.minecraft.smithing_template.applies_to",
+                    "italic":false,
+                    "color":"gray"
+                  },
+                  {
+                    "translate":"item.cgn.smithing_template.ebonite_upgrade.applies_to",
+                    "italic":false,
+                    "color":"blue"
+                  },
+                  {
+                    "translate":"item.minecraft.smithing_template.ingredients",
+                    "italic":false,
+                    "color":"gray"
+                  },
+                  {
+                    "translate":"item.cgn.smithing_template.ebonite_upgrade.ingredients",
+                    "italic":false,
+                    "color":"blue"
+                  },
+                  {
+                    "translate": "cgn.tooltip",
+                    "font": "cgn:main",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      {"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+

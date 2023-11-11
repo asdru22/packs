@@ -1,0 +1,2 @@
+execute on target if score @s atr.id = #temp atr.int run scoreboard players set #temp2 atr.int 1
+execute if score #temp2 atr.int matches 1 store result score $damage atr.int run data get entity @s ArmorItems[3].tag.atr.damage

@@ -1,0 +1,1 @@
+$summon item ~ ~1.5 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5985,PickupDelay:100,Invulnerable:1b,Motion:[0.0,0.066,0.0],CustomName:'{"translate":"atr.pop_up.default","with":["$(damage)","$(icon)"],"color":"$(color)"}',Item:{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:888000}}}

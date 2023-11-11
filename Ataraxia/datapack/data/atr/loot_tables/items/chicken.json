@@ -1,0 +1,34 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bow",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{HideFlags:254,AttributeModifiers:[],CustomModelData:5,display:{Name:'{\"translate\": \"atr.item.chicken\", \"italic\": false, \"color\": \"white\"}',Lore:['{\"translate\": \"atr.lore.type\", \"with\": [{\"translate\": \"atr.rarity.common\"}, {\"translate\": \"atr.type.weapon\"}], \"color\": \"#FFFFFF\", \"italic\": false}','\"\"','{\"translate\": \"atr.lore.stat\", \"with\": [{\"translate\": \"atr.stat.ranged_damage\"}, {\"text\": \"34\", \"color\": \"active\"}], \"italic\": false, \"color\": \"gray\"}','\"\"','{\"translate\": \"atr.lore.stat\", \"with\": [{\"translate\": \"atr.stat.defense\"}, {\"text\": \"54\", \"color\": \"passive\"}], \"italic\": false, \"color\": \"gray\"}',]},atr:{type:weapon,stats:{ranged_damage:34,defense:54,},rarity:common}}"
+      },
+      {
+       "function": "minecraft:set_attributes",
+       "modifiers": [
+        {
+         "attribute": "minecraft:generic.luck",
+         "name": "",
+         "amount": {
+          "min": 1e-15,
+          "max": 1e-08
+         },
+         "operation": "addition",
+         "slot": "mainhand"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

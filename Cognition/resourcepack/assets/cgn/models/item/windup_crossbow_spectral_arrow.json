@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "cgn:item/windup_crossbow_spectral_arrow"
+    }
+}

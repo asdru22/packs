@@ -1,0 +1,1 @@
+//Go to https://misode.github.io/predicate/ to generate a custom predicate! 

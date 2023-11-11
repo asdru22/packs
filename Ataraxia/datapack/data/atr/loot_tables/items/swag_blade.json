@@ -1,0 +1,34 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond_sword",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{HideFlags:254,AttributeModifiers:[],CustomModelData:1,display:{Name:'{\"translate\": \"atr.item.swag_blade\", \"italic\": false, \"color\": \"white\"}',Lore:['{\"translate\": \"atr.lore.type\", \"with\": [{\"translate\": \"atr.rarity.epic\"}, {\"translate\": \"atr.type.weapon\"}], \"color\": \"#0070DD\", \"italic\": false}','\"\"','{\"translate\": \"atr.lore.stat\", \"with\": [{\"translate\": \"atr.stat.melee_damage\"}, {\"text\": \"34\", \"color\": \"#FF0000\"}], \"italic\": false, \"color\": \"gray\"}','\"\"','{\"translate\": \"atr.lore.set_bonus\", \"color\": \"gold\", \"italic\": false}','{\"translate\": \"atr.lore.swag_blade.set_bonus.1\", \"color\": \"white\", \"italic\": false}','{\"translate\": \"atr.lore.swag_blade.set_bonus.2\", \"color\": \"white\", \"italic\": false}','\"\"','{\"translate\": \"atr.lore.level_required\", \"with\": [{\"text\": \"54\", \"color\": \"yellow\"}], \"italic\": false, \"color\": \"gray\"}','{\"translate\": \"atr.lore.durability\", \"with\": [{\"text\": \"600\", \"color\": \"white\"}, {\"text\": \"600\", \"color\": \"white\"}], \"italic\": false, \"color\": \"gray\"}','\"\"','{\"translate\": \"atr.lore.swag_blade.lore.1\", \"color\": \"dark_gray\", \"italic\": false}','{\"translate\": \"atr.lore.swag_blade.lore.2\", \"color\": \"dark_gray\", \"italic\": false}',]},atr:{type:weapon,stats:{melee_damage:34,},level_required:54,durability:{current:600,max:600,repaired:1b},rarity:epic}}"
+      },
+      {
+       "function": "minecraft:set_attributes",
+       "modifiers": [
+        {
+         "attribute": "minecraft:generic.luck",
+         "name": "",
+         "amount": {
+          "min": 1e-15,
+          "max": 1e-08
+         },
+         "operation": "addition",
+         "slot": "mainhand"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

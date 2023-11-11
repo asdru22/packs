@@ -1,0 +1,1 @@
+execute if entity @s[tag=adr.decorated_pot] run function adr:block/decorated_pot/tick

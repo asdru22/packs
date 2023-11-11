@@ -1,0 +1,2 @@
+scoreboard players set #max_attacks cgn.dummy 8
+$execute as @e[type=!#srn:inanimate,tag=!cgn.me,distance=..10,nbt=!{Owner:$(UUID)},sort=nearest] at @s positioned over motion_blocking_no_leaves if entity @s[dx=0,dy=1000,dz=0] run function cgn:item/chargeable_armor/in_air/attack_check

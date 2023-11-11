@@ -1,0 +1,1 @@
+execute as @a[tag=atr.death_schedule] at @s run function atr:player/death/respawn

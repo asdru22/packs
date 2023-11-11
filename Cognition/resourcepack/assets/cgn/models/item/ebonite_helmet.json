@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "cgn:item/empty",
+        "layer1": "cgn:item/ebonite_helmet"
+    }
+}

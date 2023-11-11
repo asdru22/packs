@@ -1,0 +1,77 @@
+{
+    "item.double_edged_sword.throw": {
+        "sounds":   [
+            "cgn:item/double_edged_sword/throw1",
+            "cgn:item/double_edged_sword/throw2",
+            "cgn:item/double_edged_sword/throw3"
+        ],
+        "subtitle" : "subtitle.cgn.item.double_edged_sword.throw",
+        "category" : "master"
+    },
+    "item.double_edged_sword.bounce": {
+        "sounds":   [
+            "cgn:item/double_edged_sword/bounce1",
+            "cgn:item/double_edged_sword/bounce2",
+            "cgn:item/double_edged_sword/bounce3"
+        ],
+        "subtitle" : "subtitle.cgn.item.double_edged_sword.bounce",
+        "category" : "master"
+    },
+    "item.double_edged_sword.swoosh": {
+        "sounds":   [
+            {
+                "name":"cgn:item/double_edged_sword/swoosh",
+                "pitch":1.05
+            },
+            {
+                "name":"cgn:item/double_edged_sword/swoosh",
+                "pitch":1.1
+            },
+            {
+                "name":"cgn:item/double_edged_sword/swoosh",
+                "pitch":0.9
+            },
+            {
+                "name":"cgn:item/double_edged_sword/swoosh",
+                "pitch":0.95
+            },
+            {
+                "name":"cgn:item/double_edged_sword/swoosh",
+                "pitch":1
+            }
+        ],
+        "subtitle" : "subtitle.cgn.item.double_edged_sword.swoosh",
+        "category" : "master"
+    },
+    "item.double_edged_sword.punch": {
+        "sounds":   [
+            {
+                "name":"random/anvil_land",
+                "pitch":2
+            }
+        ],
+        "subtitle" : "subtitle.cgn.item.double_edged_sword.punch",
+        "category" : "master"
+    },
+    "item.chargeable_armor.land": {
+        "sounds":   [
+            {
+                "name":"item/trident/thunder2",
+                "pitch":1.5
+            },
+            {
+                "name":"item/trident/thunder1",
+                "pitch":1.5
+            }
+        ],
+        "subtitle" : "subtitle.cgn.item.chargeable_armor.land",
+        "category" : "master"
+    },
+    "item.chargeable_armor.jump": {
+        "sounds":   [
+            "cgn:item/chargeable_armor/jump"
+        ],
+        "subtitle" : "subtitle.cgn.item.chargeable_armor.jump",
+        "category" : "master"
+    }
+}

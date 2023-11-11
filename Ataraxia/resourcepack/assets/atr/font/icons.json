@@ -1,0 +1,28 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "atr:gui/icons/health.png",
+        "ascent": 7,
+        "chars": [
+          "h"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "atr:gui/icons/defense.png",
+        "ascent": 7,
+        "chars": [
+          "d"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "atr:gui/icons/mana.png",
+        "ascent": 7,
+        "chars": [
+          "m"
+        ]
+      }
+    ]
+  }

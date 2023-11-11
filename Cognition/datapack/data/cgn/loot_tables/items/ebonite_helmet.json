@@ -1,0 +1,116 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:880001,cgn:{id:\"ebonite_helmet\"},srn:{durability:[407,407],repaired:1b},Unbreakable:1b,HideFlags:126,display:{color:4325381}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.cgn.ebonite_helmet",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.knockback_resistance",
+                  "name": "",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  "",
+                  {
+                    "translate":"item.modifiers.head",
+                    "color":"gray",
+                    "italic":false
+                  },
+                  {
+                    "translate":"attribute.modifier.plus.0",
+                    "color":"blue",
+                    "italic":false,
+                    "with":[
+                      "3",
+                      {
+                        "translate":"attribute.name.generic.armor"
+                      }
+                    ]
+                  },
+                  {
+                    "translate":"attribute.modifier.plus.0",
+                    "color":"blue",
+                    "italic":false,
+                    "with":[
+                      "3",
+                      {
+                        "translate":"attribute.name.generic.armor_toughness"
+                      }
+                    ]
+                  },
+                  {
+                    "translate":"attribute.modifier.plus.0",
+                    "color":"blue",
+                    "italic":false,
+                    "with":[
+                      "1",
+                      {
+                        "translate":"attribute.name.generic.knockback_resistance"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.durability",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      407,
+                      407
+                    ]
+                  },
+                  {
+                    "translate": "cgn.tooltip",
+                    "font": "cgn:main",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      {"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+

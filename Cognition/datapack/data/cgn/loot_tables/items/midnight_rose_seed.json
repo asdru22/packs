@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{Item:{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:880009,srn:{crop:\"midnight_rose_seed\"}}},ItemDropChance:0f,Fixed:1b,Invisible:1b,Silent:1b,Invulnerable:1b,Tags:[\"srn.item_frame_marker\"]},cgn:{id:\"midnight_rose_seed\"},CustomModelData:880000}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.cgn.midnight_rose_seed",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": "cgn.tooltip",
+                        "font": "cgn:main",
+                        "color": "white",
+                        "italic": false,
+                        "with": [
+                          {"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

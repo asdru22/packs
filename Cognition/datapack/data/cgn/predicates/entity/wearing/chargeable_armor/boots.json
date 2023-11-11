@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "items": [
+              "minecraft:leather_boots"
+            ],
+            "nbt": "{cgn:{id:\"gloomstone_boots\"}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "items": [
+              "minecraft:leather_boots"
+            ],
+            "nbt": "{cgn:{id:\"ebonite_boots\"}}"
+          }
+        }
+      }
+    }
+  ]
+}

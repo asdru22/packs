@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "setup": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "atr:player/setup"
+  }
+}

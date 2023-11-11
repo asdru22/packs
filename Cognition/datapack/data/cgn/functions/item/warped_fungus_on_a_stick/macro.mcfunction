@@ -1,0 +1,1 @@
+$function cgn:item/$(id)/init

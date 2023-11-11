@@ -1,0 +1,1 @@
+execute unless score @s srn.id = #temp cgn.dummy run function cgn:item/double_edged_sword/hit/damage

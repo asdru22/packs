@@ -1,0 +1,2 @@
+function cgn:item/double_edged_sword/hit/get_origin with entity @e[type=item_display,tag=cgn.double_edged_sword,tag=cgn.me,limit=1,sort=nearest] item.tag.cgn
+function cgn:item/double_edged_sword/hit/apply_damage with storage srn:storage root.temp

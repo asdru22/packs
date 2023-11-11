@@ -1,0 +1,1 @@
+$execute as $(out) if entity @s[gamemode=!creative] run function cgn:item/double_edged_sword/drop/check_offhand

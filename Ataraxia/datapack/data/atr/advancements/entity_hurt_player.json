@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "#atr:affected",
+              "nbt": "{Tags:[\"atr.affected\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atr:events/player/is_hurt/by_mob"
+    }
+  }
+  

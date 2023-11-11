@@ -1,0 +1,57 @@
+{
+    "atr.hotbar.default":"%s/%s%s        %s%s        %s/%s%s",
+    "atr.pop_up.default":"%s%s",
+    "atr.pop_up.xp_dropped":"+%sXP %s",
+    "atr.mob_name": "%s (%s%s)",
+    "atr.levelup.title": "Level Up!",
+    "atr.levelup.subtitle": "[%s] ➟ [%s]",
+
+
+
+    "atr.stat.melee_damage": "Melee Damage",
+    "atr.stat.ranged_damage": "Ranged Damage",
+    "atr.stat.magic_damage": "Magic Damage",
+    "atr.stat.crit_chance": "Crit Chance",
+    "atr.stat.crit_damage": "Crit Damage",
+    "atr.stat.attack_speed": "Attack Speed",
+    "atr.stat.scope": "Scope",
+    "atr.stat.vitality": "Vitality",
+    "atr.stat.vigor": "Vigor",
+
+    "atr.stat.max_health": "Max Health",
+    "atr.stat.health_regeneration": "Health Regeneration",
+    "atr.stat.defense": "Defense",
+    "atr.stat.movement_speed": "Movement Speed",
+    "atr.stat.endurance": "Endurance",
+    "atr.stat.draw_speed": "Draw Speed",
+
+    "atr.stat.max_mana": "Max Mana",
+    "atr.stat.mana_regeneration": "Mana Regeneration",
+    
+    "atr.stat.": "",
+
+
+    "atr.rarity.common": "Common",
+    "atr.rarity.rare": "Rare",
+    "atr.rarity.epic": "Epic",
+    "atr.rarity.mythic": "Mythic",
+    "atr.rarity.legendary": "Legendary",
+
+    "atr.type.weapon": "Weapon",
+    "atr.type.accessory": "Accessory",
+    "atr.type.helmet": "Helmet",
+    "atr.type.chestplate": "Chestplate",
+    "atr.type.leggings": "Leggings",
+    "atr.type.boots": "Boots",
+    "atr.type.material": "Material",
+
+    "atr.lore.type": "%s %s",
+    "atr.lore.stat": "%s: %s",
+    "atr.lore.set_bonus": "Full Set Bonus:",
+    "atr.lore.durability": "Durability: %s/%s",
+    "atr.lore.level_required": "Level Required: %s"
+
+
+
+
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "item":"iron_sword",
+        "name":"Giulio",
+        "type":"weapon",
+        "stats":{
+            "melee_damage":34,
+            "crit_chance": 100,
+            "crit_damage": 40,
+            "max_health": 45,
+            "defense": 2330
+        },
+        "custom_model_data":1,
+        "durability":600,
+        "rarity":"legendary",
+        "level_required":1,
+        "lore":"cool\nas heck",
+        "set_bonus":"eternal swag\nand baller"
+    }
+]
