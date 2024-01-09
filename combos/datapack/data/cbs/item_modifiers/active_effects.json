@@ -1,0 +1,5 @@
+{
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name":{"translate":"cbs.effects.prefix","with":[{"nbt":"EnderItems[0].tag.cbs.effects[].display","entity":"@s","separator":"","interpret":true}]}
+}

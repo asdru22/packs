@@ -1,0 +1,1 @@
+{"pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "minecraft:stick", "functions": [{"function": "minecraft:set_nbt", "tag": "{cbs:{id:\"thundering_staff\",name:'{\"translate\":\"cbs.item.thundering_staff\",\"italic\": false}'},CustomModelData:3,display:{Name:'\"\"'}}"}]}]}]}

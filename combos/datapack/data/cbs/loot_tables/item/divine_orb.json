@@ -1,0 +1,1 @@
+{"pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "minecraft:stick", "functions": [{"function": "minecraft:set_nbt", "tag": "{cbs:{id:\"divine_orb\",name:'{\"translate\":\"cbs.item.divine_orb\",\"italic\": false}'},CustomModelData:4,display:{Name:'\"\"'}}"}]}]}]}

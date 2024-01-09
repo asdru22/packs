@@ -1,0 +1,1 @@
+execute if entity @s[type=arrow] run function cbs:projectiles/arrow/second

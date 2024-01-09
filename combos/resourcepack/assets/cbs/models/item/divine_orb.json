@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "cbs:item/divine_orb"
+	},
+	"display": {
+		"gui": {
+			"rotation": [
+			  0,
+			  0,
+			  0
+			],
+			"translation": [
+			  45,
+			  0,
+			  0
+			],
+			"scale": [
+			  1,
+			  1,
+			  1
+			]
+		  },
+	  "ground": {
+		"rotation": [
+		  0,
+		  0,
+		  0
+		],
+		"translation": [
+		  0,
+		  0,
+		  0
+		],
+		"scale": [
+		  0,
+		  0,
+		  0
+		]
+	  },
+	  "firstperson_lefthand": {
+		"rotation": [
+		  0,
+		  0,
+		  0
+		],
+		"translation": [
+		  0,
+		  13,
+		  0
+		],
+		"scale": [
+			0.75,
+			0.75,
+			0.75
+		]
+	  },
+	  "firstperson_righthand": {
+		"rotation": [
+		  0,
+		  0,
+		  0
+		],
+		"translation": [
+		  0,
+		  13,
+		  0
+		],
+		"scale": [
+		  0.75,
+		  0.75,
+		  0.75
+		]
+	  },
+	  "thirdperson_righthand": {
+		"rotation": [
+		  0,
+		  0,
+		  0
+		],
+		"translation": [
+		  0,
+		  -2,
+		  0
+		],
+		"scale": [
+		  0.75,
+		  0.75,
+		  0.75
+		]
+	  }
+	}
+  }
+  

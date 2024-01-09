@@ -1,0 +1,1 @@
+$team modify cbs.prefix.$(id) prefix ""

@@ -1,0 +1,140 @@
+[
+	{
+		"name":"Cat Paw",
+		"pos":[23,57,-18],
+		"offense":3,
+		"defense":2,
+		"utility":1,
+		"combos":[
+			{
+				"name":"Smack",
+				"keys":"LL",
+				"cost":150,
+				"desc":"deal 3 damage to one enemy"
+			},
+			{
+				"name":"Dash",
+				"keys":"RL",
+				"cost":220,
+				"desc":"dash 5 blocks forward"
+			},
+			{
+				"name":"Leap",
+				"keys":"LR",
+				"cost":650,
+				"desc":"jump high in the air, dealing 5 damage when landing to all enemies in a 5 block radius"
+			},
+			{
+				"name":"Thick Fur",
+				"keys":"RR",
+				"cost":400,
+				"desc":"gain 10 defense for 10 seconds"
+			}
+		]
+	},
+	{
+		"name":"Bow",
+		"pos":[28,57,-18],
+		"offense":3,
+		"defense":0,
+		"utility":2,
+		"combos":[
+			{
+				"name":"Shoot",
+				"keys":"LL",
+				"cost":230,
+				"desc":"shoot an arrow that deals 2 damage"
+			},
+			{
+				"name":"Arrow Rain",
+				"keys":"LR",
+				"cost":400,
+				"desc":"20 arrows fall where you're looking at"
+			},
+			{
+				"name":"Detonate",
+				"keys":"RL",
+				"cost":650,
+				"desc":"explode all arrows in a 20 block radius, dealing 1 damage each"
+			},
+			{
+				"name":"Vanish",
+				"keys":"RR",
+				"cost":400,
+				"desc":"become invisible for 10 seconds"
+			}
+		]
+	},
+	{
+		"name":"Thundering Staff",
+		"pos":[33,57,-18],
+		"offense":5,
+		"defense":0,
+		"utility":0,
+		"combos":[
+			{
+				"name":"Shock",
+				"keys":"LL",
+				"cost":330,
+				"desc":"cast a lightning bolt in front of you dealing 4-7 damage"
+			},
+			{
+				"name":"Superconduct",
+				"keys":"LR",
+				"cost":400,
+				"desc":"lighting strikes all players in water in a 20 block radius"
+			},
+			{
+				"name":"Charge",
+				"keys":"RL",
+				"cost":600,
+				"desc":"gain one charge for Thunder"
+			},
+			{
+				"name":"Thunder",
+				"keys":"RR",
+				"cost":100,
+				"desc":"when you have 3 charges, mark a point for a lighting strike that lasts 5 seconds"
+			}
+		]
+	},
+	{
+		"name":"Divine Orb",
+		"pos":[38,57,-18],
+		"offense":4,
+		"defense":0,
+		"utility":2,
+		"combos":[
+			{
+				"name":"Radiance",
+				"keys":"LL",
+				"cost":0,
+				"desc":"toggles a continuous beam that deals 0.3 damage and can pierce infinitely. You loose 10 stamina per tick while the beam is active"
+			},
+			{
+				"name":"Blinding Light",
+				"keys":"LR",
+				"cost":220,
+				"desc":"the first enemy hit by Radiance will be blinded for 3 seconds"
+			},
+			{
+				"name":"Refraction",
+				"keys":"RL",
+				"cost":700,
+				"desc":"when in water, teleport where you're lookin within a 20 block radius"
+			},
+			{
+				"name":"Focus",
+				"keys":"RRL",
+				"cost":200,
+				"desc":"the next time you use Radiance, the beam will be shorter but deal more damage"
+			},
+			{
+				"name":"Diffuse",
+				"keys":"RRR",
+				"cost":200,
+				"desc":"the next time you use Radiance, the beam will be longer but deal less damage"
+			}
+		]
+	}
+]

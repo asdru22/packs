@@ -1,0 +1,2 @@
+particle electric_spark ~ ~ ~ ^ ^ ^1000000 0.0000001 0 force
+execute as @e[type=#cbs:target,distance=..10,nbt=!{HurtTime:10s},dx=0] positioned ~-0.85 ~-0.85 ~-0.85 if entity @s[dx=0] at @s run function cbs:player/apply_damage/init {amount:30,by:"@e[type=marker,tag=cbs.thunder,limit=1]"}

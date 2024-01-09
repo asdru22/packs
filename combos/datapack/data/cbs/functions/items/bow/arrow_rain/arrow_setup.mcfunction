@@ -1,0 +1,1 @@
+$summon arrow ~$(x) ~ ~$(z) {Motion:[0.0d,-1.0d,0.0d],Damage:3,Owner:$(uuid),Tags:[cbs.second]}

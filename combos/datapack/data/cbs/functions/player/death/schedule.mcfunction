@@ -1,0 +1,1 @@
+execute as @a[tag=cbs.death_schedule] run function cbs:player/death/respawn

@@ -1,0 +1,2 @@
+particle flame ~ ~ ~ ^ ^ ^1000000 0.0000001 0 force
+execute as @e[type=#cbs:target,tag=!cbs.me,distance=..10,dx=0] positioned ~-0.85 ~-0.85 ~-0.85 if entity @s[dx=0] at @s run function cbs:items/divine_orb/focus/hit

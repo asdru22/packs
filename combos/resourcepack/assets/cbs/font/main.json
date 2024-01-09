@@ -1,0 +1,22 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "cbs:gui/icons/stamina.png",
+        "height": 16,
+        "ascent": 8,
+        "chars": [
+          "\ua001"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "cbs:gui/icons/tooltip.png",
+        "height": 16,
+        "ascent": 5,
+        "chars": [
+          "a"
+        ]
+      }
+    ]
+}

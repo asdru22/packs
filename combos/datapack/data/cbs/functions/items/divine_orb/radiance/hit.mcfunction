@@ -1,0 +1,1 @@
+function cbs:player/apply_damage/init {amount:3,by:"@p[tag=cbs.me]"}

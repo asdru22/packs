@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_nbt",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "cbs:storage"
+  },
+  "ops": [
+    {
+      "source": "root.temp.effects",
+      "target": "cbs.effects",
+      "op": "replace"
+    }
+  ]
+}

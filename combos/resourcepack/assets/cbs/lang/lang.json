@@ -1,0 +1,9 @@
+{
+    "cbs.combo": "%s combo! (%s) %s%s",
+    "cbs.combo.reset": "Combo expired",
+    "cbs.combo.no_stamina": "Not enough stamina (%s)",
+    "cbs.font.stamina": "\ua001",
+    "cbs.hotbar": "%s | %s | %s | %s",
+    "cbs.effects.prefix":"[%s] ",
+    "cbs.tooltip":"%1$s\natk: %2$s\ndef: %3$s\nUTI: %4$s"
+}

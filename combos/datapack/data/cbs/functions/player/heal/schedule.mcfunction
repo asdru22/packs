@@ -1,0 +1,1 @@
+execute as @a[tag=cbs.schedule.remove_attribute] run function cbs:player/heal/remove_attribute

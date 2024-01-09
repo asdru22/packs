@@ -1,0 +1,2 @@
+execute if entity @e[type=arrow,nbt={inGround:1b},distance=..20] run playsound minecraft:entity.generic.explode player @a[distance=..16]
+execute as @e[type=arrow,nbt={inGround:1b},distance=..20] at @s run function cbs:items/bow/detonate/as_arrow

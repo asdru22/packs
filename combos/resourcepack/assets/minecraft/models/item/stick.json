@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "cbs:item/cat_paw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "cbs:item/bow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "cbs:item/thundering_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "cbs:item/divine_orb"
+    }
+  ]
+}
