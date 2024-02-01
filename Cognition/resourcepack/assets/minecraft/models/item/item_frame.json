@@ -15,6 +15,24 @@
           "custom_model_data": 880001
         },
         "model": "cgn:block/midnight_rose_age0"
+        },
+        {
+        "predicate": {
+          "custom_model_data": 880002
+        },
+        "model": "cgn:block/midnight_rose_age1"
+        },
+        {
+        "predicate": {
+          "custom_model_data": 880003
+        },
+        "model": "cgn:block/midnight_rose_age2"
+        },
+        {
+        "predicate": {
+          "custom_model_data": 880004
+        },
+        "model": "cgn:block/midnight_rose_age3"
         }
     ]
 }

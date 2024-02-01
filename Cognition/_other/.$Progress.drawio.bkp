@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2024-01-31T23:36:53.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="-P8xltOwLTAxdWlV2SN0" version="22.1.18" type="device">
+  <diagram name="Pagina-1" id="g1vDIpvNt1iP5FNlEiaI">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6QQouXsAkMZPYascOKj7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QQouXsAkMZPYascOKj7-1" target="6QQouXsAkMZPYascOKj7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6QQouXsAkMZPYascOKj7-1" value="Gloomstone Shard" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6QQouXsAkMZPYascOKj7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QQouXsAkMZPYascOKj7-3" target="6QQouXsAkMZPYascOKj7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6QQouXsAkMZPYascOKj7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QQouXsAkMZPYascOKj7-3" target="6QQouXsAkMZPYascOKj7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6QQouXsAkMZPYascOKj7-3" value="Gloomstone" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6QQouXsAkMZPYascOKj7-5" value="Gloomstone Blade" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6QQouXsAkMZPYascOKj7-9" value="Helmet&lt;br&gt;Chestplate&lt;br&gt;Leggings&lt;br&gt;Boots&lt;br&gt;Axe&lt;br&gt;Pickaxe&lt;br&gt;Shovel&lt;br&gt;Hoe" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="80" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

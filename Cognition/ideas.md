@@ -28,8 +28,8 @@ Gloomstone Sword is a double blade that can be thrown, the Ebonite upgrade bounc
 Ebonite upgrade smithing template found in decaying laboratory and can be duplicated via crafting
 
 Obtaining Ebonite Ingot:
-- Seed Found by sniffers in the End
-- Can only grow in the end (dragon breath can be used to make it grow faster)
-- Harvest flower
-- Combine flower with copper ingot and gunpowder to make ???
-- Use Ebonite Armor Ability and land a charged attack on ??? to turn it into an ingot
+- Seed Found by sniffers in the Nether
+- Can only grow in the Nether (dragon breath can be used to make it grow faster)
+- Harvest Midnight Rose
+- Combine Midnight Rose with raw copper and magma cream to make Ebognite
+- Use Ebonite Armor Ability and land a charged attack on Ebognite to turn it into an ingot

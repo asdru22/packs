@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "cgn:block/midnight_rose_age1"
+    }
+  }
