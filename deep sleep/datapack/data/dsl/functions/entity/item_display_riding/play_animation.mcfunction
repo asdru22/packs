@@ -1,0 +1,1 @@
+$function dsl:entity/$(id)/set_animations/main

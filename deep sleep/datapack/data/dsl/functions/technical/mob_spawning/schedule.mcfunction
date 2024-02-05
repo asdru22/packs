@@ -1,0 +1,1 @@
+$schedule function dsl:technical/mob_spawning/timer $(int)s

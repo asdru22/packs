@@ -1,0 +1,34 @@
+{
+    "parent": "dsl:recipes/root",
+    "rewards": {
+      "recipes": [
+        "dsl:nbt/bowl_of_foob"
+      ]
+    },
+    "criteria": {
+      "has_bundle": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bundle"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "dsl:nbt/bowl_of_foob"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_bundle",
+        "has_the_recipe"
+      ]
+    ]
+  }

@@ -1,1 +1,0 @@
-$function cgn:commands/setblock/$(crop)

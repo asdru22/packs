@@ -1,0 +1,2 @@
+setblock ~ ~ ~ birch_leaves[persistent=true]
+summon item_display ~ ~ ~ {Rotation:[180f,0f],Tags:["dsl.block","dsl.tick","dsl.caelestiquoia_bush","smithed.block","smithed.strict"],item:{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:882005}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1.001f,1.001f,1.001f]}}

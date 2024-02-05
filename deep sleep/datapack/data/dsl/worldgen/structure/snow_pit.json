@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#dsl:has_structure/snow_pit",
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "none",
+    "start_pool": "dsl:snow_pit/surface",
+    "size": 7,
+    "start_height": {
+      "absolute": -6
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 100,
+    "use_expansion_hack": false
+  }
+  

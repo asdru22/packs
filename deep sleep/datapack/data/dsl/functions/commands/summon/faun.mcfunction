@@ -1,0 +1,1 @@
+execute summon vindicator run function dsl:entity/faun/setup

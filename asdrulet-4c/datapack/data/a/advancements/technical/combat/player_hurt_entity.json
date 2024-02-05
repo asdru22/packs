@@ -1,0 +1,88 @@
+{
+    "criteria": {
+      "melee_hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "type": {
+              "tags": [
+                {
+                  "id": "a:player/melee",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "ranged_hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "type": {
+              "tags": [
+                {
+                  "id": "a:player/ranged",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "magic_hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "type": {
+              "tags": [
+                {
+                  "id": "a:player/magic",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "affected_entity": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "#a:mobs"
+            }
+        }
+      },
+      "not_affected_entity": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "#a:mobs"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "affected_entity",
+        "not_affected_entity"
+      ],
+      [
+        "melee_hit",
+        "ranged_hit",
+        "magic_hit"
+      ]
+    ],
+    "rewards": {
+      "function": "a:combat/player/hurt_entity/init"
+    }
+}  

@@ -1,0 +1,24 @@
+{
+  "parent": "dsl:technical/root",
+    "criteria": {
+      "place_brewing_stand": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": ["brewing_stand"]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:block/brewing_stand/marker_spawning/scan"
+    }
+  }
+  

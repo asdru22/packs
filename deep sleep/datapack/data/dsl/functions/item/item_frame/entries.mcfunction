@@ -1,0 +1,1 @@
+$execute if data storage dsl:storage root.temp.item_frame{crop:"$(crop)"} run function dsl:commands/setblock/$(crop)

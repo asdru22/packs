@@ -1,0 +1,2 @@
+- [x] lore builder
+- [x] upgrading stats with quality system

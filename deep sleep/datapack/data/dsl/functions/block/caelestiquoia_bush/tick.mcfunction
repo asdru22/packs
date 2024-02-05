@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ birch_leaves run function dsl:block/caelestiquoia_bush/break

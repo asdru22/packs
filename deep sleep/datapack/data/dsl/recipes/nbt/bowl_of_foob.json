@@ -1,0 +1,16 @@
+{
+    "group": "nbt_recipe",
+    "category": "misc",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

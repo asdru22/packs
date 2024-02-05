@@ -1,0 +1,17 @@
+{
+    "parent": "dsl:recipes/nbt/craft/root",
+    "rewards": {
+      "function": "dsl:entity/player/nbt_recipe",
+      "loot": [
+        "dsl:items/bowl_of_foob"
+      ]
+    },
+    "criteria": {
+      "recipe_crafted": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "dsl:nbt/bowl_of_foob"
+        }
+      }
+    }
+  }

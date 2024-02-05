@@ -1,0 +1,1 @@
+execute align xyz unless entity @e[dx=0,type=marker,tag=dsl.campfire] run summon marker ~0.5 ~0.5 ~0.5 {Tags:["dsl.campfire","dsl.tick","dsl.block","smithed.strict"]} 

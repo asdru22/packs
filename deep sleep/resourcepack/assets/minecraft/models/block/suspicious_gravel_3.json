@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "block/suspicious_gravel_3",
+      "particle":"dsl:gui/empty"
+    }
+  }

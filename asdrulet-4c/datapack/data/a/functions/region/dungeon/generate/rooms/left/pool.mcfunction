@@ -1,0 +1,5 @@
+execute store result score $rng var run random value 1..10
+execute if score $rng var matches 1..3 summon marker run function a:region/dungeon/generate/step {from:"left",room:"straight"}
+execute if score $rng var matches 4..5 summon marker run function a:region/dungeon/generate/step {from:"left",room:"split"}
+execute if score $rng var matches 6..7 summon marker run function a:region/dungeon/generate/step {from:"left",room:"right"}
+execute if score $rng var matches 8..10 summon marker run function a:region/dungeon/generate/step {from:"left",room:"empty"}

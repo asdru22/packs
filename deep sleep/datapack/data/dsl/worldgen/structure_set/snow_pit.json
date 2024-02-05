@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 63266867,
+      "separation": 8,
+      "spacing": 30
+    },
+    "structures": [
+      {
+        "structure": "dsl:snow_pit",
+        "weight": 1
+      }
+    ]
+  }

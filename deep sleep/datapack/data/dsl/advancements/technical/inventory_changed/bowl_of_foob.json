@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bundle"
+              ],
+              "nbt": "{dsl:{id:\"bowl_of_foob\"},Items:[{}]}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:item/bowl_of_foob/init"
+    }
+  }
+  

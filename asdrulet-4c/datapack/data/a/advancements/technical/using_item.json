@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:crossbow",
+              "bow",
+              "shield"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "a:item/_vanilla/usable/init"
+    }
+  }

@@ -1,0 +1,89 @@
+{
+    "item.third_eye_potion.drink": {
+        "sounds":   [
+            "minecraft:mob/allay/hurt1",
+            "minecraft:mob/allay/hurt2"
+        ],
+        "subtitle" : "subtitles.item.third_eye_potion.drink"
+    },
+    "entity.faun.hurt": {
+        "sounds":   [
+            "minecraft:mob/goat/hurt1",
+            "minecraft:mob/goat/hurt2",
+            "minecraft:mob/goat/hurt3",
+            "minecraft:mob/goat/hurt4"
+        ],
+        "subtitle" : "subtitles.entity.faun.hurt"
+    },
+    "entity.faun.death": {
+        "sounds":   [
+            "minecraft:mob/goat/death1",
+            "minecraft:mob/goat/death2",
+            "minecraft:mob/goat/death3",
+            "minecraft:mob/goat/death4",
+            "minecraft:mob/goat/death5"
+        ],
+        "subtitle" : "subtitles.entity.faun.death"
+    },
+    "entity.faun.idle": {
+        "sounds":   [
+            "minecraft:mob/goat/idle1",
+            "minecraft:mob/goat/idle2",
+            "minecraft:mob/goat/idle3",
+            "minecraft:mob/goat/idle4",
+            "minecraft:mob/goat/idle5",
+            "minecraft:mob/goat/idle6",
+            "minecraft:mob/goat/idle7",
+            "minecraft:mob/goat/idle8"
+        ],
+        "subtitle" : "subtitles.entity.faun.idle"
+    },
+    "entity.faun.attack": {
+        "sounds":   [
+            "minecraft:mob/goat/scream1",
+            "minecraft:mob/goat/scream2",
+            "minecraft:mob/goat/scream3",
+            "minecraft:mob/goat/scream4",
+            "minecraft:mob/goat/scream5",
+            "minecraft:mob/goat/scream6",
+            "minecraft:mob/goat/scream7",
+            "minecraft:mob/goat/scream8",
+            "minecraft:mob/goat/scream9"
+        ],
+        "subtitle" : "subtitles.entity.faun.attack"
+    },
+    "block.the_hex.use": {
+        "sounds":   [
+            "minecraft:block/beehive/enter"
+        ],
+        "subtitle" : "subtitles.block.the_hex.use"
+    },
+    "record.hypocenter": {
+        "sounds":   [
+            "dsl:music_disc_hypocenter"
+        ]
+    },
+    "entity.cloudchime.hurt": {
+        "sounds":   [
+        ],
+        "subtitle" : "subtitles.entity.cloudchime.hurt"
+    },
+    "entity.cloudchime.death": {
+        "sounds":   [
+
+        ],
+        "subtitle" : "subtitles.entity.cloudchime.death"
+    },
+    "entity.cloudchime.idle": {
+        "sounds":   [
+
+        ],
+        "subtitle" : "subtitles.entity.cloudchime.idle"
+    },
+    "entity.cloudchime.attack": {
+        "sounds":   [
+
+        ],
+        "subtitle" : "subtitles.entity.cloudchime.attack"
+    }
+}

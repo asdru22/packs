@@ -1,0 +1,19 @@
+{
+    "parent": "dsl:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:block/suspicious_particle/init"
+    }
+  }
+  

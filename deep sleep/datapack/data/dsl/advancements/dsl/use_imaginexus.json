@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace",
+        "nbt": "{CustomModelData:882004}"
+      },
+      "title": {
+        "translate": "advancements.dsl.use_imaginexus.title"
+      },
+      "description": {
+        "translate": "advancements.dsl.use_imaginexus.description"
+      },
+      "frame": "task"
+    },
+    "parent": "dsl:dsl/third_eye_potion",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,1 @@
+execute in overworld positioned 0 -64 0 run function a:item/modify/lore/init {slot:"weapon.mainhand"}

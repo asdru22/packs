@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{Item:{id:\"minecraft:recovery_compass\",Count:1b,tag:{CustomModelData:882000,dsl:{crop:\"mirage_blossom_seed\"}}},ItemDropChance:0f,Fixed:1b,Invisible:1b,Silent:1b,Invulnerable:1b,Tags:[\"dsl.item_frame_marker\"]},dsl:{id:\"mirage_blossom_seed\"},CustomModelData:882000}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.dsl.mirage_blossom_seed",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": "dsl.tooltip",
+                        "font": "dsl:main",
+                        "color": "white",
+                        "italic": false,
+                        "with": [
+                          {"translate":"pack.dsl","font":"minecraft:default","color":"#833BFF","italic":true}
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

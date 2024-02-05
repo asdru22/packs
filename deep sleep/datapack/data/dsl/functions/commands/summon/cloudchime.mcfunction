@@ -1,0 +1,1 @@
+execute summon vex run function dsl:entity/cloudchime/setup

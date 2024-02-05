@@ -1,1 +1,0 @@
-function cgn:item/double_edged_sword/init

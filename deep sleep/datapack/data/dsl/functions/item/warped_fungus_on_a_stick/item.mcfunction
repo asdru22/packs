@@ -1,0 +1,1 @@
+$function dsl:item/$(id)/init

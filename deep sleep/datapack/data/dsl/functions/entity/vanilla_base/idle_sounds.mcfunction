@@ -1,0 +1,1 @@
+$playsound entity.$(id).idle ambient @a[distance=..16]

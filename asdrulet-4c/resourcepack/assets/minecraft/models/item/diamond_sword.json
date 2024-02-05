@@ -1,0 +1,1 @@
+{"overrides": [{"predicate": {"custom_model_data": 1}, "model": "a:item/melee/cool"}, {"predicate": {"custom_model_data": 2}, "model": "a:item/melee/test"}]}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "dsl:block/the_hex_front",
+    "down": "block/oak_planks",
+    "east": "dsl:block/the_hex_front",
+    "north": "dsl:block/the_hex_side",
+    "south": "dsl:block/the_hex_side",
+    "up": "dsl:block/the_hex_top",
+    "west": "dsl:block/the_hex_front"
+  }
+}

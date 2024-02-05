@@ -1,0 +1,2 @@
+data modify storage smithed.actionbar:input message set value {freeze:45,priority:'notification',json:'{"translate":"record.nowPlaying","with":[{"translate":"item.dsl.music_disc_hypocenter.desc"}],"color":"#AB6222"}'}
+function #smithed.actionbar:message

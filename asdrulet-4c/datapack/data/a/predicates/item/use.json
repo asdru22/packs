@@ -1,0 +1,39 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "use.bow"
+        },
+        "range": {
+          "min": 1
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "use.crossbow"
+        },
+        "range": {
+          "min": 1
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "use.carrot_on_a_stick"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "S": -2,
+        "C": -50
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "dsl:gui/recipes/disc_fragment_hypocenter.png",
+      "ascent": 6,
+      "height": 62,
+      "chars": [
+        "\u0001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "dsl:gui/recipes/caelestiquoia_twig.png",
+      "ascent": 6,
+      "height": 62,
+      "chars": [
+        "\u0002"
+      ]
+    }
+  ]
+}

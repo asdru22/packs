@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "a:data"
+    },
+    "ops": [
+      {
+        "source": "root.temp.lore.array",
+        "target": "display.Lore",
+        "op": "replace"
+      }
+    ]
+  }
+  

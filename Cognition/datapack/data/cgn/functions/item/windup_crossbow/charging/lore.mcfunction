@@ -1,2 +1,0 @@
-data remove storage cgn:storage root.temp.item.tag.display.Lore[0]
-$data modify storage cgn:storage root.temp.item.tag.display.Lore insert 0 value '{"translate":"item.cgn.windup_crossbow.projectiles","italic":false,"color":"gray","with":[$(count)]}'

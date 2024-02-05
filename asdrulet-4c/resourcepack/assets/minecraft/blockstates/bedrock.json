@@ -1,0 +1,10 @@
+{
+    "variants":{
+      "":[
+        {
+          "model":"block/diamond_block",
+          "weight":3
+        }
+      ]
+    }
+  }

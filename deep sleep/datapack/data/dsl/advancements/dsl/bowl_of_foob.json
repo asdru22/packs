@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bundle",
+      "nbt": "{CustomModelData:882000}"
+    },
+    "title": {
+      "translate": "advancements.dsl.bowl_of_foob.title"
+    },
+    "description": {
+      "translate": "advancements.dsl.recipe",
+      "with": [
+        {
+          "text": "",
+          "color": "white",
+          "font": "dsl:crafting"
+        }
+      ]
+    },
+    "frame": "task"
+  },
+  "parent": "dsl:dsl/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "nbt": "{dsl:{id:\"bowl_of_foob\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=dsl.interaction,distance=..10] at @s if data entity @s interaction run function dsl:entity/interaction/as_interaction

@@ -1,0 +1,22 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "a:gui/element_icons.png",
+        "ascent": 6,
+        "height":8,
+        "chars": [
+          "\ua001\ua002\ua003\ua004"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "a:gui/actionbar_icons.png",
+        "ascent": 7,
+        "height": 8,
+        "chars": [
+          "\ua005\ua006\ua007"
+        ]
+      }
+    ]
+}

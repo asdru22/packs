@@ -1,0 +1,53 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "translate": "mob.display",
+    "with": [
+      {
+        "score": {
+          "name": "@s",
+          "objective": "stat.health.current"
+        },
+        "color": "#ff0000"
+      },
+      {
+        "score": {
+          "name": "@s",
+          "objective": "stat.health.max"
+        },
+        "color": "#ff0000"
+      },
+      [
+        {
+          "nbt": "root.display.element",
+          "storage": "a:data",
+          "interpret": true,
+          "font": "a:main",
+          "italic": false
+        },
+        {
+          "text":" | ",
+          "color":"gray",
+          "font":"default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "stat.defense"
+          },
+          "color": "white",
+          "font": "default"
+        },
+        {
+          "translate": "icon.stat.defense",
+          "color": "#00ff00",
+          "font": "a:main",
+          "italic": false
+        }
+      ]
+    ],
+    "color": "gray",
+    "italic": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "dsl:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:goat_horn"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:item/goat_horn/use"
+    }
+  }
+  

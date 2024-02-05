@@ -1,0 +1,20 @@
+{
+    "parent": "dsl:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{dsl:{id:\"third_eye_potion\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:item/third_eye_potion/drink"
+    }
+  }
+  

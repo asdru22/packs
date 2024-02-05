@@ -1,0 +1,24 @@
+{
+  "parent": "dsl:technical/root",
+    "criteria": {
+      "campfire": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "tag": "dsl:furnace"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:block/furnace/marker_spawning/raycast_start"
+    }
+  }
+  

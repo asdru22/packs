@@ -1,0 +1,20 @@
+{
+  "parent": "dsl:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "type": "#dsl:vanilla_base",
+            "nbt": "{Tags:[\"dsl.entity\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsl:entity/vanilla_base/attack/init"
+  }
+}

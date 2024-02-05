@@ -1,1 +1,0 @@
-function cgn:entity/item_frame/entries with storage srn:storage root.temp.item_frame

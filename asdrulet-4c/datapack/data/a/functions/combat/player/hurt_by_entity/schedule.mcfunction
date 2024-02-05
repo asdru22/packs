@@ -1,0 +1,1 @@
+execute as @a[tag=schedule.clear_effects] run function a:combat/player/hurt_by_entity/clear_effects

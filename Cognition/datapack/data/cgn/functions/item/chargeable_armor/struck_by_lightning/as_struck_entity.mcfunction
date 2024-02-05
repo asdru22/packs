@@ -1,2 +1,0 @@
-execute if entity @s[type=player] run function cgn:item/chargeable_armor/struck_by_lightning/as_player
-execute if entity @s[type=!player] run function cgn:item/chargeable_armor/struck_by_lightning/as_mob

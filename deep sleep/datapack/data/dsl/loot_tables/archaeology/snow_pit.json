@@ -1,0 +1,56 @@
+{
+    "type": "archaeology",
+    "pools":[
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "weight":2,
+                    "type":"loot_table",
+                    "name": "dsl:items/frozen_snowbell"
+                },
+                {
+                    "type":"loot_table",
+                    "name": "dsl:items/mammoth_leather"
+                },
+                {
+                    "type":"loot_table",
+                    "name": "dsl:items/disc_fragment_hypocenter"
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:snowball"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.4,
+                                "max": 0.9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:burn_pottery_sherd"
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:brewer_pottery_sherd"
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:shelter_pottery_sherd"
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:snort_pottery_sherd"
+                }
+            ]
+        }
+    ]
+}

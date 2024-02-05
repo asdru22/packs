@@ -1,0 +1,1 @@
+$data modify storage a:data root.temp.lore.array insert -1 value '{"italic": false, "color": "gray", "translate": "item.stat.cast_cooldown", "with": [{"text": "$(int).$(dec)", "color": "#ff0000"}]}' 

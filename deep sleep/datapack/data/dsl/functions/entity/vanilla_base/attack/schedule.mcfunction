@@ -1,0 +1,1 @@
+execute as @e[type=#dsl:vanilla_base,tag=dsl.entity.base_attack] run function dsl:entity/vanilla_base/attack/stop

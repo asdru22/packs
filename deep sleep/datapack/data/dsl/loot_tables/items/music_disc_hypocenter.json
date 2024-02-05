@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{dsl:{id:\"music_disc_hypocenter\"},CustomModelData:882003,HideFlags:4,Unbreakable:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.dsl.music_disc_hypocenter",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate":"item.dsl.music_disc_hypocenter.desc",
+                    "color":"gray",
+                    "italic":false,
+                    "with":[
+                      "Hypocenter"
+                    ]
+                  },
+                  "",
+                    {
+                        "translate": "dsl.tooltip",
+                        "font": "dsl:main",
+                        "color": "white",
+                        "italic": false,
+                        "with": [
+                          {"translate":"pack.dsl","font":"minecraft:default","color":"#833BFF","italic":true}
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

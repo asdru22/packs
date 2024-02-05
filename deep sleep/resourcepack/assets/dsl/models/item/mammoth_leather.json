@@ -1,0 +1,7 @@
+{
+  "credit":"u/Chillahbyte on reddit",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dsl:item/mammoth_leather"
+  }
+}

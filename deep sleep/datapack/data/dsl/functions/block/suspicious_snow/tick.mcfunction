@@ -1,0 +1,3 @@
+execute unless block ~ ~ ~ suspicious_gravel if entity @s[tag=!dsl.suspicious_snow.is_falling] run function dsl:block/suspicious_snow/base_missing
+execute if block ~ ~ ~ suspicious_gravel run function dsl:block/suspicious_snow/update_state
+execute if entity @s[tag=dsl.suspicious_snow.is_falling] unless predicate dsl:entity/has_vehicle positioned ~ ~-0.48 ~ run function dsl:block/suspicious_snow/destroy

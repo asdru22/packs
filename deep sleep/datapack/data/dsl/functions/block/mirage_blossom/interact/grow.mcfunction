@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ melon_stem[age=0] run setblock ~ ~ ~ melon_stem[age=1]
+execute as @p[advancements={dsl:technical/player_interacted_with_entity/interaction=true},gamemode=!creative] run function dsl:item/warped_fungus_on_a_stick/consume

@@ -1,0 +1,26 @@
+{
+    "variants":{
+      "":[
+        {
+          "model":"block/cobbled_deepslate",
+          "weight":10
+        },
+        {
+          "model":"block/deepslate",
+          "weight":10
+        },
+        {
+          "model":"block/deepslate_bricks",
+          "weight":3
+        },
+        {
+          "model":"block/cracked_deepslate_bricks",
+          "weight":3
+        },
+        {
+          "model":"block/polished_deepslate",
+          "weight":2
+        }
+      ]
+    }
+  }

@@ -1,0 +1,1 @@
+execute as @a[tag=dsl.give_back_schedule] run function dsl:item/item_frame/update_item/update_item

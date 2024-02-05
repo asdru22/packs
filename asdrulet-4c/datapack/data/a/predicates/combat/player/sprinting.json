@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "player",
+      "gamemode": "adventure"
+    },
+    "flags": {
+      "is_sprinting": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:882000,dsl:{id:\"caelestiquoia_repeater\",using_item_timer:1b,durability:[500,500],repaired:1b},Unbreakable:1b,HideFlags:126}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.dsl.caelestiquoia_repeater",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate":"item.dsl.caelestiquoia_repeater.projectiles",
+                    "italic":false,
+                    "color":"gray",
+                    "with":["0"]
+                  },
+                  "",
+                  {
+                    "translate": "item.durability",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                      500,
+                      500
+                    ]
+                  },
+                  {
+                    "translate": "dsl.tooltip",
+                    "font": "dsl:main",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      {"translate":"pack.dsl","font":"minecraft:default","color":"#2DD6B3","italic":true}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,2 @@
+data remove storage dsl:storage root.temp.item.tag.display.Lore[0]
+$data modify storage dsl:storage root.temp.item.tag.display.Lore insert 0 value '{"translate":"item.dsl.caelestiquoia_repeater.projectiles","italic":false,"color":"gray","with":[$(count)]}'

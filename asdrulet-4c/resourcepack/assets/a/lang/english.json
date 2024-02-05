@@ -1,0 +1,67 @@
+{
+    "item.stat.damage": "Damage: %s",
+    "item.stat.crit_damage": "Crit Damage: %s",
+    "item.stat.crit_chance": "Crit Chance: %s",
+    "item.stat.knockback": "Knockback: %s",
+    "item.stat.attack_speed": "Attack Speed: %s",
+    "item.stat.reach": "Reach: %s",
+    "item.stat.projectile_speed": "Velocity: %s",
+    "item.stat.cast_cooldown": "Cast Delay: %ss",
+    "item.stat.max_health": "Health: %s",
+    "item.stat.defense": "Defense: %s",
+    "item.stat.max_stamina": "Stamina: %s",
+    "item.stat.movement_speed": "Movement: %s",
+    "item.stat.luck": "Luck: %s",
+    "item.stat.stamina_regeneration": "Stamina Recovery: %s",
+    "item.stat.stamina_used": "Stamina Drain: %s",
+    "item.stat.mining_power": "Mining: %s",
+    "item.stat.damage.elemental": "Damage: %s (%s)",
+    "item.stat.defense.elemental": "Defense: %s (%s)",
+    "item.stat.elemental": "+%s%%%s",
+
+    "item.rarity.mundane": "Mundane",
+    "item.rarity.unusual": "Unusual",
+    "item.rarity.pristine": "Pristine",
+    "item.rarity.radiant": "Radiant",
+    "item.rarity.ethereal": "Ethereal",
+
+    "item.type.melee": "Melee Weapon",
+    "item.type.ranged": "Ranged Weapon",
+    "item.type.magic": "Magic Weapon",
+    "item.type.helmet": "Helmet",
+    "item.type.chestplate": "Chestplate",
+    "item.type.leggings": "Leggings",
+    "item.type.boots": "Boots",
+    "item.type.shield": "Shield",
+    "item.type.material": "Material",
+
+    "icon.element.chaos": "\ua001",
+    "icon.element.rupture": "\ua002",
+    "icon.element.stasis": "\ua003",
+    "icon.element.vortex": "\ua004",
+
+    "icon.stat.health": "\ua005",
+    "icon.stat.defense": "\ua006",
+    "icon.stat.stamina": "\ua007",
+
+
+    "item.element.vortex": "Vortex",
+    "item.element.chaos": "Chaos",
+    "item.element.rupture": "Rupture",
+    "item.element.stasis": "Stasis",
+
+    "item.lore.description.element": "%s %s (%s)",
+    "item.lore.description.no_element": "%s %s",
+    "item.lore.quality": "Quality: %s",
+    "item.lore.etheric_trait": "Etheric Trait",
+    "item.lore.set_bonus": "Set Bonus: %s",
+
+    "actionbar.main": "%s%s%s%s%s%s%s",
+    "actionbar.health": "%s\ua005",
+    "actionbar.defense": "%s\ua006",
+    "actionbar.stamina": "%s\ua007",
+
+    "mob.display": "%s/%s\n%s"
+
+
+}

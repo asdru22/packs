@@ -1,0 +1,2 @@
+- [ ] decorate rooms
+- [ ] mob spawning

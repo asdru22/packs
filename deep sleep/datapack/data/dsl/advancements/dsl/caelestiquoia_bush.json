@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace",
+        "nbt": "{CustomModelData:882005}"
+      },
+      "title": {
+        "translate": "advancements.dsl.calestiquoia_bush.title"
+      },
+      "description": {
+        "translate": "advancements.dsl.calestiquoia_bush.description"
+      },
+      "frame": "task"
+    },
+    "parent": "dsl:dsl/third_eye_potion",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

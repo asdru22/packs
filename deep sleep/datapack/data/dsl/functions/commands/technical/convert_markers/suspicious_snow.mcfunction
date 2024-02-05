@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=dsl.marker.suspicious_snow] at @s align xyz run function dsl:commands/technical/convert_markers/suspicious_snow_convert

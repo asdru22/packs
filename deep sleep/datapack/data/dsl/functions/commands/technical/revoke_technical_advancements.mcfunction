@@ -1,0 +1,1 @@
+advancement revoke @s through dsl:technical/root

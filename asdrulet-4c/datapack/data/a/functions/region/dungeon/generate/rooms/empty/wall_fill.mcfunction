@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ air run place template a:dungeon/1/empty_wall ~-1 ~ ~-1

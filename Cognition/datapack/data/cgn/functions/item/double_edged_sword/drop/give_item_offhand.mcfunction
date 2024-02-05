@@ -1,2 +1,0 @@
-execute if data entity @s Inventory[{Slot:-106b}].id run function cgn:item/double_edged_sword/drop/slot_occupied
-execute unless data entity @s Inventory[{Slot:-106b}].id run loot replace entity @s weapon.offhand loot srn:copy_nbt/warped_fungus_on_a_stick

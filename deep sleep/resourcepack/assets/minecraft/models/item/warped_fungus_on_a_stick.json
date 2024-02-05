@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 882000
+        },
+        "model": "dsl:gui/icon"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882001
+        },
+        "model": "dsl:item/faun_head"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882002
+        },
+        "model": "dsl:item/imaginexus"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882003
+        },
+        "model": "dsl:item/music_disc_hypocenter"
+      }
+    ]
+}

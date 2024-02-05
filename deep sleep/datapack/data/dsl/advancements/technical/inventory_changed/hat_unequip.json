@@ -1,0 +1,21 @@
+{
+  "parent": "dsl:technical/root",
+  "criteria": {
+    "unequip_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{dsl:{hat:true}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsl:item/hat/unequip"
+  }
+}

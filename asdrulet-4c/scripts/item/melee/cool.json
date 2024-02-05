@@ -1,0 +1,19 @@
+{
+    "name":"Cool",
+    "item":"diamond_sword",
+    "rarity": ["mundane","unusual","pristine","radiant","ethereal"],
+    "max_quality" : 2,
+    "element":"vortex",
+    "scrap_amount": 5,
+    "etheric_trait": "Does like a lot of damage, curious how such a csimple device can do this",
+    "elemental_boost":54,
+    "stats": {
+        "stamina_used": 10,
+        "damage": 10,
+        "crit_chance": 15,
+        "crit_damage": 35,
+        "attack_speed": 5,
+        "reach": 2
+        
+    }
+}

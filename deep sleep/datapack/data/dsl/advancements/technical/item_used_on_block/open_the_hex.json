@@ -1,0 +1,26 @@
+{
+    "parent": "dsl:technical/root",
+    "criteria": {
+      "click_the_hex": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:barrel"
+                  ],
+                  "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dsl:main\",\"translate\":\"block.dsl.the_hex.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dsl.the_hex\"}]}'}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:block/the_hex/enter_gui"
+    }
+  }

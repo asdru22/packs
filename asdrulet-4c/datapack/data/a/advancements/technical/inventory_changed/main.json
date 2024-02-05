@@ -1,0 +1,11 @@
+{
+  "parent": "a:technical/inventory_changed/root",
+  "criteria": {
+    "unequip_helmet": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "a:combat/player/equipment/schedule"
+  }
+}

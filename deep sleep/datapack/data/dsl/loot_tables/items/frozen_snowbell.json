@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:salmon",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{dsl:{id:\"frozen_snowbell\",cookable:true},CustomModelData:882000}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.dsl.frozen_snowbell",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": "dsl.tooltip",
+                        "font": "dsl:main",
+                        "color": "white",
+                        "italic": false,
+                        "with": [
+                          {"translate":"pack.dsl","font":"minecraft:default","color":"#833BFF","italic":true}
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

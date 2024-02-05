@@ -1,0 +1,36 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "dsl:gui/tooltip.png",
+        "ascent": 8,
+        "height": 9,
+        "chars": [
+          "\ua000"
+        ]
+      },
+      {
+        "type": "space",
+        "advances": {
+          " ": 4,
+          "\ua001": -12,
+          "\ua002": -166
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "dsl:gui/the_hex.png",
+        "ascent": 14,
+        "height": 176,
+        "chars": [
+          "\ua003"
+        ]
+      }
+    ]
+  }

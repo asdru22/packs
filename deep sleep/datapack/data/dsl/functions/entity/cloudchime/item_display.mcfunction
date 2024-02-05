@@ -1,0 +1,2 @@
+data merge entity @s {brightness:{sky:15,block:15},teleportation_duration:2,Tags:["dsl.item_display_riding","dsl.tick","dsl.cloudchime","smithed.entity","dsl.entity.static"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:0},CustomModelData:882004,dsl:{id:"cloudchime",idle:882004,attacking:882005}}}}
+ride @s mount @e[tag=dsl.cloudchime_base,type=vex,dx=0,limit=1,sort=nearest,predicate=!dsl:entity/has_passenger]

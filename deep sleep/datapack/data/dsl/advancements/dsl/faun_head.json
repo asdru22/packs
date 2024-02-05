@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_helmet",
+      "nbt": "{CustomModelData:882001}"
+    },
+    "title": {
+      "translate": "advancements.dsl.faun_head.title"
+    },
+    "description": {
+      "translate": "advancements.dsl.faun_head.description"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "dsl:dsl/third_eye_potion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{dsl:{id:\"faun_head\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

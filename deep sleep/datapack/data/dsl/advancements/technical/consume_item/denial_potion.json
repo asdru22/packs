@@ -1,0 +1,20 @@
+{
+    "parent": "dsl:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{dsl:{id:\"denial_potion\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dsl:item/potions/denial/main"
+    }
+  }
+  

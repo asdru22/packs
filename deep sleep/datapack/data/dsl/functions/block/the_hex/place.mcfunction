@@ -1,0 +1,3 @@
+setblock ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.dsl.the_hex.gui","font":"dsl:main","color":"white","with":[{"translate":"block.dsl.the_hex","color":"#3F3F3F","font":"minecraft:default"}]}'}
+summon item_display ~ ~1 ~ {Tags:["dsl.block","dsl.tick","smithed.block","smithed.strict","smithed.entity","dsl.the_hex","dsl.prevent_darkening","dsl.second"],item:{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:882004,stored_barrel_data:[[],[]]}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.5f,0f],scale:[1.001f,1.001f,1.001f]}}
+particle minecraft:end_rod ~ ~1 ~ 0.25 0.25 0.25 0.02 10

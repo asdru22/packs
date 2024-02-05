@@ -1,0 +1,1 @@
+execute summon marker rotated 180 0 run function a:region/dungeon/generate/step {room:"start",from:""}

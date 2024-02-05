@@ -1,0 +1,4 @@
+execute if data storage dsl:storage root.temp.ammo{id:"minecraft:arrow"} summon arrow run function dsl:item/caelestiquoia_repeater/use/projectile_setup
+execute if data storage dsl:storage root.temp.ammo{id:"minecraft:tipped_arrow"} summon arrow run function dsl:item/caelestiquoia_repeater/use/projectile_setup
+execute if data storage dsl:storage root.temp.ammo{id:"minecraft:spectral_arrow"} summon spectral_arrow run function dsl:item/caelestiquoia_repeater/use/projectile_setup
+execute if data storage dsl:storage root.temp.ammo{id:"minecraft:firework_rocket"} run function dsl:item/caelestiquoia_repeater/use/firework_summon

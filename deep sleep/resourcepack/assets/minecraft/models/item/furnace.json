@@ -1,0 +1,48 @@
+{
+    "parent": "minecraft:block/furnace",
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 882000
+        },
+        "model": "dsl:block/suspicious_snow_0"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882001
+        },
+        "model": "dsl:block/suspicious_snow_1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882002
+        },
+        "model": "dsl:block/suspicious_snow_2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882003
+        },
+        "model": "dsl:block/suspicious_snow_3"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882004
+        },
+        "model": "dsl:block/the_hex"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 882005
+        },
+        "model": "dsl:block/caelestiquoia_bush"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4250001
+        },
+        "model": "smithed.crafter:block/table"
+      }
+    ]
+  }
+  

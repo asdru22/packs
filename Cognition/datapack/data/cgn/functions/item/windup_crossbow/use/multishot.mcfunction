@@ -1,2 +1,0 @@
-data modify storage cgn:storage root.temp.item.tag.ChargedProjectiles insert -1 from storage cgn:storage root.temp.next_proj
-data modify storage cgn:storage root.temp.item.tag.ChargedProjectiles insert -1 from storage cgn:storage root.temp.next_proj

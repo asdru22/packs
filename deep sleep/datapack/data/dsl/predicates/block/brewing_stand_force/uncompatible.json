@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:any_of",
+    "terms":[
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brewing_stand"
+                ],
+                "nbt": "{Items:[{Slot:3b,id:\"minecraft:glistering_melon_slice\",tag:{dsl:{id:\"mirage_blossom\"}}},{id:\"minecraft:potion\",tag:{dsl:{id:\"mirage_potion\"}}}]}"
+              }
+            }
+        }
+    ]
+  }

@@ -1,0 +1,1 @@
+execute if entity @s[tag=dsl.faun] run function dsl:entity/faun/second

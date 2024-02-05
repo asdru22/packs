@@ -1,0 +1,2 @@
+execute if block ^ ^ ^0.01 #dsl:furnace positioned ^ ^ ^0.01 align xyz run function dsl:block/furnace/marker_spawning/spawn
+execute if entity @s[distance=..7] unless block ^ ^ ^0.01 #dsl:furnace positioned ^ ^ ^0.01 run function dsl:block/furnace/marker_spawning/raycast

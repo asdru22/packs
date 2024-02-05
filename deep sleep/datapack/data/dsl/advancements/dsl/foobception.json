@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bundle",
+      "nbt": "{CustomModelData:882000,Items:[{id:\"minecraft:stone\",Count:1b}]}"
+    },
+    "title": {
+      "translate": "advancements.dsl.foobception.title"
+    },
+    "description": {
+      "translate": "advancements.dsl.foobception.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "dsl:dsl/bowl_of_foob",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

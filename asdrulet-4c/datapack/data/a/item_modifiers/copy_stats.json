@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "a:data"
+    },
+    "ops": [
+      {
+        "source": "root.data",
+        "target": "a",
+        "op": "replace"
+      }
+    ]
+  }
+  

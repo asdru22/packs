@@ -1,0 +1,1 @@
+$data modify storage a:data root.data.stats.$(stat) set value $(int).$(dec)

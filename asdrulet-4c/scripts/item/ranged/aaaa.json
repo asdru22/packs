@@ -1,0 +1,16 @@
+{
+    "name":"AAAA",
+    "item":"bow",
+    "rarity": ["mundane","unusual","pristine","radiant","ethereal"],
+    "max_quality" : 2,
+    "element":"stasis",
+    "scrap_amount": 5,
+    "stats": {
+        "stamina_used": 5,
+        "damage": 10,
+        "crit_chance": 15,
+        "crit_damage": 35,
+        "projectile_speed": 1.2
+
+    }
+}

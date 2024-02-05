@@ -1,0 +1,2 @@
+setblock ~ ~ ~ suspicious_gravel{LootTable:"dsl:archaeology/snow_pit"}
+summon item_display ~ ~1 ~ {Tags:["dsl.block","dsl.tick","smithed.block","smithed.strict","smithed.entity","dsl.suspicious_snow","dsl.prevent_darkening","dsl.second"],item:{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:882000}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.5f,0f],scale:[1.001f,1.001f,1.001f]}}

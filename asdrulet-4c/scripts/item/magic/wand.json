@@ -1,0 +1,16 @@
+{
+    "name":"Wanda",
+    "item":"carrot_on_a_stick",
+    "rarity": ["mundane","unusual","pristine","radiant","ethereal"],
+    "max_quality" : 2,
+    "element":"rupture",
+    "scrap_amount": 6,
+    "etheric_trait": "the wnnad goes skaboosh and edeals 2r42 damag",
+    "stats": {
+        "damage": 10,
+        "crit_chance": 15,
+        "crit_damage": 35,
+        "cast_cooldown": 53,
+        "stamina_used": 120
+    }
+}

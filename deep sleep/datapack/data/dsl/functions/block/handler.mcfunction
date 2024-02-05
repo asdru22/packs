@@ -1,0 +1,2 @@
+execute if data storage smithed.custom_block:main blockApi{id:"dsl:suspicious_snow"} run function dsl:commands/setblock/suspicious_snow
+execute if data storage smithed.custom_block:main blockApi{id:"dsl:caelestiquoia_bush"} run function dsl:commands/setblock/caelestiquoia_bush

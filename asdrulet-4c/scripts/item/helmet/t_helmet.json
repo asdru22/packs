@@ -1,0 +1,20 @@
+{
+  "name": "T Helmet",
+  "item": "leather_helmet",
+  "rarity":["mundane","unusual","pristine","radiant","ethereal"],
+  "max_quality": 2,
+  "element": "rupture",
+  "scrap_amount": 4,
+  "tint": 3994,
+  "elemental_boost":41,
+
+  "stats": {
+    "max_health": 5,
+    "defense": 2
+  },
+  "set_bonus":{
+    "id":"swag",
+    "name":"AREA OF SWAG",
+    "text":"goes monkey mode crazy ooo aaa ha hahaa"
+  }
+}

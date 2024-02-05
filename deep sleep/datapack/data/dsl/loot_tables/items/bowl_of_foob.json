@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{dsl:{id:\"bowl_of_foob\"},CustomModelData:882000,HideFlags:127}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.dsl.bowl_of_foob",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {"translate":"item.dsl.bowl_of_foob.desc.1","color":"gray","italic":false},
+                    {"translate":"item.dsl.bowl_of_foob.desc.2","color":"gray","italic":false},
+                    "",
+                    {
+                        "translate": "dsl.tooltip",
+                        "font": "dsl:main",
+                        "color": "white",
+                        "italic": false,
+                        "with": [
+                          {"translate":"pack.dsl","font":"minecraft:default","color":"#833BFF","italic":true}
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:potion",
+        "nbt": "{CustomPotionColor:9109429}"
+      },
+      "title": {
+        "translate": "advancements.dsl.third_eye_potion.title"
+      },
+      "description": {
+        "translate": "advancements.dsl.third_eye_potion.description"
+      },
+      "frame": "task"
+    },
+    "parent": "dsl:dsl/mirage_blossom_seed",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

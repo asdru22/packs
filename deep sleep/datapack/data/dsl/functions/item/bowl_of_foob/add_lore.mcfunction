@@ -1,0 +1,1 @@
+$data modify storage dsl:storage root.temp.item.tag.display.Lore set from storage dsl:storage root.bowl_of_foob[{key:"$(id)"}].Lore

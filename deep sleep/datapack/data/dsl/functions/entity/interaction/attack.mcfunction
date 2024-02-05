@@ -1,0 +1,2 @@
+execute store success score $gamemode dsl.dummy if entity @s[gamemode=creative]
+execute as @e[type=interaction,tag=dsl.interaction,distance=..10] at @s if data entity @s attack run function dsl:entity/interaction/as_attack

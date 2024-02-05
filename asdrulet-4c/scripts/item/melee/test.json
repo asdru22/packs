@@ -1,0 +1,17 @@
+{
+    "name":"Test",
+    "item":"diamond_sword",
+    "rarity": ["mundane","unusual","pristine","radiant","ethereal"],
+    "max_quality" : 3,
+    "element":"rupture",
+    "scrap_amount": 5,
+    "etheric_trait": "Does like woy a dd sajjasd jasd jsada lot of damage",
+    "stats": {
+        "stamina_used": 10,
+        "damage": 10,
+        "crit_chance": 15,
+        "crit_damage": 35,
+        "attack_speed": 5,
+        "reach": 2
+    }
+}

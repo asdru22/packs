@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:salmon",
+        "nbt": "{CustomModelData:882000}"
+      },
+      "title": {
+        "translate": "advancements.dsl.frozen_snowbell.title"
+      },
+      "description": {
+        "translate": "advancements.dsl.frozen_snowbell.description"
+      },
+      "frame": "task"
+    },
+    "parent": "dsl:dsl/snow_pit",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:salmon"
+              ],
+              "nbt": "{dsl:{id:\"frozen_snowbell\"}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

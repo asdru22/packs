@@ -1,0 +1,1 @@
+$attribute @s generic.knockback_resistance base set $(knockback_resistance)

@@ -1,0 +1,47 @@
+{
+    "pack.dsl": "deepy eepy",
+    "dsl.tooltip": "\ua000 %s",
+
+    "item.dsl.mirage_blossom": "trippy plant",
+    "item.dsl.mirage_blossom_seed": "trippy plant sed",
+    "item.dsl.frozen_snowbell": "brrr bell",
+    "item.dsl.snowbell_mush": "yucky brrr bell",
+    "item.dsl.mammoth_leather": "elephant-bear lethur",
+    "item.dsl.bowl_of_foob": "y iz it EMPTY??",
+    "item.dsl.bowl_of_foob.item": "> %s <",
+    "item.dsl.potion.effect.mirage": "catnip poshun",
+    "item.dsl.splash_potion.effect.mirage": "catnip spleshy poshun",
+    "item.dsl.lingering_potion.effect.mirage": "catnip lingerin Poshun",
+    "item.dsl.potion.effect.third_eye": "pupil expanshon poshun",
+    "item.dsl.splash_potion.effect.third_eye": "pupil expanshon spleshy poshun",
+    "item.dsl.lingering_potion.effect.third_eye": "pupil expanshon lingerin poshun",
+
+    "item.dsl.bowl_of_foob.desc.1": "item in here pls...",
+    "item.dsl.bowl_of_foob.desc.2": "...if u wan to see wat it do",
+
+    "block.dsl.suspicious_snow": "sussy sno",
+
+    "entity.dsl.faun":"shep hooman?",
+
+    "effect.dsl.third_eye": "pupil expanshon",
+    "effect.dsl.mirage": "catnip",
+
+    "potion.dsl.duration": "%s%s:%s%s",
+
+    "subtitles.item.third_eye_potion.drink": "pupil expands",
+
+    "advancements.dsl.root.title": "deepy eepy",
+    "advancements.dsl.root.description": "time to slep",
+    "advancements.dsl.bowl_of_foob.title": "IT STILL EMPTY",
+    "advancements.dsl.recipe": "%s\n\n\n\n\n\n",
+    "advancements.dsl.snow_pit.title": "litter box?",
+    "advancements.dsl.snow_pit.description": "find da big hole in da sno",
+    "advancements.dsl.mirage_blossom_seed.title": "crunchy",
+    "advancements.dsl.mirage_blossom_seed.description": "get da trippy plant sed from sniffr wen it hot",
+    "advancements.dsl.frozen_snowbell.title": "Y IT SO LOUD",
+    "advancements.dsl.frozen_snowbell.description": "broom da sussy sno an find a brrr bell",
+    "advancements.dsl.third_eye_potion.title": "tim 2 hunt",
+    "advancements.dsl.third_eye_potion.description": "i seez betur wen it dark",
+    "advancements.dsl..title": "",
+    "advancements.dsl..description": ""
+}

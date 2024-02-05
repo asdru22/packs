@@ -1,1 +1,0 @@
-execute if data storage srn:storage root.temp.item{id:"minecraft:blaze_powder"} if entity @s[scores={cgn.dummy=..6}] run function cgn:block/midnight_rose/interact/blaze_powder

@@ -1,0 +1,2 @@
+data modify entity @s[predicate=dsl:entity/is_moving] ArmorItems[3].tag.CustomModelData set from entity @s ArmorItems[3].tag.dsl.walking
+data modify entity @s[predicate=!dsl:entity/is_moving] ArmorItems[3].tag.CustomModelData set from entity @s ArmorItems[3].tag.dsl.idle 

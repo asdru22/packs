@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "mob_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#a:mobs"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "a:combat/player/hurt_by_entity/init"
+  }
+}

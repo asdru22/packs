@@ -1,0 +1,2 @@
+execute as @a on attacker if entity @s[tag=dsl.entity,tag=!dsl.entity.attacking] run function dsl:entity/vanilla_base/attack/set_animation
+advancement revoke @s only dsl:technical/entity_hurt_player/vanilla_base

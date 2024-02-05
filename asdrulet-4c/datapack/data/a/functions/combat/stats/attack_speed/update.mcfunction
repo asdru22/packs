@@ -1,0 +1,1 @@
+$attribute @s generic.attack_speed base set $(attack_speed)

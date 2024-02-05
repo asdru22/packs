@@ -1,0 +1,1 @@
+execute align xyz positioned ~.5 ~ ~.5 run function dsl:block/suspicious_snow/place
