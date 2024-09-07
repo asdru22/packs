@@ -2,4 +2,4 @@ execute if score @s using_item.current = @s using_item.old run function a:item/_
 
 scoreboard players operation @s using_item.old = @s using_item.current
 
-execute if predicate a:combat/player/hold_ranged_weapon run function a:combat/stats/stamina/charge_ranged_weapon
+execute if predicate a:combat/player/hold_ranged_weapon if entity @s[gamemode=!creative] run function a:combat/stats/stamina/charge_ranged_weapon
