@@ -1,0 +1,33 @@
+{
+  "providers": [
+  {
+    "type": "bitmap",
+    "file": "acbag:font/astrolite.png",
+    "ascent": 8,
+    "height": 16,
+    "chars": [
+        "\u000a"
+    ]
+},
+{
+  "type": "bitmap",
+  "file": "acbag:item/accessory_bag_filled.png",
+  "ascent": 13,
+  "height": 16,
+  "chars": [
+      "\u000b"
+  ]
+},
+{
+  "type": "bitmap",
+  "file": "acbag:gui/bossbars/godsent.png",
+  "ascent": 10,
+  "height": 50,
+  "chars": [
+      "\uFFF1"
+  ]
+}
+  ]
+}
+
+

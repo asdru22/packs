@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "invis": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{id:\"minecraft:bundle\",tag:{Items:[{id:\"minecraft:repeating_command_block\",tag:{ctc:{id:\"golden_fermented_spider_eye\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}}]}"
+        },
+        "effects": {
+          "minecraft:invisibility": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/actions/invisibility_changed/gain"
+  }
+}

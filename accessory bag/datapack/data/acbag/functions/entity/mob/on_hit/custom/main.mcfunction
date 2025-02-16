@@ -1,0 +1,1 @@
+execute if entity @s[type=wither_skeleton] as @p[advancements={acbag:technical/when_hit=true}] run function acbag:entity/mob/on_hit/custom/wither_skeletons/main

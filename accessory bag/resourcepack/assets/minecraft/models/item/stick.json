@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/stick"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:entity/molten_skeleton/left_arm"},
+    {"predicate": {"custom_model_data": 6900001},"model": "acbag:entity/molten_skeleton/right_arm"},
+    {"predicate": {"custom_model_data": 6900002},"model": "acbag:entity/molten_skeleton/head"},
+    {"predicate": {"custom_model_data": 6900003},"model": "acbag:entity/bandit/head"},
+    {"predicate": {"custom_model_data": 6900004},"model": "acbag:entity/wandering_soul/main"},
+    {"predicate": {"custom_model_data": 6900005},"model": "acbag:entity/wandering_soul/hurt"},
+    {"predicate": {"custom_model_data": 6900006},"model": "acbag:entity/shrigma_zombie/head"},
+    {"predicate": {"custom_model_data": 6900007},"model": "acbag:entity/shrigma_zombie/right_arm"},
+    {"predicate": {"custom_model_data": 6900008},"model": "acbag:entity/shrigma_zombie/left_arm"},
+    {"predicate": {"custom_model_data": 6900009},"model": "acbag:entity/growing_lichen"},
+    {"predicate": {"custom_model_data": 6900010},"model": "acbag:empty"},
+    {"predicate": {"custom_model_data": 6900011},"model": "acbag:entity/yeti/head"},
+    {"predicate": {"custom_model_data": 6900012},"model": "acbag:entity/yeti/arm"},
+    {"predicate": {"custom_model_data": 6900013},"model": "acbag:entity/yeti/head_hurt"},
+    {"predicate": {"custom_model_data": 6900014},"model": "acbag:entity/yeti/arm_hurt"},
+    {"predicate": {"custom_model_data": 6900015},"model": "acbag:entity/tornado"},
+    {"predicate": {"custom_model_data": 6900016},"model": "acbag:entity/watcher/head"},
+    {"predicate": {"custom_model_data": 6900017},"model": "acbag:entity/watcher/arm"},
+    {"predicate": {"custom_model_data": 6900018},"model": "acbag:entity/watcher/head_hurt"},
+    {"predicate": {"custom_model_data": 6900019},"model": "acbag:entity/watcher/arm_hurt"},
+    {"predicate": {"custom_model_data": 6900020},"model": "acbag:entity/shadowflame"},
+    {"predicate": {"custom_model_data": 6900021},"model": "acbag:entity/godsent/head"},
+    {"predicate": {"custom_model_data": 6900022},"model": "acbag:entity/godsent/arm"},
+    {"predicate": {"custom_model_data": 6900023},"model": "acbag:entity/godsent/head_hurt"},
+    {"predicate": {"custom_model_data": 6900024},"model": "acbag:entity/godsent/arm_hurt"},
+    {"predicate": {"custom_model_data": 6900025},"model": "acbag:block/soul_cauldron"},
+    {"predicate": {"custom_model_data": 6900026},"model": "acbag:entity/sea_goblin/head"},
+    {"predicate": {"custom_model_data": 6900027},"model": "acbag:entity/sea_goblin/arm"},
+    {"predicate": {"custom_model_data": 6900028},"model": "acbag:entity/sea_goblin/head_hurt"},
+    {"predicate": {"custom_model_data": 6900029},"model": "acbag:entity/sea_goblin/arm_hurt"}
+]
+}
