@@ -1,0 +1,2 @@
+execute if data storage srn:storage root.temp.item.Slot run item replace entity @s weapon.offhand with air
+execute unless data storage srn:storage root.temp.item.Slot run item replace entity @s weapon.mainhand with air

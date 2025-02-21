@@ -1,0 +1,48 @@
+{
+    "parent": "fhats:technical/root",
+    "criteria": {
+        "equip_cursed_top_hat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:leather_helmet"
+                            ],
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "fhats": {
+                                        "id": "cursed_top_hat"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "fhats": {
+                                    "id": "cursed_top_hat"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fhats:item/cursed_top_hat/equip"
+    },
+    "requirements": [
+        [
+            "equip_cursed_top_hat"
+        ]
+    ]
+}

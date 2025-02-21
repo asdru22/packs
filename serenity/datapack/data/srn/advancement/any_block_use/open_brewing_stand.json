@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "open_brewing_stand": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:brewing_stand"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "srn:block/brewing_stand/marker_spawning/raycast_start"
+  }
+}

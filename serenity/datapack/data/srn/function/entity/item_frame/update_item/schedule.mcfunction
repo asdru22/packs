@@ -1,0 +1,1 @@
+execute as @a[tag=srn.give_back_schedule] run function srn:entity/item_frame/update_item/update_item

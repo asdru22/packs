@@ -1,0 +1,48 @@
+{
+    "parent": "fhats:technical/root",
+    "criteria": {
+        "equip_bunny_hat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:netherite_helmet"
+                            ],
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "fhats": {
+                                        "id": "bunny_hat"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_helmet"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "fhats": {
+                                    "id": "bunny_hat"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fhats:item/bunny_hat/equip"
+    },
+    "requirements": [
+        [
+            "equip_bunny_hat"
+        ]
+    ]
+}

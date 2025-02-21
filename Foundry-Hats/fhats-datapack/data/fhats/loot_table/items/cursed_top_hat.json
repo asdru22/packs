@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.fhats.cursed_top_hat\"}",
+                                "minecraft:custom_model_data": 888002,
+                                "minecraft:custom_data": "{fhats:{id:\"cursed_top_hat\",hat:true}}",
+                                "!minecraft:damage": {},
+                                "!attribute_modifiers": {},
+                                "!enchantments": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

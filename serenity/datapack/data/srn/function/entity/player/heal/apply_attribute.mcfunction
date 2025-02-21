@@ -1,0 +1,1 @@
+$attribute @s minecraft:generic.max_health modifier add srn:heal "heal" -$(amount) add

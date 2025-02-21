@@ -1,0 +1,43 @@
+{
+    "criteria": {
+      "click_decorated_pot": {
+        "trigger": "minecraft:any_block_use",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "nbt": "{srn:{pottable:1b}}"
+                  }
+                }
+              }
+            }
+          ],
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:flower_pot"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "click_decorated_pot"
+      ]
+    ],
+    "rewards": {
+      "function": "srn:block/flower_pot/init"
+    }
+  }
+  

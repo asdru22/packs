@@ -1,0 +1,15 @@
+{
+  "name": "nihility:void_gate",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nihility:void_gate",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

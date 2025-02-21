@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{srn:{usable:true}}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "srn:item/usable/init"
+    }
+  }
+  

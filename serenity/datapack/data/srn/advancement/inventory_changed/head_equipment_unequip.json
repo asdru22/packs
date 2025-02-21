@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "unequip_head_equipment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_data": "{srn:{head_equipment:true}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "srn:item/head_equipment/unequip"
+  }
+}

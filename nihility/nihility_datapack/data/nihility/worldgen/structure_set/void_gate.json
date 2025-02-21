@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nihility:void_gate",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 757888175,
+    "spacing": 25,
+    "separation": 9
+  }
+}

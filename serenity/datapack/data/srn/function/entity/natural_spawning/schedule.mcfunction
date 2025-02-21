@@ -1,0 +1,1 @@
+$schedule function srn:entity/natural_spawning/timer $(seconds)s

@@ -1,0 +1,1 @@
+$execute at @s if biome ~ ~ ~ $(biome) run function $(function)

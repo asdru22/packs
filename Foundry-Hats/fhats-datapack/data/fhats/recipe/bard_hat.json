@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "{\"translate\":\"item.fhats.bard_hat\"}",
+            "minecraft:custom_model_data": 888000,
+            "minecraft:custom_data": "{fhats:{id:\"bard_hat\",hat:true}}",
+            "!minecraft:damage": {},
+            "!attribute_modifiers": {}
+        }
+    }
+}

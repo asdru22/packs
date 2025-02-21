@@ -1,0 +1,2 @@
+execute if items entity @s armor.head leather_helmet run return run data modify entity @s ArmorItems[3].id set value "minecraft:leather_horse_armor"
+data modify entity @s ArmorItems[3].id set value "minecraft:poisonous_potato"

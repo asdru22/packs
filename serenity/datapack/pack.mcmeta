@@ -1,0 +1,10 @@
+{ 
+    "pack": { 
+        "pack_format": 48, 
+        "description": [
+            {"text":"Serenity","color":"#20B2AA"},
+            {"text":" | ","color":"#98FB98"},
+            {"text":"v0.1.0","color":"#FFFF99"}
+          ]
+    } 
+} 

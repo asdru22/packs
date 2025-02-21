@@ -1,0 +1,31 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 1786177,
+    "water_fog_color": 1254693,
+    "grass_color": 2425424,
+    "foliage_color": 2425424
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "nihility:void"
+    ]
+  },
+  "features": [
+    [
+      "nihility:sculk_vein",
+      "nihility:spike",
+      "minecraft:basalt_blobs",
+      "minecraft:blackstone_blobs",
+      "minecraft:amethyst_geode",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_coal_upper"
+    ]
+  ]
+}

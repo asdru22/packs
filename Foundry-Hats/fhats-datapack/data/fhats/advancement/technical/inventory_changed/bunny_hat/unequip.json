@@ -1,0 +1,32 @@
+{
+    "parent": "fhats:technical/root",
+    "criteria": {
+        "pick_up_bunny_hat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:poisonous_potato"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "fhats": {
+                                    "id": "bunny_hat"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fhats:item/bunny_hat/unequip"
+    },
+    "requirements": [
+        [
+            "pick_up_bunny_hat"
+        ]
+    ]
+}

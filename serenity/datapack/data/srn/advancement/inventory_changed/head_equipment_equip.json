@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "equip_head_equipment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "components": {
+                "minecraft:custom_data": "{srn:{head_equipment:true}}"
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "components": {
+              "minecraft:custom_data": "{srn:{head_equipment:true}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "srn:item/head_equipment/equip"
+  }
+}

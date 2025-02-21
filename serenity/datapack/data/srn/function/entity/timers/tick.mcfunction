@@ -1,0 +1,1 @@
+execute if entity @s[type=minecraft:wandering_trader,tag=srn.trader_entity] run function srn:entity/trader_entity/tick

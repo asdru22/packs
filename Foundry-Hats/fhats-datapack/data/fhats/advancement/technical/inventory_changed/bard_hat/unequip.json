@@ -1,0 +1,32 @@
+{
+    "parent": "fhats:technical/root",
+    "criteria": {
+        "pick_up_bard_hat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "fhats": {
+                                    "id": "bard_hat"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fhats:item/bard_hat/unequip"
+    },
+    "requirements": [
+        [
+            "pick_up_bard_hat"
+        ]
+    ]
+}

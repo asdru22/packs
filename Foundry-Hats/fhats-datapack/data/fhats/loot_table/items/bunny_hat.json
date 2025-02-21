@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"item.fhats.bunny_hat\"}",
+                                "minecraft:custom_model_data": 888001,
+                                "minecraft:custom_data": "{fhats:{id:\"bunny_hat\",hat:true}}",
+                                "!minecraft:damage": {},
+                                "!attribute_modifiers": {},
+                                "!enchantments": {},
+                                "!fire_resistant": {},
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

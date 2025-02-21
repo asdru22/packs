@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:canyon",
+    "config": {
+      "probability": 0.7,
+      "y": {
+        "absolute": 0
+      },
+      "yScale": 0,
+      "lava_level": {
+        "absolute": 0
+      },
+      "replaceable": "minecraft:blackstone",
+      "vertical_rotation": 47,
+      "shape": {
+        "distance_factor": 24,
+        "thickness": 23,
+        "width_smoothness": 43,
+        "horizontal_radius_factor": 3,
+        "vertical_radius_default_factor": 3,
+        "vertical_radius_center_factor": 4
+      }
+    }
+  }
+  

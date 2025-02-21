@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ flower_pot align xyz positioned ~.5 ~ ~.5 unless entity @e[tag=srn.block,dx=0,distance=..1] run return run function srn:block/flower_pot/place
+execute positioned ^ ^ ^0.1 if block ~ ~ ~ #srn:raycast_ignore if entity @s[distance=..5] run function srn:block/flower_pot/cast

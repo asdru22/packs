@@ -1,0 +1,1 @@
+execute if entity @s[tag=srn.player.riding_strider] run function srn:item/warped_fungus_on_a_stick/second

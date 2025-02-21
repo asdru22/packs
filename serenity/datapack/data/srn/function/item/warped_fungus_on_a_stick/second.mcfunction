@@ -1,0 +1,2 @@
+execute if predicate srn:entity/prevent_strider on vehicle run effect give @s[tag=!smithed.entity] slowness 1 127 true
+execute unless predicate srn:entity/has_vehicle run tag @s remove srn.player.riding_strider

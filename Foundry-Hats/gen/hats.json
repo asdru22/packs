@@ -1,0 +1,13 @@
+{
+    "bard_hat":{
+        "translation": "Bard Hat",
+        "dyeable": true
+    },
+    "bunny_hat":{
+        "translation": "Bunny Hat"
+    },
+    "cursed_top_hat":{
+        "translation": "Cursed Top Hat",
+        "dyeable": true
+    }
+}

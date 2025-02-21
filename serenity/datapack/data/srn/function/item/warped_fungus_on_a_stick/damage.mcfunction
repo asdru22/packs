@@ -1,0 +1,2 @@
+execute if data storage srn:storage root.temp.item.Slot run function srn:item/durability/damage_generic_amount/offhand_1
+execute unless data storage srn:storage root.temp.item.Slot run function srn:item/durability/damage_generic_amount/mainhand_1

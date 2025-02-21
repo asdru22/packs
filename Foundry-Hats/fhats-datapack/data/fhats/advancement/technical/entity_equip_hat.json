@@ -1,0 +1,40 @@
+{
+    "parent": "fhats:technical/root",
+    "criteria": {
+      "hat_picked_up_by_entity": {
+        "trigger": "minecraft:thrown_item_picked_up_by_entity",
+        "conditions": {
+          "entity": {
+            "type": "#fhats:wears_helmet"
+          },
+          "item": {
+            "items": "#fhats:hat_base"
+          }
+        }
+      },
+      "hat_used_on_armor_stand": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": "#fhats:hat_base",
+            "predicates": {
+              "minecraft:custom_data": "{fhats:{hat:true}}"
+            }
+          },
+          "entity": {
+            "type": "minecraft:armor_stand"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "hat_used_on_armor_stand",
+        "hat_picked_up_by_entity"
+      ]
+    ],
+    "rewards": {
+      "function": "fhats:item/_generic_hat/entity_equip"
+    }
+  }
+  
