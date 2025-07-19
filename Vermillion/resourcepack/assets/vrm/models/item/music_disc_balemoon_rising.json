@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "vrm:item/music_disc_balemoon_rising"
+  }
+}

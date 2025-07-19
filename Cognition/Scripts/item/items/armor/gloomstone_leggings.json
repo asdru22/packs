@@ -1,0 +1,51 @@
+{
+  "base_item": "netherite_leggings",
+  "type": "armor",
+  "translation": "Gloomstone Leggings",
+  "components": {
+    "minecraft:max_damage": 495,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.legs",
+          "type": "minecraft:armor",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "cgn:armor_toughness.legs",
+          "type": "minecraft:armor_toughness",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:gloomstone",
+      "slot": "legs",
+      "dispensable": true
+    }
+  },
+  "custom_data": {
+    "ebonite_upgradeable": true
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "A A"
+    ],
+    "key": {
+      "A": "cgn:gloomstone",
+      "B": "cgn:cog"
+    },
+    "result": {
+      "id": "cgn:gloomstone_leggings",
+      "count": 1
+    }
+  }
+}

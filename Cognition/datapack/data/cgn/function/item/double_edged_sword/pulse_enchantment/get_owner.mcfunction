@@ -1,0 +1,1 @@
+$execute as @p[nbt={UUID:$(uuid)},advancements={cgn:technical/player_interacted_with_entity/interaction={attack=true}}] run function cgn:item/double_edged_sword/pulse_enchantment/as_owner

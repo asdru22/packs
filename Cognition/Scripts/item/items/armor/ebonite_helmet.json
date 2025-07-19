@@ -1,0 +1,41 @@
+{
+  "base_item": "netherite_helmet",
+  "type": "armor",
+  "translation": "Ebonite Helmet",
+  "components": {
+    "minecraft:max_damage": 407,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.head",
+          "type": "minecraft:armor",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "cgn:armor_toughness.head",
+          "type": "minecraft:armor_toughness",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "cgn:knockback_resistance.head",
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:ebonite",
+      "slot": "head",
+      "dispensable": true
+    },
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  }
+}

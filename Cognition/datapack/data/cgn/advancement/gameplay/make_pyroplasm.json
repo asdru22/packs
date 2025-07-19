@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+          "minecraft:item_model": "cgn:material/pyroplasm"
+        }
+      },
+      "title": {
+        "translate": "advancements.cgn.make_pyroplasm.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.make_pyroplasm.description"
+      },
+      "frame": "task"
+    },
+    "parent": "cgn:gameplay/make_greek_fire",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "cgn:recoil",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cgn:item/vanilla/usable/recoil_shield"
+  }
+}

@@ -1,0 +1,1 @@
+$data modify storage cgn:storage root.temp.t_player set from storage cgn:storage root.players[{UUID:$(UUID)}]

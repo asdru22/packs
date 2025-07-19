@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "vrm:block/moonlit_monolith/base_top",
+    "east": "vrm:block/moonlit_monolith/base_side",
+    "north": "vrm:block/moonlit_monolith/base_front",
+    "particle": "vrm:block/moonlit_monolith/base_front",
+    "south": "vrm:block/moonlit_monolith/base_front",
+    "up": "vrm:block/moonlit_monolith/base_top",
+    "west": "vrm:block/moonlit_monolith/base_side"
+  }
+}

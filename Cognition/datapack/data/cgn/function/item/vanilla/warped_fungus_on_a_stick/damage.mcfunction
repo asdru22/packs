@@ -1,0 +1,2 @@
+execute if data storage cgn:storage root.temp.item.Slot run return run function cgn:technical/macros/damage_slot/main {slot:"weapon.offhand",amount:1}
+function cgn:technical/macros/damage_slot/main {slot:"weapon.mainhand",amount:1}

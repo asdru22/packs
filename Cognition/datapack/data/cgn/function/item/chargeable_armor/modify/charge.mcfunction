@@ -1,0 +1,4 @@
+
+$execute if items entity @s armor.$(slot) *[custom_data~{cgn:{ebonite_upgradeable:1b}}] run return run item modify entity @s armor.$(slot) [{"function":"minecraft:set_lore","entity":"this","lore":[{"text":""},{"translate":"item.cgn.charge","with":[{"text":"4"}],"color":"gray","italic":false}],"mode":"replace_section","offset":1,"size":2},{"function":"minecraft:set_custom_data","tag":"{cgn:{charged:1b,charge:4}}"}]
+
+$item modify entity @s armor.$(slot) [{"function":"minecraft:set_lore","entity":"this","lore":[{"text":""},{"translate":"item.cgn.charge","with":[{"text":"6"}],"color":"gray","italic":false}],"mode":"replace_section","offset":1,"size":2},{"function":"minecraft:set_custom_data","tag":"{cgn:{charged:1b,charge:6}}"}]

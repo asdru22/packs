@@ -1,0 +1,3 @@
+execute if entity @s[scores={cgn.dummy=..6},tag=!cgn.potted] if data storage cgn:storage root.temp.item{id:"minecraft:blaze_powder"} run function cgn:block/midnight_rose/interact/blaze_powder
+
+execute if entity @s[tag=cgn.potted] unless data storage cgn:storage root.temp.item{components:{"minecraft:item_name":'{"translate":"item.cgn.midnight_rose"}'}} run function cgn:block/midnight_rose/potted/pick_up

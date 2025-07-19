@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": "{vrm:{moonstone:\"balemoon\"}}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vrm:item/block/moonlit_monolith/moonstone/full_moon_outline"
+        }
+      },
+      {
+        "when": "{vrm:{moonstone:\"idle\"}}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vrm:item/block/moonlit_monolith/moonstone/full_moon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

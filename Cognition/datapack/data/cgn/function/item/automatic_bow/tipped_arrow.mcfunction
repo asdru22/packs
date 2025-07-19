@@ -1,0 +1,2 @@
+data modify entity @s item.id set value "minecraft:tipped_arrow"
+data modify entity @s item.components."minecraft:potion_contents" set from storage cgn:storage root.temp.ammo.components."minecraft:potion_contents"

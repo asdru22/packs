@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SES",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:stone",
+    "E": "minecraft:emerald_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:custom_data": {
+        "haywire": {
+          "glyph": {
+            "type": "illager"
+          },
+          "id": "stone_glyph_illager"
+        }
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.haywire.stone_glyph_illager.lore0",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "tooltip.haywire.moon",
+          "color": "white",
+          "italic": false,
+          "font": "haywire:main",
+          "with": [
+            {
+              "translate": "pack.haywire"
+            }
+          ]
+        }
+      ],
+      "!minecraft:food": {},
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "haywire:stone_glyph_illager",
+      "minecraft:item_name": {
+        "translate": "item.haywire.stone_glyph_illager"
+      }
+    }
+  }
+}

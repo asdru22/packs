@@ -1,0 +1,54 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "pack.cgn",
+        "color": "#653AA0",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "translate": "item.cgn.charge",
+        "with": [
+          {
+            "text": "32"
+          }
+        ],
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{cgn:{charged:true,charge:32}}"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 0
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "minecraft:base_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "minecraft:base_attack_damage",
+        "attribute": "minecraft:attack_damage",
+        "amount": 12,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  }
+]

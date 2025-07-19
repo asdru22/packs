@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{vrm:{id:\"stone_glyph\",glyph:\"illager\"}}"
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:item_model": "vrm:stone_glyph/illager"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.vrm.stone_glyph"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.vrm.stone_glyph.illager",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "translate": "pack.vrm",
+              "color": "white",
+              "italic": false,
+              "font":"vrm:tooltip"
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

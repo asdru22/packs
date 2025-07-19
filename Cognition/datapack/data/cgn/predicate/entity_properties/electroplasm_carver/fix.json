@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "cgn:entity_properties/electroplasm_carver/mainhand_fix"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "cgn:entity_properties/electroplasm_carver/offhand_fix"
+      }
+    ]
+  }
+  

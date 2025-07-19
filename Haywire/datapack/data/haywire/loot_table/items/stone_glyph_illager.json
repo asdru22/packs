@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "glyph": {
+                  "type": "illager"
+                },
+                "id": "stone_glyph_illager"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.haywire.stone_glyph_illager.lore0",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "tooltip.haywire.moon",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:item_model": "haywire:stone_glyph_illager",
+            "minecraft:item_name": {
+              "translate": "item.haywire.stone_glyph_illager"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft: crossbow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 545,
+            "max_stack_size": 1,
+            "minecraft:custom_data": {
+              "cgn": null
+            },
+            "minecraft:tooltip_style": "cgn:default"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.windup_crossbow"
+          }
+        }
+      ]
+    }
+  ]
+}

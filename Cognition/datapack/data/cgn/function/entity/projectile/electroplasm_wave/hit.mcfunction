@@ -1,0 +1,1 @@
+$execute if entity @s[nbt=!{UUID:$(owner)}] run damage @s $(damage) cgn:electroplasm_wave by @p[nbt={UUID:$(owner)}]

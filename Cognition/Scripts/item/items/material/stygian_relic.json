@@ -1,0 +1,9 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Stygian Relic",
+  "components": {
+    "minecraft:rarity": "epic",
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
+  }
+}

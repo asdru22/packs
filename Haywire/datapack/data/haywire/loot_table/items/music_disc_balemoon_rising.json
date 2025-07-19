@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "id": "music_disc_balemoon_rising"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "tooltip.haywire.moon",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:rarity": "uncommon",
+            "minecraft:jukebox_playable": "haywire:balemoon_rising",
+            "minecraft:tooltip_style": "haywire:rare",
+            "minecraft:item_model": "haywire:music_disc_balemoon_rising",
+            "minecraft:item_name": {
+              "translate": "item.haywire.music_disc_balemoon_rising"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

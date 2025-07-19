@@ -1,0 +1,4 @@
+execute if predicate cgn:entity_properties/chargeable_armor/boots run function cgn:item/chargeable_armor/modify/decrease_charge {slot:"feet",inventory:100}
+execute if predicate cgn:entity_properties/chargeable_armor/leggings run function cgn:item/chargeable_armor/modify/decrease_charge {slot:"legs",inventory:101}
+execute if predicate cgn:entity_properties/chargeable_armor/chestplate run function cgn:item/chargeable_armor/modify/decrease_charge {slot:"chest",inventory:102}
+execute if predicate cgn:entity_properties/chargeable_armor/helmet run function cgn:item/chargeable_armor/modify/decrease_charge {slot:"head",inventory:103}

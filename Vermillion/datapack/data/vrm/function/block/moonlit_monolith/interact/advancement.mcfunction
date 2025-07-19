@@ -1,0 +1,2 @@
+execute if predicate vrm:value_check/night if function vrm:block/moonlit_monolith/interact/has_glyph as @n[type=interaction,tag=vrm.moonlit_monolith.interaction] on vehicle at @s if predicate {"condition":"minecraft:location_check","predicate":{"can_see_sky":true}} if entity @s[tag=!vrm.moonlit_monolith.balemoon] run function vrm:block/moonlit_monolith/interact/main
+advancement revoke @s only vrm:technical/player_interacted_with_entity/fixed_moonlit_monolith

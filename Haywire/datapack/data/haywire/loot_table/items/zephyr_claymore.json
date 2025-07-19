@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "id": "zephyr_claymore"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "tooltip.haywire.cat",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:damage_resistant": {},
+            "minecraft:max_damage": 1300,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:base_attack_damage",
+                "amount": 11,
+                "operation": "add_value"
+              },
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:base_attack_speed",
+                "amount": -3.3,
+                "operation": "add_value"
+              }
+            ],
+            "minecraft:weapon": {
+              "disable_blocking_for_seconds": 1,
+              "item_damage_per_attack": 1
+            },
+            "minecraft:blocks_attacks": {
+              "block_delay_seconds": 0.2,
+              "disable_cooldown_scale": 0,
+              "damage_reductions": [
+                {
+                  "type": "#haywire:zephyr_claymore_reduces",
+                  "base": 0,
+                  "factor": 0.5,
+                  "horizontal_blocking_angle": 60
+                }
+              ],
+              "item_damage": {
+                "threshold": 0,
+                "base": 1,
+                "factor": 1
+              }
+            },
+            "minecraft:item_model": "haywire:zephyr_claymore",
+            "minecraft:item_name": {
+              "translate": "item.haywire.zephyr_claymore"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

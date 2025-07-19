@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+        "minecraft:item_model": "cgn:material/cog"
+      }
+      },
+      "title": {
+        "translate": "advancements.cgn.root.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.root.description"
+      },
+      "background": "minecraft:textures/block/tuff_bricks.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

@@ -1,0 +1,78 @@
+{
+  "base_item": "netherite_leggings",
+  "type": "armor",
+  "translation": "Shockweave Leggings",
+  "components": {
+    "minecraft:max_damage": 402,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.legs",
+          "type": "minecraft:armor",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "cgn:electroplasm.legs",
+          "type": "minecraft:luck",
+          "amount": 1e-08,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "show_in_tooltip": false
+    },
+    "minecraft:equippable": {
+      "model": "cgn:shockweave",
+      "slot": "legs",
+      "dispensable": true
+    }
+  },
+  "lore": [
+    {
+      "translate": "item.modifiers.legs",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        "4",
+        {
+          "translate": "attribute.name.armor"
+        }
+      ]
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        "1",
+        {
+          "translate": "attribute.name.max_electroplasm"
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": "cgn:electroplasm",
+      "B": "minecraft:golden_leggings"
+    },
+    "result": {
+      "id": "cgn:shockweave_leggings",
+      "count": 1
+    }
+  }
+}

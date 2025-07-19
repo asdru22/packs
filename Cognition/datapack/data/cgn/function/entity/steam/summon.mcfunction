@@ -1,0 +1,1 @@
+data merge entity @s {billboard:"center",teleport_duration:2,Tags:["cgn.tick","cgn.steam","smithed.strict","smithed.entity","cgn.entity"],item:{id:"apple",count:1,components:{"minecraft:item_model":"cgn:entity/steam"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}

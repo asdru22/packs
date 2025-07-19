@@ -1,0 +1,78 @@
+{
+  "base_item": "diamond_sword",
+  "translation": "Double Edged Malachite Sword",
+  "components": {
+    "minecraft:max_damage": 1572,
+    "minecraft:consumable": {
+      "animation": "spear",
+      "consume_seconds": 0.6,
+      "has_consume_particles": false,
+      "sound": {"sound_id":""}
+    },
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "minecraft:attack_damage",
+          "amount": 7,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "minecraft:attack_speed",
+          "amount": -3.2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "cgn:entity_interaction_range",
+          "type": "minecraft:entity_interaction_range",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  },
+  "lore": [
+    {
+      "translate": "item.whenThrown",
+      "italic": false,
+      "color": "gray"
+    },
+    {
+      "translate": "attribute.modifier.equals.0",
+      "italic": false,
+      "color": "dark_green",
+      "with": [
+        " 6",
+        {
+          "translate": "attribute.name.attack_damage"
+        }
+      ]
+    }
+  ],
+  "custom_data": {
+    "double_edged_sword": true,
+    "throwing_damage": 6
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " K ",
+      "SBS",
+      " K "
+    ],
+    "key": {
+      "K": "cgn:malachite_knife",
+      "S": "cgn:screw",
+      "B": "minecraft:breeze_rod"
+    },
+    "result": {
+      "id": "cgn:double_edged_malachite_sword",
+      "count": 1
+    }
+  }
+}

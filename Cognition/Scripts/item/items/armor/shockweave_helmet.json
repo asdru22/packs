@@ -1,0 +1,78 @@
+{
+  "base_item": "netherite_helmet",
+  "type": "armor",
+  "translation": "Shockweave Helmet",
+  "components": {
+    "minecraft:max_damage": 363,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.head",
+          "type": "minecraft:armor",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "cgn:electroplasm.head",
+          "type": "minecraft:luck",
+          "amount": 5e-09,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "show_in_tooltip": false
+    },
+    "minecraft:equippable": {
+      "model": "cgn:shockweave",
+      "slot": "head",
+      "dispensable": true
+    }
+  },
+  "lore": [
+    {
+      "translate": "item.modifiers.head",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        "1",
+        {
+          "translate": "attribute.name.armor"
+        }
+      ]
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        "0.5",
+        {
+          "translate": "attribute.name.max_electroplasm"
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": "cgn:electroplasm",
+      "B": "minecraft:golden_helmet"
+    },
+    "result": {
+      "id": "cgn:shockweave_helmet",
+      "count": 1
+    }
+  }
+}

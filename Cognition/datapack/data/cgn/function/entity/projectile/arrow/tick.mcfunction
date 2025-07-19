@@ -1,0 +1,2 @@
+execute if entity @s[tag=cgn.projectile.hit_decorated_pot] run return run function cgn:entity/projectile/arrow/hit_pot_tick
+execute if entity @s[nbt={inBlockState:{Name:"minecraft:decorated_pot"}}] run tag @s add cgn.projectile.hit_decorated_pot

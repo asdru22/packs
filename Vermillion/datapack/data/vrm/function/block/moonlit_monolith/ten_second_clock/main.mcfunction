@@ -1,0 +1,2 @@
+execute if entity @s[tag=!vrm.moonlit_monolith.night] if predicate vrm:value_check/night run return run function vrm:block/moonlit_monolith/ten_second_clock/night/main
+execute if entity @s[tag=vrm.moonlit_monolith.night] unless predicate vrm:value_check/night run return run function vrm:block/moonlit_monolith/ten_second_clock/day/main

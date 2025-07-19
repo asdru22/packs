@@ -1,0 +1,30 @@
+{
+  "parent":"cgn:technical/root",
+  "criteria": {
+    "place_hopper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cgn:block/vanilla/hopper_updating/advancement"
+  },
+  "requirements": [
+    [
+      "place_hopper"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+$execute if items entity @s container.* poisonous_potato[minecraft:custom_data~{haywire:{glyph:"$(id)"}}] run function haywire:block/moonlit_monolith/interact/get_players {glyph:"$(id)"}

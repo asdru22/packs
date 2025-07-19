@@ -1,0 +1,41 @@
+{
+  "base_item": "netherite_boots",
+  "type": "armor",
+  "translation": "Ebonite Boots",
+  "components": {
+    "minecraft:max_damage": 481,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.feet",
+          "type": "minecraft:armor",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "cgn:armor_toughness.feet",
+          "type": "minecraft:armor_toughness",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "cgn:knockback_resistance.feet",
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:ebonite",
+      "slot": "feet",
+      "dispensable": true
+    },
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  }
+}

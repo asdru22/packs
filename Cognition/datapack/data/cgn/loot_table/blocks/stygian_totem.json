@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:block/stygian_totem",
+            "minecraft:block_entity_data": {
+              "id": "minecraft:furnace"
+            },
+            "minecraft:container": [
+              {
+                "slot": 0,
+                "item": {
+                  "id": "minecraft:stone",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_data": "{cgn:{placed_block:1b,block:\"stygian_totem\"}}"
+                  }
+                }
+              }
+            ],
+            "minecraft:custom_data": {
+              "cgn": {
+                "custom_block": true
+              }
+            }
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.stygian_totem"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "layers": {
+      "humanoid": [
+        {
+          "texture": "cgn:ebonite"
+        }
+      ],
+      "humanoid_leggings": [
+        {
+          "texture": "cgn:ebonite"
+        }
+      ]
+    }
+  }

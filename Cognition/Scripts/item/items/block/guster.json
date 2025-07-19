@@ -1,0 +1,42 @@
+{
+  "base_item": "furnace",
+  "translation": "Guster",
+  "components": {
+    "minecraft:block_entity_data": {
+      "id": "minecraft:furnace"
+    },
+    "minecraft:container": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:stone",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": "{cgn:{placed_block:1b,block:\"guster\"}}"
+          }
+        }
+      }
+    ]
+  },
+  "custom_data": {
+    "custom_block": true
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "WSW",
+      "SBS",
+      "WSW"
+    ],
+    "key": {
+      "W": "cgn:screw",
+      "S": "minecraft:stone",
+      "B": "minecraft:breeze_rod"
+    },
+    "result": {
+      "id": "cgn:guster",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "base_item": "glistering_melon_slice",
+  "translation": "Electroplasm",
+  "components": {
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
+  },
+  "custom_data":{
+    "brewing_ingredient":true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "base_item": "netherite_leggings",
+  "type": "armor",
+  "translation": "Ebonite Leggings",
+  "components": {
+    "minecraft:max_damage": 555,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.legs",
+          "type": "minecraft:armor",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "cgn:armor_toughness.legs",
+          "type": "minecraft:armor_toughness",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "cgn:knockback_resistance.legs",
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:ebonite",
+      "slot": "legs",
+      "dispensable": true
+    },
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "description": "pyroplasm_explosion",
+  "supported_items": "minecraft:iron_helmet",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "damage_type": "cgn:pyroplasm_explosion",
+          "radius": 3,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "sound": "entity.generic.explode",
+          "knockback_multiplier": 3,
+          "attribute_to_user": false,
+          "create_fire": true
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cgn:block/greek_fire/pyroplasm/eplosion"
+        }
+      }
+    ]
+  }
+}

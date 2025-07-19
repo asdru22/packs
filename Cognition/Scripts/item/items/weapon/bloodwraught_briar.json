@@ -1,0 +1,34 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Bloodwraught Briar",
+  "components": {
+    "minecraft:max_damage": 1745,
+    "minecraft:max_stack_size":1,
+    "!minecraft:food": {},
+    "!minecraft:consumable": {},
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  },
+  "custom_data":{
+    "blooming":false
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " VE",
+      "VWV",
+      "WV "
+    ],
+    "key": {
+      "V": "minecraft:vine",
+      "E": "cgn:ebonite_ingot",
+      "W": "cgn:wispthorn"
+    },
+    "result": {
+      "id": "cgn:automatic_bow",
+      "count": 1
+    }
+  }
+}

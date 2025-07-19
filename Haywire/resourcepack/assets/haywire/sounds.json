@@ -1,0 +1,54 @@
+{
+  "music_disc.balemoon_rising":{
+    "sounds":[
+      {
+        "name":"haywire:record/balemoon_rising",
+        "stream":true
+      }
+    ]
+  },
+  "block.moonlit_monolith.moonstone_emerging":{
+    "sounds":[
+      {
+        "name":"haywire:block/moonlit_monolith/moonstone_emerging"
+      }
+    ],
+    "subtitle": "subtitles.haywire.block.moonlit_monolith.moonstone_emerging"
+  },
+  "block.moonlit_monolith.moonstone_idle":{
+    "sounds":[
+      {
+        "name":"haywire:block/moonlit_monolith/moonstone_idle",
+        "pitch": 1,
+        "volume": 1
+      },
+      {
+        "name":"haywire:block/moonlit_monolith/moonstone_idle",
+        "pitch": 0.95,
+        "volume": 1
+      },
+      {
+        "name":"haywire:block/moonlit_monolith/moonstone_idle",
+        "pitch": 1.05,
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.haywire.block.moonlit_monolith.moonstone_idle"
+  },
+  "block.moonlit_monolith.balemoon_rising":{
+    "sounds":[
+      {
+        "name":"haywire:block/moonlit_monolith/balemoon_rising"
+      }
+    ],
+    "subtitle": "subtitles.haywire.block.moonlit_monolith.balemoon_rising"
+  },
+  "block.moonlit_monolith.moonstone_vanishing":{
+    "sounds":[
+      {
+        "name":"haywire:block/moonlit_monolith/moonstone_vanishing"
+      }
+    ],
+    "subtitle": "subtitles.haywire.block.moonlit_monolith.moonstone_vanishing"
+  }
+}

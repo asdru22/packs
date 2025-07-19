@@ -1,0 +1,20 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:poisonous_potato"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{cgn:{blooming:false}}"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 0
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+    ],
+    "replace": true
+  }
+]

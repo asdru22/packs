@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 429,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor.feet",
+                  "type": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "id": "cgn:armor_toughness.feet",
+                  "type": "minecraft:armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ]
+            },
+            "minecraft:equippable": {
+              "model": "cgn:gloomstone",
+              "slot": "feet",
+              "dispensable": true
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:custom_data": {
+              "cgn": {
+                "ebonite_upgradeable": true
+              }
+            },
+            "minecraft:item_model": "cgn:armor/gloomstone_boots"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.gloomstone_boots"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

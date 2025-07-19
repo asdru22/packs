@@ -1,0 +1,1 @@
+setblock ~ ~-1 ~ minecraft:suspicious_sand{LootTable:"haywire:archaeology/ocelot_temple"} strict

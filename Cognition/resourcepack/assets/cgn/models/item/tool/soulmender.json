@@ -1,0 +1,14 @@
+{
+  "parent": "cgn:item/tool/shield/default",
+  "textures": {
+    "1": "cgn:item/tool/soulmender"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "cgn:item/tool/soulmender_blocking"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": "{haywire:{moonstone:\"balemoon\"}}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "haywire:item/moonlit_monolith/moonstone_balemoon"
+        }
+      },
+      {
+        "when": "{haywire:{moonstone:\"idle\"}}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "haywire:item/moonlit_monolith/moonstone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

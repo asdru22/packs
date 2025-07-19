@@ -1,0 +1,28 @@
+{
+  "base_item": "netherite_hoe",
+  "translation": "Ebonite Hoe",
+  "components": {
+    "minecraft:max_damage": 2031,
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    },
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "minecraft:attack_damage",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "minecraft:attack_speed",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

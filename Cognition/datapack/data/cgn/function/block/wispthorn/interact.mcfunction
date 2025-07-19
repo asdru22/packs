@@ -1,0 +1,1 @@
+execute if entity @s[tag=cgn.potted] unless data storage cgn:storage root.temp.item{id:"minecraft:poisonous_potato",components:{"minecraft:item_name":'{"translate":"item.cgn.wispthorn"}'}} run function cgn:block/wispthorn/potted/pick_up

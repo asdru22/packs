@@ -1,0 +1,11 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Midnight Rose",
+  "custom_data": {
+    "pottable": true
+  },
+  "components": {
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
+  }
+}

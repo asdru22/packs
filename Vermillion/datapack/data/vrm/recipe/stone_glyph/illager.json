@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SES",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:stone",
+    "E": "minecraft:emerald_block"
+    },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "vrm:stone_glyph/illager",
+      "minecraft:item_name": "{\"translate\":\"item.vrm.stone_glyph\"}",
+      "custom_data": "{vrm:{id:\"stone_glyph\",glyph:\"illager\"}}",
+      "!minecraft:food": {},
+      "!minecraft:consumable": {},
+      "minecraft:lore": [
+        "{\"translate\": \"item.vrm.stone_glyph.illager\",\"color\": \"gray\",\"italic\": false}",
+        "{\"translate\": \"pack.vrm\",\"color\": \"white\",\"italic\": false,\"font\":\"vrm:tooltip\"}"
+      ]
+    }
+  },
+  "show_notification": true
+}

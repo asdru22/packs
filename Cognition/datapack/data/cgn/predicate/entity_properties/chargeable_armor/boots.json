@@ -1,0 +1,37 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": [
+                "minecraft:netherite_boots"
+              ],
+              "components":{
+                "item_name":"{\"translate\":\"item.cgn.gloomstone_boots\"}"
+                }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": [
+                "minecraft:netherite_boots"
+              ],
+              "components":{
+                "item_name":"{\"translate\":\"item.cgn.ebonite_boots\"}"
+                }
+            }
+          }
+        }
+      }
+    ]
+  }

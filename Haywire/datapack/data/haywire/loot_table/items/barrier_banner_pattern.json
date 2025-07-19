@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "id": "barrier_banner_pattern"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "tooltip.haywire.cat",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "max_stack_size": 1,
+            "minecraft:provides_banner_patterns": "#haywire:pattern_item/barrier",
+            "minecraft:rarity": "rare",
+            "minecraft:tooltip_style": "haywire:rare",
+            "minecraft:item_model": "haywire:barrier_banner_pattern",
+            "minecraft:item_name": {
+              "translate": "item.haywire.barrier_banner_pattern"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

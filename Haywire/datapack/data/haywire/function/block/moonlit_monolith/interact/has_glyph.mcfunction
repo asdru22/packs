@@ -1,0 +1,2 @@
+data remove storage haywire:temp root.glyph
+execute if predicate haywire:entity_properties/slots/weapon/stone_glyph run return run data modify storage haywire:temp root.glyph.id set from entity @s SelectedItem.components."minecraft:custom_data".haywire.glyph.type

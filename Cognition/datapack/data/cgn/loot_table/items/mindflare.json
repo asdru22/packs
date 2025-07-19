@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 404,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor.head",
+                  "type": "minecraft:armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            "minecraft:equippable": {
+              "model": "cgn:mindflare",
+              "slot": "head",
+              "dispensable": true
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/mindflare"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.mindflare"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

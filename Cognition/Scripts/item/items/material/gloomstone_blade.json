@@ -1,0 +1,25 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Gloomstone Blade",
+  "components": {
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "  G",
+      " G ",
+      "C  "
+    ],
+    "key": {
+      "G": "cgn:gloomstone",
+      "C": "cgn:cog"
+    },
+    "result": {
+      "id": "cgn:gloomstone_blade",
+      "count": 1
+    }
+  }
+}

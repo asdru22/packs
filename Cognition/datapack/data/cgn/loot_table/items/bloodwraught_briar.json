@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 1745,
+            "minecraft:max_stack_size": 1,
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:custom_data": {
+              "cgn": {
+                "blooming": false
+              }
+            },
+            "minecraft:item_model": "cgn:weapon/bloodwraught_briar"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.bloodwraught_briar"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pack.vrm":"Vermilion",
+  
+  "item.vrm.scarlet_key": "Scarlet Key",
+  "item.vrm.music_disc_balemoon_rising": "Music Disc",
+  
+  "item.vrm.stone_glyph":"Stone Glyph",
+  "item.vrm.stone_glyph.illager":"Illager",
+  
+  "block.vrm.moonlit_monolith":"Moonlit Monolith",
+  "block.vrm.moonlit_monolith.name":" ",
+
+  "subtitles.vrm.block.moonlit_monolith.moonstone_emerging":"Moonstone Emerges",
+  "subtitles.vrm.block.moonlit_monolith.moonstone_idle":"Moonstone Rotates",
+  "subtitles.vrm.block.moonlit_monolith.moonstone_vanishing":"Moonstone Vanishes",
+  "subtitles.vrm.block.moonlit_monolith.balemoon_rising":"Balemoon Rises"
+
+}

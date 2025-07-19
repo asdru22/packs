@@ -1,0 +1,8 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Malachite",
+  "components": {
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
+  }
+}

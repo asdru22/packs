@@ -1,0 +1,1 @@
+execute if entity @s[tag=cgn.stygian_totem.active] run function cgn:block/stygian_totem/effect

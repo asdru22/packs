@@ -1,0 +1,2 @@
+$data modify storage vrm:temp root.players set from storage vrm:storage root.balemoon[{moonlit_monolith:$(string_uuid)}].players
+$function vrm:balemoon/technical/execute_as_players/iterate {command:"$(command)"}

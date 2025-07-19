@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #fire run return run setblock ~ ~ ~ air
+execute positioned ~-.5 ~-.5 ~-.5 as @n[type=item_display,tag=cgn.greek_fire,dx=0] at @s rotated as @n[type=item_display,tag=cgn.guster_temp] positioned ^ ^ ^1 run function cgn:block/guster/greek_fire_interaction/main

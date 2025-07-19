@@ -1,0 +1,78 @@
+{
+  "base_item": "netherite_chestplate",
+  "type": "armor",
+  "translation": "Shockweave Chestplate",
+  "components": {
+    "minecraft:max_damage": 450,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.chest",
+          "type": "minecraft:armor",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "id": "cgn:electroplasm.chest",
+          "type": "minecraft:luck",
+          "amount": 1.5e-08,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "show_in_tooltip": false
+    },
+    "minecraft:equippable": {
+      "model": "cgn:shockweave",
+      "slot": "chest",
+      "dispensable": true
+    }
+  },
+  "lore": [
+    {
+      "translate": "item.modifiers.chest",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        "5",
+        {
+          "translate": "attribute.name.armor"
+        }
+      ]
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        "1.5",
+        {
+          "translate": "attribute.name.max_electroplasm"
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": "cgn:electroplasm",
+      "B": "minecraft:golden_chestplate"
+    },
+    "result": {
+      "id": "cgn:shockweave_chestplate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "pack.cgn",
+        "color": "#653AA0",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{cgn:{charged:false,charge:0}}"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 1
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [],
+    "replace": true
+  }
+]

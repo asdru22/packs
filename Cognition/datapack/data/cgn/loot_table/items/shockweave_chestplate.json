@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 450,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor.chest",
+                  "type": "minecraft:armor",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "cgn:electroplasm.chest",
+                  "type": "minecraft:luck",
+                  "amount": 1.5e-08,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "show_in_tooltip": false
+            },
+            "minecraft:equippable": {
+              "model": "cgn:shockweave",
+              "slot": "chest",
+              "dispensable": true
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/shockweave_chestplate"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.shockweave_chestplate"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.modifiers.chest",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "color": "blue",
+              "italic": false,
+              "with": [
+                "5",
+                {
+                  "translate": "attribute.name.armor"
+                }
+              ]
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "color": "blue",
+              "italic": false,
+              "with": [
+                "1.5",
+                {
+                  "translate": "attribute.name.max_electroplasm"
+                }
+              ]
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

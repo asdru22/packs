@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "haywire:block/moonlit_monolith/base_top",
+    "east": "haywire:block/moonlit_monolith/base_side",
+    "north": "haywire:block/moonlit_monolith/base_front",
+    "particle": "haywire:block/moonlit_monolith/base_front",
+    "south": "haywire:block/moonlit_monolith/base_front",
+    "up": "haywire:block/moonlit_monolith/base_top",
+    "west": "haywire:block/moonlit_monolith/base_side"
+  }
+}

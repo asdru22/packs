@@ -1,0 +1,24 @@
+{
+  "parent": "cgn:gameplay/unlock_electroplasm",
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword",
+        "components": {
+          "minecraft:item_model": "cgn:block/greek_fire"
+        }
+      },
+      "title": {
+        "translate": "advancements.cgn.make_greek_fire.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.make_greek_fire.description"
+      },
+      "frame": "task"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

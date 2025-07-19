@@ -1,0 +1,2 @@
+$data modify storage haywire:temp root.players set from storage haywire:storage root.balemoon[{moonlit_monolith:$(string_uuid)}].players
+$function haywire:balemoon/technical/execute_as_players/iterate {command:"$(command)"}

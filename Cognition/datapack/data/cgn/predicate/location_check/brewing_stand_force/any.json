@@ -1,0 +1,54 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:brewing_stand"
+          ],
+          "nbt": "{Items:[{Slot:3b,id:\"minecraft:glistering_melon_slice\",components:{\"minecraft:custom_data\":{cgn:{brewing_ingredient:1b}}}},{id:\"minecraft:potion\",components:{\"minecraft:custom_data\":{cgn:{}}}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "cgn:location_check/brewing_stand_force/custom_ingredient"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "cgn:location_check/brewing_stand_force/custom_potion"
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:brewing_stand"
+          ],
+          "nbt": "{Fuel:0b}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:brewing_stand"
+        ],
+        "nbt": "{BrewTime:0s}"
+      }
+    }
+  }
+]

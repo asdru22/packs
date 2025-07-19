@@ -1,0 +1,25 @@
+{
+  "base_item": "arrow",
+  "translation": "Pyroplastic Bolt",
+  "custom_data": {
+    "projectile": true
+  },
+  "count": 4,
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " A ",
+      "APA",
+      " A "
+    ],
+    "key": {
+      "A": "minecraft:arrow",
+      "P": "cgn:pyroplasm"
+    },
+    "result": {
+      "id": "cgn:pyroplastic_bolt",
+      "count": 1
+    }
+  }
+}

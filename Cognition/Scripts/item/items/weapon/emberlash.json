@@ -1,0 +1,60 @@
+{
+  "base_item": "warped_fungus_on_a_stick",
+  "translation": "Emberlash",
+  "components": {
+    "!minecraft:max_damage": {},
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+        "id": "minecraft:base_attack_speed",
+        "type": "minecraft:attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "minecraft:base_attack_damage",
+        "type": "minecraft:attack_damage",
+        "amount": 12,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+      ]
+    }
+  },
+  "custom_data": {
+    "charged": true,
+    "charge": 32
+  },
+  "lore": [
+    {
+        "translate": "item.cgn.charge",
+        "with": [
+          {
+            "text": "32"
+          }
+        ],
+        "italic": false,
+        "color": "gray"
+      }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " PE",
+      " G ",
+      "SP "
+    ],
+    "key": {
+      "P": "cgn:pyroplasm",
+      "E": "cgn:electroplasm",
+      "G": "cgn:gloomstone_blade",
+      "S": "cgn:screw"
+    },
+    "result": {
+      "id": "cgn:emberlash",
+      "count": 1
+    }
+  }
+}

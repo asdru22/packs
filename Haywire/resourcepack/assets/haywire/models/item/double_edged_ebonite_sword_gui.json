@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "haywire:item/double_edged_ebonite_sword_gui"
+  }
+}

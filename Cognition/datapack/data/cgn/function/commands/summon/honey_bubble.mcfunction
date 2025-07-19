@@ -1,0 +1,1 @@
+execute summon item_display run function cgn:entity/bubble/summon {bubble:"honey"}

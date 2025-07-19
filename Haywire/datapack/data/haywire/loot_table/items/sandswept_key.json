@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "id": "sandswept_key"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "tooltip.haywire.cat",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:item_model": "haywire:sandswept_key",
+            "minecraft:item_name": {
+              "translate": "item.haywire.sandswept_key"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

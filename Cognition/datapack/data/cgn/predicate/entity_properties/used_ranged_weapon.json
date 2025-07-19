@@ -1,0 +1,27 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "cgn.used_crossbow"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "cgn.used_bow"
+      },
+      "range": {
+        "min": 1
+      }
+    }
+  ]
+}

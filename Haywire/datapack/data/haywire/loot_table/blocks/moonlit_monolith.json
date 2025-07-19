@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#count"
+                },
+                "score": "haywire.dummy"
+              }
+            }
+          ],
+          "value": "haywire:items/moonlit_monolith"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "haywire:blocks/moonlit_monolith"
+}

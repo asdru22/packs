@@ -1,0 +1,3 @@
+$execute if data storage cgn:macro root{new:0} run return run item modify entity @s armor.$(slot) [{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"pack.cgn","color":"#653AA0","italic":false}],"mode":"replace_all"},{"function":"minecraft:set_custom_data","tag":"{cgn:{charge:0,charged:0b}}"}]
+
+$item modify entity @s armor.$(slot) [{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"item.cgn.charge","with":[{"text":"$(new)"}],"color":"gray","italic":false}],"mode":"replace_section","offset":2,"size":1},{"function":"minecraft:set_custom_data","tag":"{cgn:{charge:$(new)}}"}]

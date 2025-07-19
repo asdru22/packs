@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 2031,
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "minecraft:base_attack_damage",
+                  "type": "minecraft:attack_damage",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "minecraft:base_attack_speed",
+                  "type": "minecraft:attack_speed",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:tool/ebonite_hoe"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.ebonite_hoe"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

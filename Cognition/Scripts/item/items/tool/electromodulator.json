@@ -1,0 +1,30 @@
+{
+  "base_item": "warped_fungus_on_a_stick",
+  "translation": "Electromodulator",
+  "components": {
+    "minecraft:max_damage": 51
+  },
+  "custom_data": {
+    "prevent_striders": true,
+    "ignore_durability": true
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " L ",
+      "CEC",
+      " I "
+    ],
+    "key": {
+      "L": "minecraft:lightning_rod",
+      "C": "cgn:cog",
+      "E": "cgn:electroplasm",
+      "I": "minecraft:copper_ingot"
+    },
+    "result": {
+      "id": "cgn:electromodulator",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$data remove storage vrm:storage root.balemoon[{moonlit_monolith:$(string_uuid)}]

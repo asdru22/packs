@@ -1,0 +1,2 @@
+execute store result score $temp cgn.dummy if entity @e[type=#cgn:custom_mob_base,distance=..64,tag=cgn.entity]
+execute if score $temp cgn.dummy matches ..8 run function cgn:entity/processing/spawn_mobs

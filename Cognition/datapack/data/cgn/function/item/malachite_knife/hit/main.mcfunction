@@ -1,0 +1,1 @@
+$execute if entity @s[nbt=!{UUID:$(owner)}] run function cgn:item/malachite_knife/hit/apply_damage {owner:$(owner),uuid:$(uuid)} 

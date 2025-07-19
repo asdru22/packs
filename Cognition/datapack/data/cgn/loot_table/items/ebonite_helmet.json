@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 407,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor.head",
+                  "type": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "cgn:armor_toughness.head",
+                  "type": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "cgn:knockback_resistance.head",
+                  "type": "minecraft:knockback_resistance",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            "minecraft:equippable": {
+              "model": "cgn:ebonite",
+              "slot": "head",
+              "dispensable": true
+            },
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/ebonite_helmet"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.ebonite_helmet"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

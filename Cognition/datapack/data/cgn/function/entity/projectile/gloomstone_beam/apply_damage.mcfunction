@@ -1,0 +1,1 @@
+$damage @s[nbt=!{UUID:$(owner)}] 3 cgn:gloomstone_beam by @n[type=wandering_trader,tag=cgn.peeper,nbt={UUID:$(owner)}]

@@ -1,0 +1,2 @@
+loot replace block ~ ~ ~ container.0 loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:player_head"}],"functions":[{"function":"minecraft:fill_player_head","entity":"this"}]}]}
+data modify storage cgn:storage root.temp.name set from block ~ ~ ~ Items[0].components."minecraft:profile".name

@@ -1,0 +1,1 @@
+function cgn:item/double_edged_sword/bounce/init

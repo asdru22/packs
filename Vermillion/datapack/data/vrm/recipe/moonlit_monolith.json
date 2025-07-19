@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TTT",
+    "CNC",
+    "TTT"
+  ],
+  "key": {
+    "T": "minecraft:polished_tuff",
+    "N": "minecraft:nether_star",
+    "C": "minecraft:chiseled_tuff"
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "vrm:block/moonlit_monolith/base",
+      "minecraft:item_name": "{\"translate\":\"block.vrm.moonlit_monolith\"}",
+      "minecraft:rarity": "rare",
+      "minecraft:block_entity_data": {
+        "id": "minecraft:furnace"
+      },
+      "custom_data": "{vrm:{id:\"moonlit_monolith\",custom_block:1b}}",
+      "container": [
+        {
+          "slot": 0,
+          "item": {
+            "id": "minecraft:structure_block",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": "{vrm:{placed_block:true,block:\"moonlit_monolith\"}}",
+              "minecraft:item_model": "vrm:empty"
+            }
+          }
+        }
+      ],
+      "minecraft:lore": [
+        "{\"translate\": \"pack.vrm\",\"color\": \"white\",\"italic\": false,\"font\":\"vrm:tooltip\"}"
+      ]
+    }
+  },
+  "show_notification": true
+}

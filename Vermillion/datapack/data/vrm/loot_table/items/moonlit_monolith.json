@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{vrm:{id:\"moonlit_monolith\",custom_block:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "vrm:block/moonlit_monolith",
+                "minecraft:rarity": "rare",
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:structure_block",
+                      "count": 1,
+                      "components": {
+                        "minecraft:custom_data": {
+                          "vrm": {
+                            "placed_block": true,
+                            "block": "moonlit_monolith"
+                          }
+                        },
+                        "minecraft:item_model": "vrm:empty"
+                      }
+                    }
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:furnace"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.vrm.moonlit_monolith"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.vrm",
+                  "color": "white",
+                  "italic": false,
+                  "font":"vrm:tooltip"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:furnace"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "vrm:items/moonlit_monolith"
+}

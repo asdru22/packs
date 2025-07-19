@@ -1,0 +1,2 @@
+$data modify storage cgn:storage root.temp.item set from entity @s $(source)
+$execute if predicate cgn:entity_properties/chargeable_armor/charged run return run function cgn:item/storm_capacitor/has_charged_armor {slot:$(slot)}

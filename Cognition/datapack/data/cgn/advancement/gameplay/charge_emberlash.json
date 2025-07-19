@@ -1,0 +1,24 @@
+{
+  "parent": "cgn:gameplay/make_pyroplasm",
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword",
+        "components": {
+          "minecraft:item_model": "cgn:weapon/emberlash"
+        }
+      },
+      "title": {
+        "translate": "advancements.cgn.charge_emberlash.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.charge_emberlash.description"
+      },
+      "frame": "challenge"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

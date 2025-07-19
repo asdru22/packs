@@ -1,0 +1,23 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 5701632,
+    "fog_color": 16711791,
+    "water_color": 31324,
+    "water_fog_color": 340769,
+    "grass_color": 8916034,
+    "foliage_color": 8916034,
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.05
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": "minecraft:cave",
+  "features": []
+}

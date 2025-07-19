@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "cgn:item/weapon/windup_crossbow_pulling_0"
+    }
+}

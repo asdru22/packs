@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "custom_color": 7267071
+          }
+        }
+      },
+      "title": {
+        "translate": "advancements.cgn.unlock_electroplasm.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.unlock_electroplasm.description"
+      },
+      "frame": "task"
+    },
+    "parent": "cgn:gameplay/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "haywire_entity",
+      "prefix": "haywire_entity/"
+    }
+  ]
+}

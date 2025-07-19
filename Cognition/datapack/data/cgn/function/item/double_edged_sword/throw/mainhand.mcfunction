@@ -1,0 +1,2 @@
+data modify storage cgn:storage root.temp.item set from entity @s SelectedItem
+data modify storage cgn:storage root.temp.item.components."minecraft:custom_data".cgn.Slot set from entity @s SelectedItemSlot

@@ -1,0 +1,20 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4,
+          "\ua004":-2
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "cgn:gui/electroplasm.png",
+        "ascent": -1024,
+        "height": -9,
+        "chars": [
+          "\ua001\ua002\ua003"
+        ]
+      }
+    ]
+  }

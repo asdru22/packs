@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "haywire:item/double_edged_ebonite_sword_gui"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "haywire:item/double_edged_ebonite_sword"
+    }
+  }
+}

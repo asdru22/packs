@@ -1,0 +1,19 @@
+{
+  "parent":"cgn:technical/root",
+  "criteria": {
+    "vanilla": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow",
+            "minecraft:bow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cgn:item/vanilla/usable/init"
+  }
+}

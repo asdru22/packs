@@ -1,0 +1,2 @@
+execute if predicate haywire:value_check/night if function haywire:block/moonlit_monolith/interact/has_glyph as @n[type=interaction,tag=haywire.moonlit_monolith.interaction] on vehicle at @s if predicate {"condition":"minecraft:location_check","predicate":{"can_see_sky":true}} if entity @s[tag=!haywire.moonlit_monolith.balemoon] run function haywire:block/moonlit_monolith/interact/main
+advancement revoke @s only haywire:technical/player_interacted_with_entity/fixed_moonlit_monolith

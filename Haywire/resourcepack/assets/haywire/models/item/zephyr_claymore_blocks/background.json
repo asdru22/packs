@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+      "layer0": "haywire:item/zephyr_claymore_blocks/background"
+  }
+}

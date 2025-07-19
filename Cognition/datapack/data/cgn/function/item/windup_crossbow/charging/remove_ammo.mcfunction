@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) cgn:decrease_count

@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 2031,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "minecraft:base_attack_damage",
+                  "type": "minecraft:attack_damage",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "minecraft:base_attack_speed",
+                  "type": "minecraft:attack_speed",
+                  "amount": -2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "cgn:entity_interaction_range",
+                  "type": "minecraft:entity_interaction_range",
+                  "amount": -1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:weapon/electroplasm_carver"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.electroplasm_carver"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

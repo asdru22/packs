@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "haywire:item/zephyr_claymore"
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:select",
+                  "property": "minecraft:component",
+                  "component": "minecraft:custom_data",
+                  "cases": [
+                    {
+                      "when": "{haywire:{blocks:1}}",
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/background"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/1"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "when": "{haywire:{blocks:2}}",
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/background"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/1"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/2"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "when": "{haywire:{blocks:3}}",
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/background"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/1"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/2"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "haywire:item/zephyr_claymore_blocks/3"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:empty"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

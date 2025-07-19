@@ -1,0 +1,5 @@
+particle minecraft:happy_villager ~ ~0.3 ~ 0.2 0.2 0.2 0 3
+
+execute if predicate cgn:random_chance/1_3 if block ~ ~ ~ melon_stem[age=0] run setblock ~ ~ ~ melon_stem[age=1]
+
+execute as @p[advancements={cgn:technical/player_interacted_with_entity/interaction={interact=true}},gamemode=!creative] run function cgn:block/midnight_rose/interact/consume_blaze_powder

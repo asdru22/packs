@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+      "layer0": "cgn:item/weapon/bloodwraught_briar"
+  },
+  "overrides":[
+    {
+      "predicate":{
+        "custom_model_data":1
+      },
+      "model":"cgn:item/weapon/bloodwraught_briar_blooming"
+    }
+  ]
+}

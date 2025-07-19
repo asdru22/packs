@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+            "items": [
+              "minecraft:shield"
+            ],
+            "components":{
+              "item_name":"{\"translate\":\"item.cgn.soulmender\"}"
+              }
+          }
+      }
+    }
+  }

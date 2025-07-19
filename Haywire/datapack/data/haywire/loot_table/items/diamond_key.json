@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "id": "diamond_key"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "tooltip.haywire.cat",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:rarity": "uncommon",
+            "minecraft:tooltip_style": "haywire:rare",
+            "minecraft:item_model": "haywire:diamond_key",
+            "minecraft:item_name": {
+              "translate": "item.haywire.diamond_key"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

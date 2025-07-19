@@ -1,0 +1,153 @@
+{
+  "cgn:gloomstone_boots": {
+    "cgn:gloomstone": 4,
+    "minecraft:copper_ingot": 8
+  },
+  "cgn:gloomstone_chestplate": {
+    "cgn:gloomstone": 8,
+    "minecraft:copper_ingot": 4
+  },
+  "cgn:gloomstone_helmet": {
+    "cgn:gloomstone": 5,
+    "minecraft:copper_ingot": 4
+  },
+  "cgn:gloomstone_leggings": {
+    "cgn:gloomstone": 7,
+    "minecraft:copper_ingot": 4
+  },
+  "cgn:mindflare": {
+    "minecraft:phantom_membrane": 1,
+    "cgn:pyroplasm": 2,
+    "minecraft:diamond_helmet": 1
+  },
+  "cgn:shockweave_boots": {
+    "cgn:electroplasm": 4,
+    "minecraft:golden_boots": 1
+  },
+  "cgn:shockweave_chestplate": {
+    "cgn:electroplasm": 4,
+    "minecraft:golden_chestplate": 1
+  },
+  "cgn:shockweave_helmet": {
+    "cgn:electroplasm": 4,
+    "minecraft:golden_helmet": 1
+  },
+  "cgn:shockweave_leggings": {
+    "cgn:electroplasm": 4,
+    "minecraft:golden_leggings": 1
+  },
+  "cgn:guster": {
+    "minecraft:copper_ingot": 16,
+    "minecraft:stone": 4,
+    "minecraft:breeze_rod": 1
+  },
+  "cgn:smoldering_vortex": {
+    "minecraft:amethyst_shard": 2,
+    "cgn:pyroplasm": 2,
+    "minecraft:respawn_anchor": 1,
+    "minecraft:amethyst_block": 3
+  },
+  "cgn:stygian_totem": {
+    "minecraft:sculk": 3,
+    "minecraft:copper_ingot": 8,
+    "cgn:stygian_relic": 1,
+    "minecraft:deepslate": 3
+  },
+  "cgn:cog": {
+    "minecraft:copper_ingot": 4
+  },
+  "cgn:ebonite_upgrade_smithing_template": {},
+  "cgn:gloomstone_blade": {
+    "cgn:gloomstone": 2,
+    "minecraft:copper_ingot": 4
+  },
+  "cgn:screw": {
+    "minecraft:copper_ingot": 4
+  },
+  "cgn:electromodulator": {
+    "minecraft:lightning_rod": 1,
+    "minecraft:copper_ingot": 9,
+    "cgn:electroplasm": 1
+  },
+  "cgn:gloomstone_axe": {
+    "cgn:gloomstone": 3,
+    "minecraft:copper_ingot": 4,
+    "minecraft:stick": 2
+  },
+  "cgn:gloomstone_hoe": {
+    "cgn:gloomstone": 2,
+    "minecraft:copper_ingot": 4,
+    "minecraft:stick": 2
+  },
+  "cgn:gloomstone_pickaxe": {
+    "cgn:gloomstone": 3,
+    "minecraft:copper_ingot": 8,
+    "minecraft:stick": 2
+  },
+  "cgn:gloomstone_shovel": {
+    "minecraft:copper_ingot": 4,
+    "cgn:gloomstone": 1,
+    "minecraft:stick": 2
+  },
+  "cgn:soulmender": {
+    "minecraft:stone": 6,
+    "cgn:electroplasm": 2,
+    "minecraft:shield": 1
+  },
+  "cgn:storm_capacitor": {
+    "minecraft:lightning_rod": 2,
+    "minecraft:copper_ingot": 12
+  },
+  "cgn:automatic_bow": {
+    "minecraft:copper_ingot": 12,
+    "minecraft:bow": 1,
+    "minecraft:leather": 1
+  },
+  "cgn:bloodwraught_briar": {
+    "minecraft:vine": 4,
+    "cgn:ebonite_ingot": 1,
+    "cgn:wispthorn": 2
+  },
+  "cgn:double_edged_gloomstone_sword": {
+    "cgn:gloomstone": 4,
+    "minecraft:copper_ingot": 16,
+    "minecraft:stick": 1
+  },
+  "cgn:double_edged_malachite_sword": {
+    "cgn:malachite": 2,
+    "minecraft:stick": 2,
+    "minecraft:copper_ingot": 8,
+    "minecraft:breeze_rod": 1
+  },
+  "cgn:electroplasm_carver": {
+    "cgn:electroplasm": 1,
+    "cgn:gloomstone": 2,
+    "minecraft:copper_ingot": 12,
+    "minecraft:stick": 1
+  },
+  "cgn:emberlash": {
+    "cgn:pyroplasm": 2,
+    "cgn:electroplasm": 1,
+    "cgn:gloomstone": 2,
+    "minecraft:copper_ingot": 8
+  },
+  "cgn:gloomstone_dagger": {
+    "cgn:gloomstone": 2,
+    "minecraft:copper_ingot": 8,
+    "minecraft:stick": 1
+  },
+  "cgn:malachite_knife": {
+    "cgn:malachite": 1,
+    "minecraft:stick": 1
+  },
+  "cgn:pyroplastic_bolt": {
+    "minecraft:arrow": 4,
+    "cgn:pyroplasm": 1
+  },
+  "cgn:windup_crossbow": {
+    "minecraft:string": 2,
+    "minecraft:copper_ingot": 12,
+    "minecraft:crossbow": 1,
+    "minecraft:iron_nugget": 2
+  }
+}

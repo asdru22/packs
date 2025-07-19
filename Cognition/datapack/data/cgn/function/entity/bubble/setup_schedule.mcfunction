@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=cgn.bubble_setup] at @s run function cgn:entity/bubble/setup

@@ -1,0 +1,24 @@
+{
+  "parent": "cgn:gameplay/make_greek_fire",
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword",
+        "components": {
+          "minecraft:item_model": "cgn:block/guster"
+        }
+      },
+      "title": {
+        "translate": "advancements.cgn.move_bubble_with_guster.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.move_bubble_with_guster.description"
+      },
+      "frame": "goal"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

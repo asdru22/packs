@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "haywire": {
+                "id": "totem_of_reprieve"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "tooltip.haywire.cat",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:max_stack_size": 1,
+            "minecraft:death_protection": {
+              "death_effects": [
+                {
+                  "type": "minecraft:play_sound",
+                  "sound": "minecraft:item.totem.use"
+                },
+                {
+                  "type": "minecraft:clear_all_effects"
+                },
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 1,
+                      "duration": 100
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "haywire:totem_of_reprieve",
+            "minecraft:item_name": {
+              "translate": "item.haywire.totem_of_reprieve"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

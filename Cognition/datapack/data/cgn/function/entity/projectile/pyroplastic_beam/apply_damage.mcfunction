@@ -1,0 +1,1 @@
+$damage @s[nbt=!{UUID:$(owner)}] 5 cgn:pyroplastic_beam by @p[nbt={UUID:$(owner)}]

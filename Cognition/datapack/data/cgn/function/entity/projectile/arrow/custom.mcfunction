@@ -1,0 +1,1 @@
+execute if items entity @s contents arrow[item_name='{"translate":"item.cgn.pyroplastic_bolt"}'] run return run function cgn:entity/projectile/arrow/pyroplastic_bolt/init

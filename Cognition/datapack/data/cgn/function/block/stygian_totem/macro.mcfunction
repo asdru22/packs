@@ -1,0 +1,3 @@
+$summon minecraft:item_display ~ ~1 ~ {Rotation:[$(rotation)f,0f],Tags:["cgn.block","cgn.tick","cgn.second","cgn.stygian_totem","smithed.block","cgn.newly_placed_update_light","cgn.stygian_totem_schedule"],transformation:{translation:[0.0f,-1.0f,0.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.001f,1.001f,1.001f],right_rotation:[0.0f,0.0f,0.0f,1.0f]},item:{id:"minecraft:dropper",count:1,components:{"minecraft:item_model":"cgn:block/stygian_totem"}},view_range:4.0f}
+
+schedule function cgn:block/stygian_totem/schedule/main 1t

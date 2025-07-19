@@ -1,0 +1,6 @@
+{
+	"parent": "cgn:item/entity/peeper/idle",
+	"textures": {
+		"1": "cgn:item/entity/peeper/body_hurt"
+	}
+}

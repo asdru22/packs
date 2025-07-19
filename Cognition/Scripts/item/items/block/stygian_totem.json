@@ -1,0 +1,43 @@
+{
+  "base_item": "furnace",
+  "translation": "Stygian Totem",
+  "components": {
+    "minecraft:block_entity_data": {
+      "id": "minecraft:furnace"
+    },
+    "minecraft:container": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:stone",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": "{cgn:{placed_block:1b,block:\"stygian_totem\"}}"
+          }
+        }
+      }
+    ]
+  },
+  "custom_data": {
+    "custom_block": true
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "SSS",
+      "CRC",
+      "DDD"
+    ],
+    "key": {
+      "S": "minecraft:sculk",
+      "C": "cgn:cog",
+      "R": "cgn:stygian_relic",
+      "D": "minecraft:deepslate"
+    },
+    "result": {
+      "id": "cgn:stygian_totem",
+      "count": 1
+    }
+  }
+}

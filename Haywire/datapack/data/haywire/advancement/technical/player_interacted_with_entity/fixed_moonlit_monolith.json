@@ -1,0 +1,22 @@
+{
+  "parent": "haywire:technical/root",
+  "criteria": {
+    "click_moonlit_monolith": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[haywire.moonlit_monolith.interaction]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "haywire:block/moonlit_monolith/interact/advancement"
+  }
+}

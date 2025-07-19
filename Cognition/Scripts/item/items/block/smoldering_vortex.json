@@ -1,0 +1,43 @@
+{
+  "base_item": "dropper",
+  "translation": "Smoldering Vortex",
+  "components": {
+    "minecraft:block_entity_data": {
+      "id": "minecraft:dropper"
+    },
+    "minecraft:container": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:stone",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": "{cgn:{placed_block:1b,block:\"smoldering_vortex\"}}"
+          }
+        }
+      }
+    ]
+  },
+  "custom_data": {
+    "custom_block": true
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "A A",
+      "PRP",
+      "BBB"
+    ],
+    "key": {
+      "A": "minecraft:amethyst_shard",
+      "P": "cgn:pyroplasm",
+      "R": "minecraft:respawn_anchor",
+      "B": "minecraft:amethyst_block"
+    },
+    "result": {
+      "id": "cgn:smoldering_vortex",
+      "count": 1
+    }
+  }
+}

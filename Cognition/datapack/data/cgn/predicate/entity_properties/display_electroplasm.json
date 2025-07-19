@@ -1,0 +1,44 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "cgn:gameplay/unlock_electroplasm": true
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "gamemode": ["creative"]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "gamemode": ["spectator"]
+            }
+          }
+        }
+      }
+    ]
+  }
+  

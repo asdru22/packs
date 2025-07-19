@@ -1,0 +1,14 @@
+{
+    "layers": {
+      "humanoid": [
+        {
+          "texture": "cgn:shockweave"
+        }
+      ],
+      "humanoid_leggings": [
+        {
+          "texture": "cgn:shockweave"
+        }
+      ]
+    }
+  }

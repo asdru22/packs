@@ -1,0 +1,41 @@
+{
+  "base_item": "netherite_chestplate",
+  "type": "armor",
+  "translation": "Ebonite Chestplate",
+  "components": {
+    "minecraft:max_damage": 592,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.chest",
+          "type": "minecraft:armor",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "id": "cgn:armor_toughness.chest",
+          "type": "minecraft:armor_toughness",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "id": "cgn:knockback_resistance.chest",
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:ebonite",
+      "slot": "chest",
+      "dispensable": true
+    },
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  }
+}

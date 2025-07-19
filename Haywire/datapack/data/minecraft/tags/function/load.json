@@ -1,0 +1,7 @@
+{ 
+	"values": [ 
+	  "haywire:technical/load",
+    "haywire:technical/second_clock",
+    "haywire:technical/ten_second_clock"
+	] 
+} 

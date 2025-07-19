@@ -1,0 +1,50 @@
+{"overrides":[{
+  "predicate": {
+    "custom_model_data": 1
+  },
+  "model": "cgn:item/entity/peeper/head"
+},
+{
+  "predicate": {
+    "custom_model_data": 2
+  },
+  "model": "cgn:item/entity/peeper/head_hurt"
+},
+{
+  "predicate": {
+    "custom_model_data": 3
+  },
+  "model": "cgn:item/entity/peeper/idle"
+},
+{
+  "predicate": {
+    "custom_model_data": 4
+  },
+  "model": "cgn:item/entity/peeper/idle_hurt"
+},
+{
+  "predicate": {
+    "custom_model_data": 5
+  },
+  "model": "cgn:item/entity/peeper/walking"
+},
+{
+  "predicate": {
+    "custom_model_data": 6
+  },
+  "model": "cgn:item/entity/peeper/walking_hurt"
+},
+{
+  "predicate": {
+    "custom_model_data": 7
+  },
+  "model": "cgn:item/entity/peeper/head_attacking"
+},
+{
+  "predicate": {
+    "custom_model_data": 8
+  },
+  "model": "cgn:item/entity/peeper/head_attacking_hurt"
+}
+  ]
+}

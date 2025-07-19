@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand poisonous_potato[item_name='{"translate": "item.cgn.automatic_bow"}'] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","value":0}
+
+execute if items entity @s weapon.offhand poisonous_potato[item_name='{"translate": "item.cgn.automatic_bow"}'] run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_model_data","value":0}

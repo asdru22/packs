@@ -1,0 +1,1 @@
+execute if entity @s[tag=cgn.projectile.surge_lingering] as @a[dx=0] run function cgn:entity/player/electroplasm/add {amount:5}

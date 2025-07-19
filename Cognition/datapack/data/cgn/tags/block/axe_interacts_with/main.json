@@ -1,0 +1,12 @@
+{
+	"values":[
+    "#cgn:axe_interacts_with/copper",
+    "#cgn:axe_interacts_with/exposed_copper",
+    "#cgn:axe_interacts_with/weathered_copper",
+    "#cgn:axe_interacts_with/oxidized_copper",
+    "#cgn:axe_interacts_with/waxed_copper",
+    "#cgn:axe_interacts_with/waxed_exposed_copper",
+    "#cgn:axe_interacts_with/waxed_weathered_copper",
+    "#cgn:axe_interacts_with/waxed_oxidized_copper"
+	]
+}

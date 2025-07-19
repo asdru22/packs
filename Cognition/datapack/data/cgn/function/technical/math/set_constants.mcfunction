@@ -1,0 +1,11 @@
+scoreboard players set #2 cgn.dummy 2
+scoreboard players set #3 cgn.dummy 3
+scoreboard players set #5 cgn.dummy 5
+scoreboard players set #8 cgn.dummy 8
+scoreboard players set #10 cgn.dummy 10
+scoreboard players set #50 cgn.dummy 50
+scoreboard players set #64 cgn.dummy 64
+scoreboard players set #100 cgn.dummy 100
+scoreboard players set #128 cgn.dummy 128
+scoreboard players set #256 cgn.dummy 256
+scoreboard players set #24000 cgn.dummy 24000

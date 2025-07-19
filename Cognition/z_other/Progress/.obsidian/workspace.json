@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "6ab2b1ec1445b0b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d79bd60dc1347603",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68ed7231d2b119a5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd7193e7de9a897a",
+    "type": "split",
+    "children": [
+      {
+        "id": "669fe59ff206a6dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e88cb082390620f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "52f3ed3c3460d92c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5be85012576779af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "97ba8496e90903ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "3981f37cd5e043ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a46c276932398e7c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ec3af9f37309bcc6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "330fb5e6aaf12961",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4c7abf66049f1ab4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "68ed7231d2b119a5",
+  "lastOpenFiles": [
+    "Malachite Shield.md",
+    "Emberlash.md",
+    "Bloodwrought Briar.md",
+    "Mindflare.md",
+    "Soulmender.md",
+    "Windup Crossbow.md",
+    "Electroplasm Carver.md",
+    "Wispthorn.md",
+    "Midnight Rose.md",
+    "Stygian Relic.md",
+    "Screw.md",
+    "Pyroplastic Bolt.md",
+    "Pyroplasm.md",
+    "Malachite Knife.md",
+    "Malachite.md",
+    "Gloomstone Hoe.md",
+    "Gloomstone Shard.md",
+    "Gloomstone Blade.md",
+    "Gloomstone.md",
+    "Electroplasm.md",
+    "Ebonite Upgrade Smithing Template.md",
+    "Ebognite.md",
+    "Ebonite Axe.md",
+    "Ebonite Ingot.md",
+    "Cog.md",
+    "Surge Potion.md",
+    "Untitled.canvas",
+    "Structures",
+    "Blocks",
+    "Items",
+    "Materials"
+  ]
+}

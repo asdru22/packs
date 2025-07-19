@@ -1,0 +1,39 @@
+{
+  "parent": "cgn:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "components": {
+                          "minecraft:item_name": "{\"translate\":\"item.cgn.mindflare\"}"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.66
+                }
+              ]
+            }
+          ],
+          "entity": []
+        }
+      }
+    },
+    "rewards": {
+      "function": "cgn:item/mindflare"
+    }
+  }
+  

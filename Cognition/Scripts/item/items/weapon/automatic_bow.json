@@ -1,0 +1,57 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Automatic Bow",
+  "components": {
+    "minecraft:max_damage": 432,
+    "max_stack_size": 1,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:attack_speed_mainhand",
+          "type": "minecraft:attack_speed",
+          "amount": -1000,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "cgn:attack_speed_offhand",
+          "type": "minecraft:attack_speed",
+          "amount": -1000,
+          "operation": "add_value",
+          "slot": "offhand"
+        }
+      ],
+      "show_in_tooltip": false
+    },
+    "minecraft:custom_data": {
+      "cgn": {
+        "usable": true
+      }
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 10000000,
+      "animation": "bow",
+      "has_consume_particles": false
+    },
+    "!minecraft:food": {}
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "  C",
+      " BS",
+      "CL "
+    ],
+    "key": {
+      "C": "cgn:cog",
+      "B": "minecraft:bow",
+      "S": "cgn:screw",
+      "L": "minecraft:leather"
+    },
+    "result": {
+      "id": "cgn:automatic_bow",
+      "count": 1
+    }
+  }
+}

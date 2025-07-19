@@ -1,0 +1,2 @@
+data remove storage vrm:temp root.glyph
+execute if predicate vrm:entity_properties/slots/weapon/stone_glyph run return run data modify storage vrm:temp root.glyph.id set from entity @s SelectedItem.components."minecraft:custom_data".vrm.glyph

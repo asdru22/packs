@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 1561,
+            "minecraft:consumable": {
+              "animation": "spear",
+              "consume_seconds": 0.8,
+              "has_consume_particles": false,
+              "sound": {
+                "sound_id": ""
+              }
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "minecraft:base_attack_damage",
+                  "type": "minecraft:attack_damage",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "minecraft:base_attack_speed",
+                  "type": "minecraft:attack_speed",
+                  "amount": -3.2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "cgn:entity_interaction_range",
+                  "type": "minecraft:entity_interaction_range",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:custom_data": {
+              "cgn": {
+                "double_edged_sword": true,
+                "throwing_damage": 5
+              }
+            },
+            "minecraft:item_model": "cgn:weapon/double_edged_gloomstone_sword"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.double_edged_gloomstone_sword"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.whenThrown",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "attribute.modifier.equals.0",
+              "italic": false,
+              "color": "dark_green",
+              "with": [
+                " 5",
+                {
+                  "translate": "attribute.name.attack_damage"
+                }
+              ]
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#count"
+                },
+                "score": "vrm.dummy"
+              }
+            }
+          ],
+          "value": "vrm:items/moonlit_monolith"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "vrm:blocks/moonlit_monolith"
+}

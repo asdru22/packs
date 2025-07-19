@@ -1,0 +1,6 @@
+{
+    "parent": "cgn:item/weapon/automatic_bow",
+    "textures": {
+        "layer0": "cgn:item/weapon/automatic_bow_pulling_1"
+    }
+}

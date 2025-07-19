@@ -1,0 +1,1 @@
+execute align xyz positioned ~.5 ~1 ~.5 run function vrm:block/moonlit_monolith/place

@@ -1,0 +1,50 @@
+{
+  "base_item": "fishing_rod",
+  "translation": "Electroplasm Carver",
+  "components": {
+    "minecraft:max_damage": 2031,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "minecraft:attack_damage",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "minecraft:attack_speed",
+          "amount": -2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "cgn:entity_interaction_range",
+          "type": "minecraft:entity_interaction_range",
+          "amount": -1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "E  ",
+      " D ",
+      "  S"
+    ],
+    "key": {
+      "E": "cgn:electroplasm",
+      "D": "cgn:gloomstone_dagger",
+      "S": "cgn:screw"
+    },
+    "result": {
+      "id": "cgn:electroplasm_carver",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "feet": {
+          "items": "minecraft:netherite_boots",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_boots\"}"
+          }
+        }
+      }
+    }
+  }
+  

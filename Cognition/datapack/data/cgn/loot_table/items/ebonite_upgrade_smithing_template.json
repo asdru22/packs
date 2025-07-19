@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "rarity": "uncommon",
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:material/ebonite_upgrade_smithing_template"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.ebonite_upgrade_smithing_template"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.cgn.ebonite_upgrade_smithing_template.desc",
+              "color": "gray",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.minecraft.smithing_template.applies_to",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "item.cgn.smithing_template.ebonite_upgrade.applies_to",
+              "italic": false,
+              "color": "blue"
+            },
+            {
+              "translate": "item.minecraft.smithing_template.ingredients",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "item.cgn.smithing_template.ebonite_upgrade.ingredients",
+              "italic": false,
+              "color": "blue"
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

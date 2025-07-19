@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 1561,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "minecraft:base_attack_damage",
+                  "type": "minecraft:attack_damage",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "minecraft:base_attack_speed",
+                  "type": "minecraft:attack_speed",
+                  "amount": -2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "cgn:entity_interaction_range",
+                  "type": "minecraft:entity_interaction_range",
+                  "amount": -0.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:custom_data": {
+              "cgn": {
+                "ebonite_upgradeable": true
+              }
+            },
+            "minecraft:item_model": "cgn:weapon/gloomstone_dagger"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.gloomstone_dagger"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

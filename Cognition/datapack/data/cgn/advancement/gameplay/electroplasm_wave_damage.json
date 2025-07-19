@@ -1,0 +1,24 @@
+{
+  "parent": "cgn:gameplay/unlock_electroplasm",
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword",
+        "components": {
+          "minecraft:item_model": "cgn:weapon/electroplasm_carver"
+        }
+      },
+      "title": {
+        "translate": "advancements.cgn.electroplasm_wave_damage.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.electroplasm_wave_damage.description"
+      },
+      "frame": "challenge"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

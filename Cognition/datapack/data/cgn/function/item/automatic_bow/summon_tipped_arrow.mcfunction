@@ -1,0 +1,1 @@
+$summon $(id) ^$(x) ^$(y) ^0.3 {damage:1,Owner:$(owner),Motion:$(motion),pickup:$(pickup)b,item:{id:"minecraft:tipped_arrow",count:1b,components:{"potion_contents":$(potion_contents)}}} 

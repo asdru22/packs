@@ -1,0 +1,42 @@
+{
+  "base_item": "netherite_helmet",
+  "type": "armor",
+  "translation": "Mindflare",
+  "components": {
+    "minecraft:max_damage": 404,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.head",
+          "type": "minecraft:armor",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:mindflare",
+      "slot": "head",
+      "dispensable": true
+    }
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " A ",
+      "BCB",
+      ""
+    ],
+    "key": {
+      "A": "minecraft:phantom_membrane",
+      "B": "cgn:pyroplasm",
+      "C": "minecraft:diamond_helmet"
+    },
+    "result": {
+      "id": "cgn:mindflare",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "base_item":"poisonous_potato",
+  "translation":"Storm Capacitor",
+  "components":{
+    "minecraft:max_stack_size":1,
+    "minecraft:max_damage": 75,
+    "!minecraft:food":{},
+    "minecraft:consumable":{
+      "consume_seconds":100000000,
+      "animation":"block",
+      "sound": "minecraft:item.trident.thunder",
+      "has_consume_particles":false
+    },
+    "minecraft:use_cooldown":{
+      "seconds":1,
+      "cooldown_group":"cgn:storm_capacitor"
+    }
+  },
+    "custom_data": {
+      "usable":true
+    },
+  "recipe":{
+    "type":"minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern":[
+      "L L",
+      "SCS",
+      "CCC"
+    ],
+    "key":{
+      "L": "minecraft:lightning_rod",
+      "C": "minecraft:copper_ingot",
+      "S": "cgn:screw"
+    },
+    "result":{
+      "id":"cgn:electromodulator",
+      "count":1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "cgn:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "cgn:entity_properties/soulmender/any"
+            }
+          ],
+          "damage": {
+            "blocked": true
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "cgn:item/soulmender/init"
+    }
+  }
+  

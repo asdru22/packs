@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "minecraft:brewing_stand"
+      ],
+      "nbt": "{Items:[{id:\"minecraft:potion\"},{Slot:3b,tag:{\"minecraft:custom_data\":{cgn:{brewing_ingredient:1b}}}}]}"
+    }
+  }
+}

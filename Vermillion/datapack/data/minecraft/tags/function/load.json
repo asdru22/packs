@@ -1,0 +1,7 @@
+{ 
+	"values": [ 
+	  "vrm:technical/load",
+    "vrm:technical/second_clock",
+    "vrm:technical/ten_second_clock"
+	] 
+} 

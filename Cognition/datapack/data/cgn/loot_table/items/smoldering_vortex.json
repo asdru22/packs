@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:block_entity_data": {
+              "id": "minecraft:dropper"
+            },
+            "minecraft:container": [
+              {
+                "slot": 0,
+                "item": {
+                  "id": "minecraft:stone",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_data": "{cgn:{placed_block:1b,block:\"smoldering_vortex\"}}"
+                  }
+                }
+              }
+            ],
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:custom_data": {
+              "cgn": {
+                "custom_block": true
+              }
+            },
+            "minecraft:item_model": "cgn:block/smoldering_vortex"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.smoldering_vortex"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

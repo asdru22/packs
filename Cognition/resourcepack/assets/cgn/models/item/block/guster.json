@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_vault",
+  "textures": {
+    "front": "cgn:block/guster_front",
+    "side": "cgn:block/guster_side",
+    "top": "cgn:block/guster_top",
+    "bottom":"cgn:block/guster_bottom"
+  }
+}

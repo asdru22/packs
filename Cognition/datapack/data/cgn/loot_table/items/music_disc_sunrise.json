@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:rarity": "rare",
+            "minecraft:max_stack_size": 1,
+            "minecraft:jukebox_playable": {
+              "song": "cgn:sunrise",
+              "show_in_tooltip": true
+            },
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:music_disc_sunrise"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.music_disc_sunrise"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 545,
+            "max_stack_size": 1,
+            "minecraft:custom_data": {
+              "cgn": {
+                "usable": true
+              }
+            },
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:weapon/windup_crossbow"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.windup_crossbow"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.cgn.windup_crossbow.projectiles",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                "0"
+              ]
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

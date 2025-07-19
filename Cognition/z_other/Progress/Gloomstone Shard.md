@@ -1,0 +1,6 @@
+---
+tags:
+  - material
+  - item
+---
+[[Gloomstone]]

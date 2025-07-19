@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "haywire:location_check/in_the_expanse"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "haywire:entity_properties/slots/weapon/stone_glyph"
+    },
+    {
+      "condition": "reference",
+      "name": "haywire:value_check/night"
+    }
+  ]
+}

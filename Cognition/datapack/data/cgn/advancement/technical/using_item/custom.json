@@ -1,0 +1,18 @@
+{
+  "parent":"cgn:technical/root",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{cgn:{usable:true}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cgn:item/vanilla/usable/init"
+  }
+}

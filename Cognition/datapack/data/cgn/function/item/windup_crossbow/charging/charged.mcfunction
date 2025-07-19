@@ -1,0 +1,2 @@
+execute store result score #temp cgn.dummy if data storage cgn:storage root.temp.item.components."minecraft:custom_data".cgn.stored_projectiles[]
+execute if score #temp cgn.dummy matches ..15 run function cgn:item/windup_crossbow/charging/load

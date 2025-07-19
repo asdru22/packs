@@ -1,0 +1,1 @@
+execute align xyz positioned ~.5 ~1 ~.5 run function haywire:block/moonlit_monolith/place_fixed

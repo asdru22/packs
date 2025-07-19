@@ -1,0 +1,11 @@
+{
+  "parent": "cgn:technical/root",
+  "criteria": {
+    "lightning_strike": {
+      "trigger": "minecraft:lightning_strike"
+    }
+  },
+  "rewards": {
+    "function": "cgn:item/chargeable_armor/struck_by_lightning/init"
+  }
+}

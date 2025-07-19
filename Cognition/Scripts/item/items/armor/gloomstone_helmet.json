@@ -1,0 +1,51 @@
+{
+  "base_item": "netherite_helmet",
+  "type": "armor",
+  "translation": "Gloomstone Helmet",
+  "components": {
+    "minecraft:max_damage": 363,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.head",
+          "type": "minecraft:armor",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "cgn:armor_toughness.head",
+          "type": "minecraft:armor_toughness",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    },
+    "minecraft:equippable": {
+      "model": "cgn:gloomstone",
+      "slot": "head",
+      "dispensable": true
+    }
+  },
+  "custom_data": {
+    "ebonite_upgradeable": true
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "AAA",
+      "ABA",
+      ""
+    ],
+    "key": {
+      "A": "cgn:gloomstone",
+      "B": "cgn:cog"
+    },
+    "result": {
+      "id": "cgn:gloomstone_helmet",
+      "count": 1
+    }
+  }
+}

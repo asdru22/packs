@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=haywire.moonlit_monolith.moonstone_schedule_day] at @s run function haywire:block/moonlit_monolith/ten_second_clock/day/end_loop

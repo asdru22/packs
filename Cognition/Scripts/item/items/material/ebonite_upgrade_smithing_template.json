@@ -1,0 +1,56 @@
+{
+  "base_item": "poisonous_potato",
+  "translation": "Ebonite Upgrade",
+  "components": {
+    "rarity": "uncommon",
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
+  },
+  "lore": [
+    {
+      "translate": "item.cgn.ebonite_upgrade_smithing_template.desc",
+      "color": "gray",
+      "italic": false
+    },
+    "",
+    {
+      "translate": "item.minecraft.smithing_template.applies_to",
+      "italic": false,
+      "color": "gray"
+    },
+    {
+      "translate": "item.cgn.smithing_template.ebonite_upgrade.applies_to",
+      "italic": false,
+      "color": "blue"
+    },
+    {
+      "translate": "item.minecraft.smithing_template.ingredients",
+      "italic": false,
+      "color": "gray"
+    },
+    {
+      "translate": "item.cgn.smithing_template.ebonite_upgrade.ingredients",
+      "italic": false,
+      "color": "blue"
+    }
+  ],
+  "count": 2,
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "GTG",
+      "GDG",
+      "GGG"
+    ],
+    "key": {
+      "G": "cgn:gloomstone",
+      "T": "cgn:ebonite_upgrade_smithing_template",
+      "D": "minecraft:deepslate"
+    },
+    "result": {
+      "id": "cgn:ebonite_upgrade_smithing_template",
+      "count": 1
+    }
+  }
+}

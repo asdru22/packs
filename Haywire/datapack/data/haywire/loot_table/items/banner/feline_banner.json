@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_banner"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:item_name": {
+              "translate": "block.haywire.feline_banner"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.haywire.tooltip",
+                "color": "white",
+                "italic": false,
+                "font": "haywire:main",
+                "with": [
+                  {
+                    "translate": "pack.haywire"
+                  }
+                ]
+              }
+            ],
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:banner_patterns"
+              ]
+            },
+            "minecraft:banner_patterns": [
+              {
+                "pattern": "minecraft:curly_border",
+                "color": "cyan"
+              },
+              {
+                "pattern": "minecraft:triangles_top",
+                "color": "cyan"
+              },
+              {
+                "pattern": "minecraft:square_top_left",
+                "color": "cyan"
+              },
+              {
+                "pattern": "minecraft:stripe_bottom",
+                "color": "cyan"
+              },
+              {
+                "pattern": "minecraft:mojang",
+                "color": "black"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

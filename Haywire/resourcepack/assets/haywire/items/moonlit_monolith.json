@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {"haywire":{"night":true}},
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "haywire:item/moonlit_monolith/base_active"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "haywire:item/moonlit_monolith/base"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "cgn:technical/root",
+    "criteria": {
+      "setup": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "cgn:entity/player/setup"
+    },
+    "sends_telemetry_event": true
+  }
+  

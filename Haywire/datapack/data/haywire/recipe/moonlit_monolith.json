@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TTT",
+    "CNC",
+    "TTT"
+  ],
+  "key": {
+    "T": "minecraft:polished_tuff",
+    "N": "minecraft:nether_star",
+    "C": "minecraft:chiseled_tuff"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:furnace",
+    "components": {
+      "minecraft:custom_data": {
+        "haywire": {
+          "custom_block": true,
+          "id": "moonlit_monolith"
+        }
+      },
+      "minecraft:lore": [
+        {
+          "translate": "tooltip.haywire.moon",
+          "color": "white",
+          "italic": false,
+          "font": "haywire:main",
+          "with": [
+            {
+              "translate": "pack.haywire"
+            }
+          ]
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 0,
+          "item": {
+            "id": "minecraft:structure_block",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "haywire": {
+                  "placed_block": true,
+                  "block": "moonlit_monolith"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "minecraft:block_entity_data": {
+        "id": "minecraft:furnace"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:container"
+        ]
+      },
+      "minecraft:item_model": "haywire:moonlit_monolith",
+      "minecraft:item_name": {
+        "translate": "item.haywire.moonlit_monolith"
+      }
+    }
+  }
+}

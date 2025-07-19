@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{vrm:{id:\"scarlet_key\"}}"
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:item_model": "vrm:scarlet_key"
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.vrm.scarlet_key"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.vrm",
+              "color": "white",
+              "italic": false,
+              "font":"vrm:tooltip"
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

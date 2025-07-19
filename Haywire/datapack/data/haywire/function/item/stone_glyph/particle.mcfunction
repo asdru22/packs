@@ -1,0 +1,2 @@
+$particle trail{color:[1.000,0.000,0.000],target:[$(x),$(y).0,$(z)],duration:20} ~ ~ ~ 0.35 0.35 0.35 0.01 2 normal
+$particle trail{color:[0.459,0.082,0.678],target:[$(x),$(y).0,$(z)],duration:20} ~ ~ ~ 0.2 0.2 0.2 0.01 2 normal

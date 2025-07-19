@@ -1,0 +1,7 @@
+{
+	"parent": "cgn:item/entity/peeper/walking",
+	"textures": {
+    "1": "cgn:item/entity/peeper/legs_hurt",
+    "2": "cgn:item/entity/peeper/body_hurt"
+	}
+}

@@ -1,0 +1,2 @@
+execute if entity @s[tag=!haywire.moonlit_monolith.night] if predicate haywire:value_check/night run return run function haywire:block/moonlit_monolith/ten_second_clock/night/main
+execute if entity @s[tag=haywire.moonlit_monolith.night] unless predicate haywire:value_check/night run return run function haywire:block/moonlit_monolith/ten_second_clock/day/main

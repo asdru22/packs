@@ -1,0 +1,22 @@
+{
+  "parent":"cgn:technical/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:poisonous_potato"
+            ],
+            "components": {
+              "minecraft:item_name": "{\"translate\":\"item.cgn.malachite_knife\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "cgn:item/malachite_knife/advancement"
+    }
+  }
+  

@@ -1,0 +1,2 @@
+data modify storage cgn:storage root.temp.item."minecraft:charged_projectiles" insert -1 from storage cgn:storage root.temp.next_proj
+data modify storage cgn:storage root.temp.item."minecraft:charged_projectiles" insert -1 from storage cgn:storage root.temp.next_proj
